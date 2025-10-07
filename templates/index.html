@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Whisper Audio Transcription</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 40px;
+            background: #f7f9fc;
+            color: #222;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        button {
+            background-color: #3498db;
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            margin-top: 8px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        input[type="file"] {
+            margin-top: 10px;
+        }
+        .spinner {
+            display: none;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 10px auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        #live-output {
+            border: 1px solid #ccc;
+            background: #fff;
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 8px;
+            min-height: 100px;
+            white-space: pre-wrap;
+            line-height: 1.6;
+            font-size: 16px;
+            overflow-y: auto;
+            max-height: 400px;
+        }
+        .fade-in {
+            opacity: 0;
+            transition: opacity 0.5s ease-in;
+        }
+        .fade-in.show {
+            opacity: 1;
+        }
+    </style>
+    <script>
+        function startStream() {
+            const output = document.getElementById("live-output");
+            const spinner = document.getElementById("spinner");
+            output.innerHTML = "";
+            spinner.style.display = "block";
+
+            const evtSource = new EventSource("/stream_fw");
+
+            evtSource.onmessage = function(event) {
+                if (event.data === "[DONE]") {
+                    evtSource.close();
+                    spinner.style.display = "none";
+                } else {
+                    const p = document.createElement("p");
+                    p.classList.add("fade-in");
+                    p.textContent = event.data;
+                    output.appendChild(p);
+                    setTimeout(() => p.classList.add("show"), 50);
+                    output.scrollTop = output.scrollHeight;
+                }
+            };
+
+            evtSource.onerror = function() {
+                evtSource.close();
+                spinner.style.display = "none";
+                output.innerHTML += "\n[Error streaming transcription]";
+            };
+        }
+    </script>
+</head>
+<body>
+    <h1>🎧 Local Whisper Transcription</h1>
+
+    {% if not transcription %}
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".mp3,.wav,.m4a,.mp4" required>
+        <br>
+        <button type="submit" name="action" value="upload">Upload</button>
+    </form>
+    {% endif %}
+
+    {% if duration %}
+        <h2>Audio Info:</h2>
+        <p>Duration: <b>{{ duration }}</b> minutes</p>
+        <p>Estimated Cost (OpenAI Whisper): <b>{{ cost }}</b></p>
+
+        <button onclick="startStream()">Transcribe Live (Faster-Whisper Streaming)</button>
+        <div id="spinner" class="spinner"></div>
+        <div id="live-output"></div>
+    {% endif %}
+
+    {% if transcription %}
+        <h2>Transcription:</h2>
+        <div id="live-output">{{ transcription }}</div>
+    {% endif %}
+</body>
+</html>
