@@ -9,7 +9,6 @@ You can upload `.mp3`, `.wav`, `.m4a`, or `.mp4` files, and see real-time transc
 - Upload and process audio directly in your browser
 - Local transcription using Faster-Whisper (no external API cost)
 - Real-time streaming transcription output
-- Automatic cost estimation for OpenAI Whisper API equivalent
 - Secure file uploads handled via Flask
 
 ---
@@ -30,3 +29,15 @@ You can upload `.mp3`, `.wav`, `.m4a`, or `.mp4` files, and see real-time transc
 ```bash
 git clone https://github.com/<your-username>/<your-repo-name>.git
 cd <your-repo-name>
+```
+### 2️⃣ Create a Virtual Environment
+```bash
+python -m venv venv
+venv\Scripts\activate      # on Windows
+# OR
+source venv/bin/activate   # on macOS/Linux
+````
+### 3️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
