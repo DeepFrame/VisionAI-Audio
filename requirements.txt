@@ -1,3 +1,4 @@
+torch
 annotated-types==0.7.0
 anyio==4.11.0
 av==15.1.0
