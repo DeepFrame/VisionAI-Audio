@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="Update README Files">
-      <change afterPath="$PROJECT_DIR$/Docs/Daily Tasks.xlsx" afterDir="false" />
+    <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/videos/demo_video.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/01_quickstart_colab.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/01_quickstart_colab.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videos/demo_video.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/videos/demo_video.mp4" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,12 +52,11 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/PC/PycharmProjects/VisionAI_Audio/Docs"
+    "last_opened_file_path": "C:/Users/PC/PycharmProjects/VisionAI_Audio/videos"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\PC\PycharmProjects\VisionAI_Audio\Docs" />
       <recent name="C:\Users\PC\PycharmProjects\VisionAI_Audio\videos" />
       <recent name="C:\Users\ADMIN\PycharmProjects\VisionAI_Audio" />
     </key>
@@ -87,23 +84,7 @@
       <option name="project" value="LOCAL" />
       <updated>1759833003756</updated>
     </task>
-    <task id="LOCAL-00002" summary="Add demo video">
-      <option name="closed" value="true" />
-      <created>1759912320441</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1759912320441</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Update README Files">
-      <option name="closed" value="true" />
-      <created>1759912937492</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1759912937492</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,8 +100,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <MESSAGE value="Add demo video" />
-    <MESSAGE value="Update README Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
