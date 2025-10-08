@@ -9,4 +9,4 @@ It loads the `large-v3` Whisper model, processes your provided audio file, and s
 Run the script from your terminal:
 
 ```bash
-python tests/transcribe.py --audio <path_to_audio_file> --out <output_file_path>
+python tests/transcribe.py --audio data/samples/sample_ur.mp3 --out results/transcript.txt
