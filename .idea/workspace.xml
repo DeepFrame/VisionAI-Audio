@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/uploads/Jos001-AudioTrimmer.com.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/Jos001.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/videos/demo_video.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,21 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "talhaJavedAbbasi25"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;talhaJavedAbbasi25&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/talhaJavedAbbasi25/VisionAI_Audio.git",
-    "accountId": "06a00473-68fc-44ec-881a-1ef9e3a4377f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/talhaJavedAbbasi25/VisionAI_Audio.git&quot;,
+    &quot;accountId&quot;: &quot;06a00473-68fc-44ec-881a-1ef9e3a4377f&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="33jYFwghMAm1luITjlgvWrClpEE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -53,11 +52,12 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ADMIN/PycharmProjects/VisionAI_Audio"
+    "last_opened_file_path": "C:/Users/PC/PycharmProjects/VisionAI_Audio/videos"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\PycharmProjects\VisionAI_Audio\videos" />
       <recent name="C:\Users\ADMIN\PycharmProjects\VisionAI_Audio" />
     </key>
   </component>
