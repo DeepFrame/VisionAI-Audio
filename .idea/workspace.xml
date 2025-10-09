@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="Add Docs File">
-      <change afterPath="$PROJECT_DIR$/Docs/api_documentation.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docs/model_evaluation.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/metrics_calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/model_comparison.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/resource_monitor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/transcription_benchmark.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/model_configs.yaml" afterDir="false" />
+    <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="write code for first model">
       <change afterPath="$PROJECT_DIR$/tests/test_audio_samples/english_clean_1min.mp3" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tests/test_audio_samples/english_noisy_background_low_volume_1min.mp3" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tests/test_audio_samples/urdu_clean_30s.mp3" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tests/test_audio_samples/urdu_silence_1min.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_model_comparison.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/Daily Tasks.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Daily Tasks.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +97,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759919071206</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update repo structure">
+      <option name="closed" value="true" />
+      <created>1760004319671</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1760004319671</updated>
+    </task>
+    <task id="LOCAL-00004" summary="write code for first model">
+      <option name="closed" value="true" />
+      <created>1760004461712</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760004461712</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +130,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add Docs File" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Docs File" />
+    <MESSAGE value="update repo structure" />
+    <MESSAGE value="write code for first model" />
+    <option name="LAST_COMMIT_MESSAGE" value="write code for first model" />
   </component>
 </project>
