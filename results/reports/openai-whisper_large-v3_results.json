@@ -1,0 +1,68 @@
+[
+  {
+    "variant": "openai-whisper",
+    "framework": "pytorch",
+    "model": "large-v3",
+    "device": "cuda",
+    "file": "english_clean_1min.mp3",
+    "duration": 66.078,
+    "processing_time": 45.754556,
+    "rtf": 0.6924,
+    "transcript": "Hey everyone, it's AJ, and I just realized I have not done a podcast in a long time. Who knew? So, I'm back. And the reason, there are a few reasons that I have not. Reason number one, I have been working, working, working, working all morning, all day, all night on Power English, my new Power English lessons. And there's a lot to do, almost finished. They will be ready very soon. We will have a one-day only sale for Power English. But anyway, you'll get, if you get my emails, you already know about this, so I don't need to talk about it more. If you want more information, sign up for my email course. The other reason that I have not done a podcast recently is that I have been doing audio tweets. Yes. Talk. I talked about this in my previous podcast. And I love these audio tweets because I can do them every day. They're so convenient."
+  },
+  {
+    "variant": "openai-whisper",
+    "framework": "pytorch",
+    "model": "large-v3",
+    "device": "cuda",
+    "file": "english_noisy_background_low_volume_1min.mp3",
+    "duration": 86.198,
+    "processing_time": 54.269929,
+    "rtf": 0.6296,
+    "transcript": "was rather interesting just to watch them gathering their materials and bouncing around. What did they call it? Kangaroo walk? Or something like that. Who named it that? I don't know. I bet those men are going to get quite a reception when they get back to Earth. Oh yes, I'll be so glad when they land back now. But I think that's pretty well a fact, because they've landed so many safely now that I feel relieved. Just getting off of the moon was the thing that was... Have they met with the one that was circling? Yes, they've rendezvoused. So I understand. That wasn't shown either, but they say they have rendezvoused. So that's a matter of making the circles and then coming down. What do you sort of imagine for the future? Do you imagine them standing up? I think they will. I think they will do some more exploring up there. Very positive. Because that was such a very small area, when you think of it, that they just gathered rocks and samples of soil and all. And they did probe for some samples. And just what's going to come of that, I don't know. I'll be glad to read it."
+  },
+  {
+    "variant": "openai-whisper",
+    "framework": "pytorch",
+    "model": "large-v3",
+    "device": "cuda",
+    "file": "urdu_clean_30s.mp3",
+    "duration": 29.651,
+    "processing_time": 29.96257,
+    "rtf": 1.0105,
+    "transcript": "یشیو باب ایک رب کے خادم موسیٰ کی موت کے بعد رب موسیٰ کے مددگار یشیو بن نون سے ہم کلام ہوا اس نے کہا میرا خادم موسیٰ فوت ہو گیا ہے اب اٹھ اس پوری قوم کے ساتھ دریائے یردن کو پار کر کے اس ملک میں داخل ہو جا جو میں اسرائیلیوں کو دینے کو ہوں جس زمین پر بھی"
+  },
+  {
+    "variant": "openai-whisper",
+    "framework": "pytorch",
+    "model": "large-v3",
+    "device": "cuda",
+    "file": "urdu_F_clean_30s.mp3",
+    "duration": 21.408,
+    "processing_time": 33.667041,
+    "rtf": 1.5726,
+    "transcript": "زندگی ایک سفر ہے جو ہر لمحے ہمیں کچھ نیا سکھاتا ہے کبھی خوشی کبھی غم کبھی کامیابی کبھی ناکامی مگر اصل طاقت اس لمحے میں چھپی ہوتی ہے جب ہم ہار مانے کے بجائے ایک قدم آگے بڑھاتے ہیں یاد رکھیں ہر اندھیری رات کے بعد ایک روشن صبح ضرور آتی ہے بس خود پر یقین رکھیں اور چلتے رہیں"
+  },
+  {
+    "variant": "openai-whisper",
+    "framework": "pytorch",
+    "model": "large-v3",
+    "device": "cuda",
+    "file": "urdu_repeating_sentence_1min.mp3",
+    "duration": 72.908,
+    "processing_time": 58.449135,
+    "rtf": 0.8017,
+    "transcript": "ایک ستری بستری نظم سنیگا یعنی اس کا احتلالق انیس سو ستر یا بہت تر سے ہے منوحان ہے مجھے اب ارز کیا ہے میں اپنی تلاش میں تھا میں اپنی تلاش میں تھا کہ گلاب سے انگارے نکلے گلاب سے انگارے نکلے خوشبو سے شرارے نکلے میرا چہرہ کوئی لے گیا چوریاں مجھے دے گیا چوریاں مجھے دے گیا چوریوں کی کھانک میں چوریوں کی کھانک پہ مجھے اب بے چہرہ جینا ہے میں اپنی تلاش میں تھا کہ گلاب سے انگارے نکلے خوشبو سے شرارے نکلے میرا چہرہ کوئی لے گیا چوریاں مجھے دے گیا چوریوں کی کھانک میں مجھے اب بے چہرہ جینا ہے شکریہ"
+  },
+  {
+    "variant": "openai-whisper",
+    "framework": "pytorch",
+    "model": "large-v3",
+    "device": "cuda",
+    "file": "urdu_silence_1min.wav",
+    "duration": 95.48,
+    "processing_time": 49.731653,
+    "rtf": 0.5209,
+    "transcript": "یہ کہانی 1971 کی پاک بھارت جنگ کے دوران بحری محاذ پر ہونے والے غیر معمولی مارکے کی روداد ہے جب پاکستانی آبدوز ہنگور نے بھارتی پانیوں میں انڈین نیوی کے بحری جنگی جہاز کھکری کو اس کے عملے سمیت سمندر پرد کیا جبکہ دوسرے بحری جنگی جہاز کرپان کو بھی مفلوج کیا دوسری جنگ عظیم کے بعد کسی بھی روایتی آبدوز کا بحری جنگی جہاز کو تباہ کرنے کا یہ پہلا واقعہ ہے جو بحری اسکری تاریخ میں سنہرے حروف سے لکھا گیا ہے مجھے مجھے"
+  }
+]
