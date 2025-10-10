@@ -6,11 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="Update">
       <change afterPath="$PROJECT_DIR$/models/insanely_fast_whisper/run_ifw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/reports/faster-whisper_large-v3_results.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/reports/openai-whisper_large-v3_results.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/whisper_cpp/whisper_cpp_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/model_comparison.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/model_comparison.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_configs.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_configs.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/faster-whisper_large-v3_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/faster-whisper_large-v3_results.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/reports/faster-whisper_results.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/openai-whisper_large-v3_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/openai-whisper_large-v3_results.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/english_noisy_background_low_volume_1min.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/urdu_F_clean_30s.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/urdu_repeating_sentence_1min.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/urdu_silence_1min.wav" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +195,31 @@
       <option name="project" value="LOCAL" />
       <updated>1760086183920</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Results for evaluation">
+      <option name="closed" value="true" />
+      <created>1760086845867</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1760086845867</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Update 2025-10-10">
+      <option name="closed" value="true" />
+      <created>1760086864872</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1760086864872</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Update">
+      <option name="closed" value="true" />
+      <created>1760086890479</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1760086890479</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +246,8 @@
     <MESSAGE value="Add more fields" />
     <MESSAGE value="Update To Add openai-whisper" />
     <MESSAGE value="Update: main file to run all models" />
+    <MESSAGE value="Results for evaluation" />
+    <MESSAGE value="Update 2025-10-10" />
     <MESSAGE value="Update" />
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
