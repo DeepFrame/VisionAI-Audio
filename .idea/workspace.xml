@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="Add more audio samples">
-      <change afterPath="$PROJECT_DIR$/models/faster_whisper/faster_whisper_model.py" afterDir="false" />
+    <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="Update">
       <change afterPath="$PROJECT_DIR$/models/insanely_fast_whisper/run_ifw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/openai_whisper/openai_whisper_model.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/results/reports/faster-whisper_large-v3_results.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/results/reports/openai-whisper_large-v3_results.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/VisionAI_Audio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VisionAI_Audio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/model_comparison.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/model_comparison.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_configs.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_configs.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/reports/faster-whisper_results.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +139,55 @@
       <option name="project" value="LOCAL" />
       <updated>1760082802619</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add faster whisper implementation">
+      <option name="closed" value="true" />
+      <created>1760085949443</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1760085949443</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add openai whisper implementation">
+      <option name="closed" value="true" />
+      <created>1760085965165</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1760085965165</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add more fields">
+      <option name="closed" value="true" />
+      <created>1760086025815</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1760086025815</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update To Add openai-whisper">
+      <option name="closed" value="true" />
+      <created>1760086062316</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1760086062316</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Update: main file to run all models">
+      <option name="closed" value="true" />
+      <created>1760086163147</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1760086163147</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Update">
+      <option name="closed" value="true" />
+      <created>1760086183920</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1760086183920</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +209,12 @@
     <MESSAGE value="Add json file for metrics data" />
     <MESSAGE value="Update 2025-9-10" />
     <MESSAGE value="Add more audio samples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add more audio samples" />
+    <MESSAGE value="Add faster whisper implementation" />
+    <MESSAGE value="Add openai whisper implementation" />
+    <MESSAGE value="Add more fields" />
+    <MESSAGE value="Update To Add openai-whisper" />
+    <MESSAGE value="Update: main file to run all models" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
