@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="write code for first model">
-      <change afterPath="$PROJECT_DIR$/tests/test_audio_samples/english_clean_1min.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_audio_samples/english_noisy_background_low_volume_1min.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_audio_samples/urdu_clean_30s.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_audio_samples/urdu_silence_1min.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/Daily Tasks.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Daily Tasks.xlsx" afterDir="false" />
+    <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="Add more audio samples">
+      <change afterPath="$PROJECT_DIR$/models/faster_whisper/faster_whisper_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/insanely_fast_whisper/run_ifw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/openai_whisper/openai_whisper_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/reports/faster-whisper_large-v3_results.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/reports/openai-whisper_large-v3_results.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/VisionAI_Audio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VisionAI_Audio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/model_comparison.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/model_comparison.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_configs.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_configs.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/faster-whisper_results.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +39,12 @@
     &quot;assignee&quot;: &quot;talhaJavedAbbasi25&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/DeepFrame/VisionAI-Audio.git",
-    "accountId": "19098032-a0d3-4cf4-8735-63a77f3152a8"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DeepFrame/VisionAI-Audio.git&quot;,
+    &quot;accountId&quot;: &quot;19098032-a0d3-4cf4-8735-63a77f3152a8&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -52,11 +58,13 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.app.executor": "Run",
     "Python.model_comparison.executor": "Run",
+    "Python.model_comparison_ifw.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/PC/PycharmProjects/VisionAI_Audio/tests/test_audio_samples"
+    "last_opened_file_path": "C:/Users/PC/PycharmProjects/VisionAI_Audio/tests/test_audio_samples",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -113,7 +121,31 @@
       <option name="project" value="LOCAL" />
       <updated>1760004461712</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add json file for metrics data">
+      <option name="closed" value="true" />
+      <created>1760005164040</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760005164040</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update 2025-9-10">
+      <option name="closed" value="true" />
+      <created>1760005208236</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760005208236</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add more audio samples">
+      <option name="closed" value="true" />
+      <created>1760082802619</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1760082802619</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +164,9 @@
     <MESSAGE value="Add Docs File" />
     <MESSAGE value="update repo structure" />
     <MESSAGE value="write code for first model" />
-    <option name="LAST_COMMIT_MESSAGE" value="write code for first model" />
+    <MESSAGE value="Add json file for metrics data" />
+    <MESSAGE value="Update 2025-9-10" />
+    <MESSAGE value="Add more audio samples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add more audio samples" />
   </component>
 </project>
