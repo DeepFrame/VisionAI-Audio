@@ -1,3 +1,4 @@
+pywhispercpp
 openai-whisper
 torch
 annotated-types==0.7.0
