@@ -16,3 +16,12 @@ models:
     batch_size: 8
     output_json: openai-whisper_large-v3_results.json
     output_dir: results/reports
+
+  whisper-cpp:                 # 👈 Add this section
+    variant: whisper-cpp
+    name: large-v3                 # whisper.cpp supports tiny/base/small/medium/large
+    framework: ggml
+    device: cpu
+    batch_size: 1
+    output_json: whisper-cpp_tiny_results.json
+    output_dir: results/reports
