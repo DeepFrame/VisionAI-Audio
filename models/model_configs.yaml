@@ -4,7 +4,7 @@ models:
     name: large-v3
     framework: ctranslate2
     device: cuda
-    batch_size: 8
+#    batch_size: 8
     output_json: faster-whisper_large-v3_results.json
     output_dir: results/reports
 
@@ -13,7 +13,7 @@ models:
     name: large-v3
     framework: pytorch
     device: cuda
-    batch_size: 8
+#    batch_size: 8
     output_json: openai-whisper_large-v3_results.json
     output_dir: results/reports
 
@@ -22,6 +22,17 @@ models:
     name: large-v3                 # whisper.cpp supports tiny/base/small/medium/large
     framework: ggml
     device: cpu
-    batch_size: 1
+#    batch_size: 1
     output_json: whisper-cpp_tiny_results.json
+    output_dir: results/reports
+
+  whisperx: # 👈 New section for WhisperX
+    variant: whisperx
+    name: large-v2                # WhisperX supports large-v2 or large-v3
+    framework: pytorch+alignment  # Shows it's Whisper + alignment + diarization
+    device: cuda                  # use GPU if available
+#    batch_size: 16
+    enable_alignment: true        # ⏱️ optional alignment step
+    enable_diarization: false     # 🗣️ enable later if you have HF_TOKEN
+    output_json: whisperx_large-v2_results.json
     output_dir: results/reports
