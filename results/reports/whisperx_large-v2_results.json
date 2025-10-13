@@ -1,0 +1,41 @@
+[
+  {
+    "variant": "whisperx",
+    "framework": "pytorch+alignment",
+    "model": "large-v2",
+    "device": "cuda",
+    "compute_type": "float16",
+    "file": "eng_ur_clean_1min.mp3",
+    "duration_sec": 64.71,
+    "processing_time_sec": 24.6442,
+    "rtf": 0.3808,
+    "language": "en",
+    "transcript": "one people I I and you both of us he he and she they both the man the woman the child a family."
+  },
+  {
+    "variant": "whisperx",
+    "framework": "pytorch+alignment",
+    "model": "large-v2",
+    "device": "cuda",
+    "compute_type": "float16",
+    "file": "en_UK_US_multiple_accent_noisy_background_music_50s.mp3",
+    "duration_sec": 47.1,
+    "processing_time_sec": 49.2755,
+    "rtf": 1.0462,
+    "language": "en",
+    "transcript": "Imagine a nursing and care home that breaks the mould. And now with a smash hit from way back in 1917, it's Dame Clara Butt. Dad? What, son? What is your most favourite place in the whole of Ireland? Uh... A typical open-air cafe, free wine and cheese, free face painting for the little ones, and the cockles! A very week- an every week story of cafe-ful! This Sunday, the day of the All-Island Semi-Final, at 10 a.m. be sure to join- FUNNY FEET! FUNNY FEET! Olivia rushed along the beach. And if you can't get me there, you'll always find me filling up a jet! We have ways of keeping you awake."
+  },
+  {
+    "variant": "whisperx",
+    "framework": "pytorch+alignment",
+    "model": "large-v2",
+    "device": "cuda",
+    "compute_type": "float16",
+    "file": "urdu_silence_1min.wav",
+    "duration_sec": 95.48,
+    "processing_time_sec": 63.5481,
+    "rtf": 0.6656,
+    "language": "ur",
+    "transcript": "یہ کہانی انیس سو اکتر کی پاک بھارت جنگ کے دوران بحری مہاز پر ہونے والے غیر معمولی عمارکے کی روداد ہے جب پاکستانی آبدوز ہنگور نے بھارتی پانیوں میں انڈین نیوی کے بحری جنگی جہاز کھکری کو اس کے عملے سمیت سمندر پرد کیا جبکہ دوسرے بحری جنگی جہاز کرپان کو بھی مفلوج کیا دوسری جنگ عظیم کے بعد کسی بھی روایتی آبدوز کا بحری جنگی جہاز کو تواہ کرنے کا یہ پہلا واقعہ ہے جو بحری عسقری تاریخ میں سنیرے حروف سے لکھا گیا ہے"
+  }
+]
