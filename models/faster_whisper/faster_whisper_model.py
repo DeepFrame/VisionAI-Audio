@@ -2,18 +2,25 @@ import time, json, os
 from pathlib import Path
 from faster_whisper import WhisperModel
 from pydub import AudioSegment
-
-
+import torch
 def transcribe_audio(model_cfg, audio_dir, output_dir):
     model_variant = "faster-whisper"
     model_name = model_cfg["name"]
     framework = model_cfg["framework"]
-    device = model_cfg["device"]
+    device = model_cfg.get("device", "cuda")
+    compute_type = model_cfg.get("compute_type", "float16" if device == "cuda" else "int8")
 
-    print(f"\n🚀 Running {model_variant} ({framework}, model={model_name}, device={device})")
+    print("\n========== MODEL CONFIGURATION ==========")
+    print(f"Model Variant : {model_variant}")
+    print(f"Framework     : {framework}")
+    print(f"Model Name    : {model_name}")
+    print(f"Device        : {device}")
+    print(f"Compute Type  : {compute_type}")
+    print(f"CUDA Available: {torch.cuda.is_available()}")
+    print("=========================================\n")
 
-    model = WhisperModel(model_name, device=device)
     os.makedirs(output_dir, exist_ok=True)
+    model = WhisperModel(model_name, device=device, compute_type=compute_type)
     results = []
 
     for audio_file in Path(audio_dir).glob("*"):
@@ -32,11 +39,13 @@ def transcribe_audio(model_cfg, audio_dir, output_dir):
             "framework": framework,
             "model": model_name,
             "device": device,
+            "compute_type": compute_type,
             "file": audio_file.name,
-            "duration": round(duration, 4),
-            "processing_time": round(proc_time, 6),
+            "duration_sec": round(duration, 2),
+            "processing_time_sec": round(proc_time, 4),
             "rtf": round(rtf, 4),
-            "transcript": text
+            "language": info.language if hasattr(info, "language") else "unknown",
+            "transcript": text,
         })
 
     json_path = Path(output_dir) / f"{model_variant}_{model_name}_results.json"
