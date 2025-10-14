@@ -5,7 +5,7 @@ from pathlib import Path
 from pywhispercpp.model import Model
 from pydub import AudioSegment
 import tempfile
-
+from code.resource_monitor import ResourceMonitor
 
 # --- 🔧 Helper: Ensure audio is 16-bit PCM, mono, 16kHz for Whisper.cpp ---
 def prepare_audio(input_path, target_sr=16000):
@@ -59,10 +59,16 @@ def transcribe_audio(model_cfg, audio_dir, output_dir):
         audio = AudioSegment.from_file(input_path)
         duration = len(audio) / 1000.0
 
+        monitor = ResourceMonitor(interval=1)
+        monitor.start()
+
         # --- Run Whisper.cpp transcription ---
         start = time.time()
         segments = model.transcribe(input_path)
         proc_time = time.time() - start
+
+        monitor.stop()
+        resource_stats = monitor.get_summary()
 
         # --- Merge all text segments ---
         text = " ".join([seg.text for seg in segments])
@@ -82,7 +88,10 @@ def transcribe_audio(model_cfg, audio_dir, output_dir):
             "rtf": round(rtf, 4),
             "language": "unknown",
             "transcript": text,
+            **resource_stats
         })
+        print(
+            f"✅ Done: {audio_file.name} | Time: {proc_time:.2f}s | CPU: {resource_stats['avg_cpu']:.1f}% | GPU: {resource_stats.get('avg_gpu', 0):.1f}%")
 
         # --- Clean up ---
         if os.path.exists(input_path):
