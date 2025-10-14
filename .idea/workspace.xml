@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="Add preprocessing of an audio">
-      <change afterPath="$PROJECT_DIR$/code/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/VisionAI_Audio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VisionAI_Audio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="Update">
       <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/metrics_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/metrics_calculator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/model_comparison.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/model_comparison.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/resource_monitor.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/resource_monitor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/transcription_benchmark.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/transcription_benchmark.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/faster_whisper/faster_whisper_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/faster_whisper/faster_whisper_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/openai_whisper/openai_whisper_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/openai_whisper/openai_whisper_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/whisper_cpp/whisper_cpp_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/whisper_cpp/whisper_cpp_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/whisperx/whisperx_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/whisperx/whisperx_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/faster-whisper_large-v3_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/faster-whisper_large-v3_results.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/reports/faster-whisper_results.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/openai-whisper_large-v3_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/openai-whisper_large-v3_results.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/whisperx_large-v2_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/whisperx_large-v2_results.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/en_UK_US_multiple_accent_noisy_background_music_50s.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/en_noisy_5min.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/eng_Pk_accent_clean_30s.wav" beforeDir="false" />
@@ -387,7 +374,63 @@
       <option name="project" value="LOCAL" />
       <updated>1760419087459</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Add resource monitoring logic">
+      <option name="closed" value="true" />
+      <created>1760443282902</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1760443282902</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Add all audio result">
+      <option name="closed" value="true" />
+      <created>1760443315330</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1760443315330</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Update">
+      <option name="closed" value="true" />
+      <created>1760443325805</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1760443325805</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Add metrics cal logic">
+      <option name="closed" value="true" />
+      <created>1760443347450</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1760443347450</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Add resource logic">
+      <option name="closed" value="true" />
+      <created>1760443364546</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1760443364546</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Add Preprocessing of audio">
+      <option name="closed" value="true" />
+      <created>1760443414900</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1760443414900</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Update">
+      <option name="closed" value="true" />
+      <created>1760443430902</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1760443430902</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -402,11 +445,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update repo structure" />
-    <MESSAGE value="write code for first model" />
-    <MESSAGE value="Add json file for metrics data" />
-    <MESSAGE value="Update 2025-9-10" />
-    <MESSAGE value="Add more audio samples" />
     <MESSAGE value="Add faster whisper implementation" />
     <MESSAGE value="Add openai whisper implementation" />
     <MESSAGE value="Add more fields" />
@@ -424,9 +462,14 @@
     <MESSAGE value="Update: To add whisperx and whisper.cpp" />
     <MESSAGE value="Update Results json" />
     <MESSAGE value="All audio samples" />
-    <MESSAGE value="Update" />
     <MESSAGE value="Add all audio samples" />
     <MESSAGE value="Add preprocessing of an audio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add preprocessing of an audio" />
+    <MESSAGE value="Add resource monitoring logic" />
+    <MESSAGE value="Add all audio result" />
+    <MESSAGE value="Add metrics cal logic" />
+    <MESSAGE value="Add resource logic" />
+    <MESSAGE value="Add Preprocessing of audio" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
