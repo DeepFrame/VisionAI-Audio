@@ -3,6 +3,8 @@ from pathlib import Path
 from faster_whisper import WhisperModel
 from pydub import AudioSegment
 import torch
+from code.resource_monitor import ResourceMonitor
+
 def transcribe_audio(model_cfg, audio_dir, output_dir):
     model_variant = "faster-whisper"
     model_name = model_cfg["name"]
@@ -28,9 +30,16 @@ def transcribe_audio(model_cfg, audio_dir, output_dir):
         audio = AudioSegment.from_file(audio_file)
         duration = len(audio) / 1000.0
 
+        monitor = ResourceMonitor(interval=1)
+        monitor.start()
+
         start = time.time()
         segments, info = model.transcribe(str(audio_file))
         proc_time = time.time() - start
+
+        monitor.stop()
+        resource_stats = monitor.get_summary()
+
         text = " ".join([seg.text for seg in segments])
         rtf = proc_time / duration
 
@@ -46,7 +55,10 @@ def transcribe_audio(model_cfg, audio_dir, output_dir):
             "rtf": round(rtf, 4),
             "language": info.language if hasattr(info, "language") else "unknown",
             "transcript": text,
+            **resource_stats   # 👈 adds CPU, RAM, GPU stats
         })
+
+        print(f"✅ Done: {audio_file.name} | Time: {proc_time:.2f}s | CPU: {resource_stats['avg_cpu']:.1f}% | GPU: {resource_stats.get('avg_gpu', 0):.1f}%")
 
     json_path = Path(output_dir) / f"{model_variant}_{model_name}_results.json"
     with open(json_path, "w", encoding="utf-8") as f:
