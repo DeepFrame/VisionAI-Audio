@@ -4,10 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="Update">
+    <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="Add preprocessing of an audio">
+      <change afterPath="$PROJECT_DIR$/code/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/VisionAI_Audio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VisionAI_Audio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/metrics_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/metrics_calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/model_comparison.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/model_comparison.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/resource_monitor.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/resource_monitor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/transcription_benchmark.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/transcription_benchmark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/faster_whisper/faster_whisper_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/faster_whisper/faster_whisper_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/openai_whisper/openai_whisper_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/openai_whisper/openai_whisper_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/whisper_cpp/whisper_cpp_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/whisper_cpp/whisper_cpp_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/whisperx/whisperx_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/whisperx/whisperx_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/faster-whisper_large-v3_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/faster-whisper_large-v3_results.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/reports/faster-whisper_results.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/eng_ur_noisy_silence_17min.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/openai-whisper_large-v3_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/openai-whisper_large-v3_results.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/reports/whisperx_large-v2_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/whisperx_large-v2_results.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/en_UK_US_multiple_accent_noisy_background_music_50s.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/en_noisy_5min.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/eng_Pk_accent_clean_30s.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/eng_UK_clean_repeated_sentences_50s.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/eng_hi_accent_clean_30s.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/eng_ur_clean_1min.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/english_clean_1min.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/english_multi_accent_noisy_background_3min.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/english_noisy_background_low_volume_1min.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/ur_clean_bot_like_30s.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/ur_noisy_background_music_5min.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/ur_poem_repeated_sentences_1min.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/urdu_F_clean_30s.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/urdu_M_clean_30s.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/urdu_clean_30s.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/urdu_low_pitch_fast_speaking_rate_15s_.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/urdu_repeating_sentence_1min.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/urdu_silence_1min.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/urdu_whatsapp_like_voice_15min.mp3" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,28 +77,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.faster_whisper_model.executor&quot;: &quot;Run&quot;,
-    &quot;Python.model_comparison.executor&quot;: &quot;Run&quot;,
-    &quot;Python.model_comparison_ifw.executor&quot;: &quot;Run&quot;,
-    &quot;Python.whisper_x_model.executor&quot;: &quot;Run&quot;,
-    &quot;Python.whisperx_model.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/PycharmProjects/VisionAI_Audio/tests/test_audio_samples&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.app.executor": "Run",
+    "Python.faster_whisper_model.executor": "Run",
+    "Python.metrics_calculator.executor": "Run",
+    "Python.model_comparison.executor": "Run",
+    "Python.model_comparison_ifw.executor": "Run",
+    "Python.resource_monitor.executor": "Run",
+    "Python.transcription_benchmark.executor": "Run",
+    "Python.whisper_cpp_model.executor": "Run",
+    "Python.whisper_x_model.executor": "Run",
+    "Python.whisperx_model.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/PC/PycharmProjects/VisionAI_Audio/tests/test_audio_samples",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\PC\PycharmProjects\VisionAI_Audio\tests\test_audio_samples" />
       <recent name="C:\Users\PC\PycharmProjects\VisionAI_Audio\videos" />
       <recent name="C:\Users\ADMIN\PycharmProjects\VisionAI_Audio" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\PycharmProjects\VisionAI_Audio\models\utils" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -331,7 +371,23 @@
       <option name="project" value="LOCAL" />
       <updated>1760412783417</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Add all audio samples">
+      <option name="closed" value="true" />
+      <created>1760413076879</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1760413076879</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Add preprocessing of an audio">
+      <option name="closed" value="true" />
+      <created>1760419087459</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1760419087459</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -346,8 +402,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit" />
-    <MESSAGE value="Add Docs File" />
     <MESSAGE value="update repo structure" />
     <MESSAGE value="write code for first model" />
     <MESSAGE value="Add json file for metrics data" />
@@ -371,6 +425,8 @@
     <MESSAGE value="Update Results json" />
     <MESSAGE value="All audio samples" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Add all audio samples" />
+    <MESSAGE value="Add preprocessing of an audio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add preprocessing of an audio" />
   </component>
 </project>
