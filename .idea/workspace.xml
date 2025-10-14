@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="Update to add whisper.cpp">
-      <change afterPath="$PROJECT_DIR$/models/whisperx/whisperx_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/reports/whisperx_large-v2_results.json" afterDir="false" />
+    <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/Daily Tasks.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Daily Tasks.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/model_comparison.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/model_comparison.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/faster_whisper/faster_whisper_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/faster_whisper/faster_whisper_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_configs.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_configs.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/openai_whisper/openai_whisper_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/openai_whisper/openai_whisper_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/whisper_cpp/whisper_cpp_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/whisper_cpp/whisper_cpp_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/faster-whisper_large-v3_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/faster-whisper_large-v3_results.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/reports/faster-whisper_results.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/openai-whisper_large-v3_results.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/reports/openai-whisper_large-v3_results.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/english_clean_1min.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/english_noisy_background_low_volume_1min.mp3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/urdu_F_clean_30s.mp3" beforeDir="false" />
@@ -267,7 +257,63 @@
       <option name="project" value="LOCAL" />
       <updated>1760089792419</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Add implementation of whisperx and whisper.cpp">
+      <option name="closed" value="true" />
+      <created>1760354861590</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1760354861590</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Update to add whisperx and whisper.cpp">
+      <option name="closed" value="true" />
+      <created>1760354906077</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1760354906077</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Update 10-13-2025">
+      <option name="closed" value="true" />
+      <created>1760354936022</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1760354936022</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Add code lines for logging">
+      <option name="closed" value="true" />
+      <created>1760354985179</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1760354985179</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Update: To add whisperx and whisper.cpp">
+      <option name="closed" value="true" />
+      <created>1760355010760</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1760355010760</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Update Results json">
+      <option name="closed" value="true" />
+      <created>1760355044374</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1760355044374</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Update">
+      <option name="closed" value="true" />
+      <created>1760355061932</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1760355061932</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,8 +344,14 @@
     <MESSAGE value="Update 2025-10-10" />
     <MESSAGE value="Update: Add whisper.cpp" />
     <MESSAGE value="Add Whisper.cpp implementation" />
-    <MESSAGE value="Update" />
     <MESSAGE value="Update to add whisper.cpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update to add whisper.cpp" />
+    <MESSAGE value="Add implementation of whisperx and whisper.cpp" />
+    <MESSAGE value="Update to add whisperx and whisper.cpp" />
+    <MESSAGE value="Update 10-13-2025" />
+    <MESSAGE value="Add code lines for logging" />
+    <MESSAGE value="Update: To add whisperx and whisper.cpp" />
+    <MESSAGE value="Update Results json" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
