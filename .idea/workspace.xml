@@ -5,34 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/results/reports/metrics_cpp_vs_baseline.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/reports/metrics_faster_vs_baseline.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/reports/metrics_whisperx_vs_baseline.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/reports/whisper-cpp_large-v3_results.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/combined_summary.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/model_comparison_analysis.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/model_comparison.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/model_comparison.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/transcription_benchmark.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/transcription_benchmark.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/faster-whisper_results.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/en_UK_US_multiple_accent_noisy_background_music_50s.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/en_noisy_5min.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/eng_Pk_accent_clean_30s.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/eng_UK_clean_repeated_sentences_50s.m4a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/eng_hi_accent_clean_30s.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/eng_ur_clean_1min.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/english_clean_1min.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/english_multi_accent_noisy_background_3min.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/english_noisy_background_low_volume_1min.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/ur_clean_bot_like_30s.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/ur_noisy_background_music_5min.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/ur_poem_repeated_sentences_1min.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/urdu_F_clean_30s.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/urdu_M_clean_30s.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/urdu_clean_30s.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/urdu_low_pitch_fast_speaking_rate_15s_.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/urdu_repeating_sentence_1min.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/urdu_silence_1min.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_audio_samples/urdu_whatsapp_like_voice_15min.mp3" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +33,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/DeepFrame/VisionAI-Audio.git&quot;,
-    &quot;accountId&quot;: &quot;19098032-a0d3-4cf4-8735-63a77f3152a8&quot;
+    &quot;accountId&quot;: &quot;06a00473-68fc-44ec-881a-1ef9e3a4377f&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -69,27 +44,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.faster_whisper_model.executor&quot;: &quot;Run&quot;,
-    &quot;Python.metrics_calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.model_comparison.executor&quot;: &quot;Run&quot;,
-    &quot;Python.model_comparison_ifw.executor&quot;: &quot;Run&quot;,
-    &quot;Python.resource_monitor.executor&quot;: &quot;Run&quot;,
-    &quot;Python.transcription_benchmark.executor&quot;: &quot;Run&quot;,
-    &quot;Python.whisper_cpp_model.executor&quot;: &quot;Run&quot;,
-    &quot;Python.whisper_x_model.executor&quot;: &quot;Run&quot;,
-    &quot;Python.whisperx_model.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/PycharmProjects/VisionAI_Audio/tests/test_audio_samples&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.app.executor": "Run",
+    "Python.comine_metrics.executor": "Run",
+    "Python.faster_whisper_model.executor": "Run",
+    "Python.metrics_calculator.executor": "Run",
+    "Python.model_comparison.executor": "Run",
+    "Python.model_comparison_ifw.executor": "Run",
+    "Python.resource_monitor.executor": "Run",
+    "Python.transcription_benchmark.executor": "Run",
+    "Python.whisper_cpp_model.executor": "Run",
+    "Python.whisper_x_model.executor": "Run",
+    "Python.whisperx_model.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/ADMIN/PycharmProjects/VisionAI-Audio/notebooks",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\PC\PycharmProjects\VisionAI_Audio\tests\test_audio_samples" />
@@ -103,7 +79,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
+        <option value="bundled-python-sdk-b3ae9b5d7125-f0eec537fc84-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.23892.439" />
       </set>
     </attachedChunks>
   </component>
