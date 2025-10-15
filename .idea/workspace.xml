@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/results/reports/metrics_cpp_vs_baseline.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/reports/metrics_faster_vs_baseline.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/reports/metrics_whisperx_vs_baseline.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/reports/whisper-cpp_large-v3_results.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/model_comparison.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/model_comparison.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/transcription_benchmark.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/transcription_benchmark.py" afterDir="false" />
@@ -64,27 +69,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.app.executor": "Run",
-    "Python.faster_whisper_model.executor": "Run",
-    "Python.metrics_calculator.executor": "Run",
-    "Python.model_comparison.executor": "Run",
-    "Python.model_comparison_ifw.executor": "Run",
-    "Python.resource_monitor.executor": "Run",
-    "Python.transcription_benchmark.executor": "Run",
-    "Python.whisper_cpp_model.executor": "Run",
-    "Python.whisper_x_model.executor": "Run",
-    "Python.whisperx_model.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/PC/PycharmProjects/VisionAI_Audio/tests/test_audio_samples",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.faster_whisper_model.executor&quot;: &quot;Run&quot;,
+    &quot;Python.metrics_calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.model_comparison.executor&quot;: &quot;Run&quot;,
+    &quot;Python.model_comparison_ifw.executor&quot;: &quot;Run&quot;,
+    &quot;Python.resource_monitor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.transcription_benchmark.executor&quot;: &quot;Run&quot;,
+    &quot;Python.whisper_cpp_model.executor&quot;: &quot;Run&quot;,
+    &quot;Python.whisper_x_model.executor&quot;: &quot;Run&quot;,
+    &quot;Python.whisperx_model.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PC/PycharmProjects/VisionAI_Audio/tests/test_audio_samples&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\PC\PycharmProjects\VisionAI_Audio\tests\test_audio_samples" />
@@ -430,7 +435,23 @@
       <option name="project" value="LOCAL" />
       <updated>1760443430902</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Update: 10/14/2025">
+      <option name="closed" value="true" />
+      <created>1760443583552</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1760443583552</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Update">
+      <option name="closed" value="true" />
+      <created>1760443596446</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1760443596446</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -445,7 +466,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add faster whisper implementation" />
     <MESSAGE value="Add openai whisper implementation" />
     <MESSAGE value="Add more fields" />
     <MESSAGE value="Update To Add openai-whisper" />
@@ -469,6 +489,7 @@
     <MESSAGE value="Add metrics cal logic" />
     <MESSAGE value="Add resource logic" />
     <MESSAGE value="Add Preprocessing of audio" />
+    <MESSAGE value="Update: 10/14/2025" />
     <MESSAGE value="Update" />
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
