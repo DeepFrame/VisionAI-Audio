@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="Add code to combine all models json results into one combine json">
-      <change beforePath="$PROJECT_DIR$/code/comine_metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/combine_metrics.py" afterDir="false" />
+    <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="Update: Refactor file name">
+      <change afterPath="$PROJECT_DIR$/READMETask2Related.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/model_evaluation.md" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/model_evaluation.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -459,7 +461,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760515733054</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Update: Refactor file name">
+      <option name="closed" value="true" />
+      <created>1760517330012</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1760517330012</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -474,7 +484,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update: main file to run all models" />
     <MESSAGE value="Results for evaluation" />
     <MESSAGE value="Update 2025-10-10" />
     <MESSAGE value="Update: Add whisper.cpp" />
@@ -499,6 +508,7 @@
     <MESSAGE value="Add visualization" />
     <MESSAGE value="Update" />
     <MESSAGE value="Add code to combine all models json results into one combine json" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add code to combine all models json results into one combine json" />
+    <MESSAGE value="Update: Refactor file name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: Refactor file name" />
   </component>
 </project>
