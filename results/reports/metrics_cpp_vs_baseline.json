@@ -1,0 +1,142 @@
+[
+  {
+    "file": "english_clean_1min.mp3",
+    "reference_len_chars": 846,
+    "prediction_len_chars": 856,
+    "WER": 0.037,
+    "CER": 0.0225
+  },
+  {
+    "file": "english_multi_accent_noisy_background_3min.mp3",
+    "reference_len_chars": 3043,
+    "prediction_len_chars": 3324,
+    "WER": 0.4376,
+    "CER": 0.3562
+  },
+  {
+    "file": "english_noisy_background_low_volume_1min.mp3",
+    "reference_len_chars": 1085,
+    "prediction_len_chars": 1092,
+    "WER": 0.1122,
+    "CER": 0.0452
+  },
+  {
+    "file": "eng_hi_accent_clean_30s.wav",
+    "reference_len_chars": 438,
+    "prediction_len_chars": 438,
+    "WER": 0.0,
+    "CER": 0.0
+  },
+  {
+    "file": "eng_Pk_accent_clean_30s.wav",
+    "reference_len_chars": 438,
+    "prediction_len_chars": 438,
+    "WER": 0.0,
+    "CER": 0.0
+  },
+  {
+    "file": "eng_UK_clean_repeated_sentences_50s.m4a",
+    "reference_len_chars": 679,
+    "prediction_len_chars": 679,
+    "WER": 0.0,
+    "CER": 0.0
+  },
+  {
+    "file": "eng_ur_clean_1min.mp3",
+    "reference_len_chars": 168,
+    "prediction_len_chars": 128,
+    "WER": 0.3429,
+    "CER": 0.2917
+  },
+  {
+    "file": "en_noisy_5min.mp3",
+    "reference_len_chars": 3336,
+    "prediction_len_chars": 6877,
+    "WER": 2.0362,
+    "CER": 1.3879
+  },
+  {
+    "file": "en_UK_US_multiple_accent_noisy_background_music_50s.mp3",
+    "reference_len_chars": 569,
+    "prediction_len_chars": 569,
+    "WER": 0.0092,
+    "CER": 0.0035
+  },
+  {
+    "file": "urdu_clean_30s.mp3",
+    "reference_len_chars": 251,
+    "prediction_len_chars": 299,
+    "WER": 1.0,
+    "CER": 1.012
+  },
+  {
+    "file": "urdu_col_clean_40s.mp3",
+    "reference_len_chars": 325,
+    "prediction_len_chars": 393,
+    "WER": 1.0,
+    "CER": 1.0185
+  },
+  {
+    "file": "urdu_F_clean_30s.mp3",
+    "reference_len_chars": 270,
+    "prediction_len_chars": 342,
+    "WER": 1.0,
+    "CER": 1.1
+  },
+  {
+    "file": "urdu_multi_speaker_clean_30s.mp3",
+    "reference_len_chars": 218,
+    "prediction_len_chars": 264,
+    "WER": 1.0,
+    "CER": 1.055
+  },
+  {
+    "file": "urdu_M_F_multispeaker_clean_1min.mp3",
+    "reference_len_chars": 489,
+    "prediction_len_chars": 514,
+    "WER": 1.0,
+    "CER": 0.9243
+  },
+  {
+    "file": "urdu_repeating_sentence_1min.mp3",
+    "reference_len_chars": 486,
+    "prediction_len_chars": 644,
+    "WER": 1.2685,
+    "CER": 1.1173
+  },
+  {
+    "file": "urdu_silence_1min.wav",
+    "reference_len_chars": 407,
+    "prediction_len_chars": 1345,
+    "WER": 2.8161,
+    "CER": 3.0835
+  },
+  {
+    "file": "urdu_whatsapp_like_voice_15min.mp3",
+    "reference_len_chars": 6085,
+    "prediction_len_chars": 5789,
+    "WER": 1.0,
+    "CER": 0.8595
+  },
+  {
+    "file": "ur_clean_bot_like_30s.mp3",
+    "reference_len_chars": 377,
+    "prediction_len_chars": 369,
+    "WER": 0.988,
+    "CER": 0.8939
+  },
+  {
+    "file": "ur_noisy_background_music_5min.mp3",
+    "reference_len_chars": 2154,
+    "prediction_len_chars": 3700,
+    "WER": 1.4655,
+    "CER": 1.4828
+  },
+  {
+    "file": "ur_poem_repeated_sentences_1min.mp3",
+    "reference_len_chars": 586,
+    "prediction_len_chars": 1238,
+    "WER": 1.8321,
+    "CER": 1.8805
+  }
+]
