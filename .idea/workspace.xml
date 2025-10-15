@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/notebooks/combined_summary.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/model_comparison_analysis.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="Add code to combine all models json results into one combine json">
+      <change beforePath="$PROJECT_DIR$/code/comine_metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/combine_metrics.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,11 +66,13 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\PycharmProjects\VisionAI-Audio\notebooks" />
       <recent name="C:\Users\PC\PycharmProjects\VisionAI_Audio\tests\test_audio_samples" />
       <recent name="C:\Users\PC\PycharmProjects\VisionAI_Audio\videos" />
       <recent name="C:\Users\ADMIN\PycharmProjects\VisionAI_Audio" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\PycharmProjects\VisionAI-Audio\notebooks" />
       <recent name="C:\Users\PC\PycharmProjects\VisionAI_Audio\models\utils" />
     </key>
   </component>
@@ -427,7 +427,39 @@
       <option name="project" value="LOCAL" />
       <updated>1760443596446</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Add combine results json file">
+      <option name="closed" value="true" />
+      <created>1760515634783</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1760515634783</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Add visualization">
+      <option name="closed" value="true" />
+      <created>1760515671701</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1760515671701</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Update">
+      <option name="closed" value="true" />
+      <created>1760515679100</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1760515679100</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Add code to combine all models json results into one combine json">
+      <option name="closed" value="true" />
+      <created>1760515733054</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1760515733054</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -442,9 +474,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add openai whisper implementation" />
-    <MESSAGE value="Add more fields" />
-    <MESSAGE value="Update To Add openai-whisper" />
     <MESSAGE value="Update: main file to run all models" />
     <MESSAGE value="Results for evaluation" />
     <MESSAGE value="Update 2025-10-10" />
@@ -466,7 +495,10 @@
     <MESSAGE value="Add resource logic" />
     <MESSAGE value="Add Preprocessing of audio" />
     <MESSAGE value="Update: 10/14/2025" />
+    <MESSAGE value="Add combine results json file" />
+    <MESSAGE value="Add visualization" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Add code to combine all models json results into one combine json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add code to combine all models json results into one combine json" />
   </component>
 </project>
