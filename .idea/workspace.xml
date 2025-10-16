@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="Update: Refactor file name">
+    <list default="true" id="8c44170c-0210-4c7e-867d-ad1713a354f6" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/READMETask2Related.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/task3_optimization/task3_fasterwhisper_optimization.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/VisionAI_Audio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/VisionAI_Audio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/model_evaluation.md" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/model_evaluation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/combined_summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/task2_model_comparison/combined_summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/model_comparison_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/task2_model_comparison/model_comparison_analysis.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +51,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.app.executor": "Run",
+    "Python.combine_metrics.executor": "Run",
     "Python.comine_metrics.executor": "Run",
     "Python.faster_whisper_model.executor": "Run",
     "Python.metrics_calculator.executor": "Run",
@@ -62,18 +66,20 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ADMIN/PycharmProjects/VisionAI-Audio/notebooks",
+    "last_opened_file_path": "C:/Users/ADMIN/PycharmProjects/VisionAI-Audio/notebooks/task3_optimization",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\PycharmProjects\VisionAI-Audio\notebooks\task3_optimization" />
       <recent name="C:\Users\ADMIN\PycharmProjects\VisionAI-Audio\notebooks" />
       <recent name="C:\Users\PC\PycharmProjects\VisionAI_Audio\tests\test_audio_samples" />
       <recent name="C:\Users\PC\PycharmProjects\VisionAI_Audio\videos" />
       <recent name="C:\Users\ADMIN\PycharmProjects\VisionAI_Audio" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\PycharmProjects\VisionAI-Audio\notebooks\Task2" />
       <recent name="C:\Users\ADMIN\PycharmProjects\VisionAI-Audio\notebooks" />
       <recent name="C:\Users\PC\PycharmProjects\VisionAI_Audio\models\utils" />
     </key>
@@ -92,14 +98,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1759831848238</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Initial commit">
-      <option name="closed" value="true" />
-      <created>1759833003756</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1759833003756</updated>
     </task>
     <task id="LOCAL-00002" summary="Add Docs File">
       <option name="closed" value="true" />
@@ -469,7 +467,31 @@
       <option name="project" value="LOCAL" />
       <updated>1760517330012</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Update: Add all evaluation related content">
+      <option name="closed" value="true" />
+      <created>1760519819692</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1760519819692</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Update: Refactor according to task 2">
+      <option name="closed" value="true" />
+      <created>1760519848546</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1760519848546</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Update">
+      <option name="closed" value="true" />
+      <created>1760519857266</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1760519857267</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -484,8 +506,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Results for evaluation" />
-    <MESSAGE value="Update 2025-10-10" />
     <MESSAGE value="Update: Add whisper.cpp" />
     <MESSAGE value="Add Whisper.cpp implementation" />
     <MESSAGE value="Update to add whisper.cpp" />
@@ -506,9 +526,11 @@
     <MESSAGE value="Update: 10/14/2025" />
     <MESSAGE value="Add combine results json file" />
     <MESSAGE value="Add visualization" />
-    <MESSAGE value="Update" />
     <MESSAGE value="Add code to combine all models json results into one combine json" />
     <MESSAGE value="Update: Refactor file name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update: Refactor file name" />
+    <MESSAGE value="Update: Add all evaluation related content" />
+    <MESSAGE value="Update: Refactor according to task 2" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
