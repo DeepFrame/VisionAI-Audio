@@ -1,3 +1,7 @@
+pandas
+matplotlib
+librosa
+soundfile
 whisperx
 nvidia-ml-py
 pywhispercpp
