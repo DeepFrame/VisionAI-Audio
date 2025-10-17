@@ -2,463 +2,625 @@
   {
     "audio": "english_clean_1min_16k.wav",
     "beam_size": 1,
-    "chunk_length": 15,
+    "chunk_length": 10,
+    "vad_filter": false,
     "batch_size": null,
-    "elapsed_sec": 9.28,
+    "elapsed_sec": 0.83,
+    "cpu_before": 8.9,
+    "cpu_after": 6.6,
+    "ram_before": 42.5,
+    "ram_after": 42.4,
+    "gpu_before": {
+      "gpu_util": "0 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "60 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "en",
+    "language_probability": 0.98,
+    "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no! So I'm ...",
+    "transcript_full": "Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no! So I'm back.  And the reason there are a few reasons that I have not.  Reason number one, I have been working.  Working, working, working, all morning, all day, all night.  On Power English, my new Power English lessons.  And there's a lot to do.  Almost finished.  They will be ready very soon.  We will have a one day only sale for Power English.  But anyway, you'll...  If you get my emails, you already know about this.  So I don't need to talk about it more.  If you want more information, sign up for my email course.  The other reason that I...  I have not done a podcast recently.  Is that I have been doing audio tweets.  I talked about this in my previous podcast.  And I love these audio tweets because I can do them every day.  They're so convenient."
+  },
+  {
+    "audio": "urdu_silence_1min_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 10,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 14.1,
+    "cpu_before": 3.0,
+    "cpu_after": 8.2,
+    "ram_before": 42.4,
+    "ram_after": 42.3,
+    "gpu_before": {
+      "gpu_util": "59 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "70 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "ur",
+    "language_probability": 0.973,
+    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062f\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646 \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0645\u0648\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628...",
+    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062f\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646 \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0645\u0648\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u062d\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a  \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06be\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0627\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u0628\u0648\u0631\u062a \u06a9\u06cc\u0627 \u062c\u0628  \u062f\u0648\u0633\u0631\u06d2 \u0628\u06be\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u06d2 \u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc  \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627 \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0627\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06be\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u0648  \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627 \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0627\u0642\u0639\u06c1 \u06c1\u06d2 \u062c\u0628 \u0628\u06be\u0631\u06cc \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06cc\u0631 \u0627\u06af\u0631\u0648\u0641 \u0633\u06d2 \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2"
+  },
+  {
+    "audio": "english_clean_1min_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 20,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.63,
+    "cpu_before": 2.6,
+    "cpu_after": 6.2,
+    "ram_before": 42.3,
+    "ram_after": 42.4,
+    "gpu_before": {
+      "gpu_util": "70 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "72 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "en",
+    "language_probability": 0.989,
+    "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm...",
+    "transcript_full": "Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm back.  And the reason there are a few reasons that I have not.  Reason number one, I have been working.  Working, working, working, all morning, all day, all night.  On Power English, my new Power English lessons.  And there's a lot to do.  Almost finished.  They will be ready very soon.  We will have a one day only sale for Power English.  But anyway, you'll...  If you get my emails, you already know about this.  So I don't need to talk about it more.  If you want more information, sign up for my email course.  The other reason that I have not done a podcast recently is that I have been doing audio tweets.  I talked about this in my previous podcast.  And I love these audio tweets because I can do them every day.  They're so convenient."
+  },
+  {
+    "audio": "urdu_silence_1min_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 20,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 7.21,
+    "cpu_before": 0.8,
+    "cpu_after": 7.6,
+    "ram_before": 42.3,
+    "ram_after": 42.3,
+    "gpu_before": {
+      "gpu_util": "37 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "73 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "ur",
+    "language_probability": 0.954,
+    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0645\u0648\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c...",
+    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0645\u0648\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u062d\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a\u06cc \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba  \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0639\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u067e\u0648\u0631\u062a \u06a9\u06cc\u0627  \u062c\u0628 \u06a9\u06d2 \u062f\u0648\u0633\u0631\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u06d2 \u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc  \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627  \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0639\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u0648  \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627 \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0642\u062a \u06c1\u06d2 \u062c\u0648 \u0628\u06c1\u0631\u06cc \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06c1\u0631 \u0627\u0631\u0648\u0641 \u0633\u06d2 \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2"
+  },
+  {
+    "audio": "english_clean_1min_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 30,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.61,
+    "cpu_before": 2.9,
+    "cpu_after": 9.0,
+    "ram_before": 42.3,
+    "ram_after": 42.4,
+    "gpu_before": {
+      "gpu_util": "73 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "71 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "en",
+    "language_probability": 0.988,
+    "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm...",
+    "transcript_full": "Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm back.  And the reason there are a few reasons that I have not.  Reason number one, I have been working, working, working, working,  all morning, all day, all night, on Power English, my new Power English lessons.  And there's a lot to do.  Almost finished.  They will be ready very soon.  We will have a one day only sale for Power English.  But anyway, you'll get, if you get my emails you already know about this.  So I don't need to talk about it more.  If you want more information, sign up for my email course.  The other reason that I have not done a podcast recently is that I have been doing audio tweets.  I talked about this in my previous podcast.  And I love these audio tweets because I can do them every day.  They're so convenient."
+  },
+  {
+    "audio": "urdu_silence_1min_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 30,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 4.76,
+    "cpu_before": 3.0,
+    "cpu_after": 9.0,
+    "ram_before": 42.4,
+    "ram_after": 42.0,
+    "gpu_before": {
+      "gpu_util": "71 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "75 %",
+      "gpu_mem_used": "4328 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "ur",
+    "language_probability": 0.967,
+    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c...",
+    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u06c1\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a\u06cc \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba  \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0639\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u067e\u0648\u0631\u062a \u06a9\u06cc\u0627  \u062c\u0628 \u06a9\u06d2 \u062f\u0648\u0633\u0631\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u06d2 \u0631\u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627  \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0639\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u0648 \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627  \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0627\u062e\u06cc\u0627 \u06c1\u06d2 \u062c\u0628 \u0628\u06c1\u0631\u06cc \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06cc\u0631 \u0627\u0631\u0648\u0641 \u0633\u06d2 \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2"
+  },
+  {
+    "audio": "english_clean_1min_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 60,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.59,
+    "cpu_before": 6.4,
+    "cpu_after": 9.9,
+    "ram_before": 42.0,
+    "ram_after": 42.1,
+    "gpu_before": {
+      "gpu_util": "75 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "70 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "en",
+    "language_probability": 0.988,
+    "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm...",
+    "transcript_full": "Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm back.  And the reason there are a few reasons that I have not.  Reason number one, I have been working, working, working, working,  all morning, all day, all night, on Power English, my new Power English lessons.  And there's a lot to do.  Almost finished.  They will be ready very soon.  We will have a one day only sale for Power English.  But anyway, you'll get, if you get my emails you already know about this.  So I don't need to talk about it more.  If you want more information, sign up for my email course.  The other reason that I have not done a podcast recently is that I have been doing audio tweets.  I talked about this in my previous podcast.  And I love these audio tweets because I can do them every day.  They're so convenient."
+  },
+  {
+    "audio": "urdu_silence_1min_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 60,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 3.07,
     "cpu_before": 10.0,
-    "cpu_after": 37.2,
-    "ram_before": 89.0,
-    "ram_after": 84.6,
+    "cpu_after": 11.2,
+    "ram_before": 42.1,
+    "ram_after": 42.5,
     "gpu_before": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
+      "gpu_util": "70 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
     },
     "gpu_after": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
+      "gpu_util": "70 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
     },
-    "transcript_preview": " Hey everyone it's AJ and I just realized I have not done a podcast in a long  time. Oh no! So I'm b..."
-  },
-  {
-    "audio": "english_multi_accent_noisy_background_3min_16k.wav",
-    "beam_size": 1,
-    "chunk_length": 15,
-    "batch_size": null,
-    "elapsed_sec": 17.25,
-    "cpu_before": 28.1,
-    "cpu_after": 32.1,
-    "ram_before": 84.6,
-    "ram_after": 82.7,
-    "gpu_before": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "gpu_after": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "transcript_preview": " The story of Arthur the Rat. Once upon a time there was a young rat who couldn't make up his mind. ..."
-  },
-  {
-    "audio": "eng_clean_16min_16k.wav",
-    "beam_size": 1,
-    "chunk_length": 15,
-    "batch_size": null,
-    "elapsed_sec": 80.17,
-    "cpu_before": 27.8,
-    "cpu_after": 34.5,
-    "ram_before": 82.6,
-    "ram_after": 82.3,
-    "gpu_before": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "gpu_after": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "transcript_preview": " Okay, let's get started with the mini story lesson for the hitch introduction.  Here we go. Once th..."
+    "language": "ur",
+    "language_probability": 0.967,
+    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c...",
+    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u06c1\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a\u06cc \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba  \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0639\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u067e\u0648\u0631\u062a \u06a9\u06cc\u0627  \u062c\u0628 \u06a9\u06d2 \u062f\u0648\u0633\u0631\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u06d2 \u0631\u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627  \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0639\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u0648 \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627  \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0627\u062e\u06cc\u0627 \u06c1\u06d2 \u062c\u0628 \u0628\u06c1\u0631\u06cc \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06cc\u0631 \u0627\u0631\u0648\u0641 \u0633\u06d2 \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2"
   },
   {
     "audio": "english_clean_1min_16k.wav",
     "beam_size": 1,
-    "chunk_length": 30,
-    "batch_size": null,
-    "elapsed_sec": 4.07,
-    "cpu_before": 21.7,
-    "cpu_after": 28.8,
-    "ram_before": 82.3,
-    "ram_after": 82.2,
-    "gpu_before": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "gpu_after": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm..."
-  },
-  {
-    "audio": "english_multi_accent_noisy_background_3min_16k.wav",
-    "beam_size": 1,
-    "chunk_length": 30,
-    "batch_size": null,
-    "elapsed_sec": 13.42,
-    "cpu_before": 37.5,
-    "cpu_after": 34.8,
-    "ram_before": 82.2,
-    "ram_after": 84.4,
-    "gpu_before": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "gpu_after": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "transcript_preview": " The story of Arthur the Rat, once upon a time there was a young rat who couldn't make up his mind. ..."
-  },
-  {
-    "audio": "eng_clean_16min_16k.wav",
-    "beam_size": 1,
-    "chunk_length": 30,
-    "batch_size": null,
-    "elapsed_sec": 73.35,
-    "cpu_before": 0.0,
-    "cpu_after": 36.5,
-    "ram_before": 84.4,
-    "ram_after": 76.9,
-    "gpu_before": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "gpu_after": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "transcript_preview": " Okay, let's get started with the mini story lesson for the hitch introduction.  Here we go.  Once t..."
-  },
-  {
-    "audio": "english_clean_1min_16k.wav",
-    "beam_size": 5,
-    "chunk_length": 30,
-    "batch_size": null,
-    "elapsed_sec": 6.25,
-    "cpu_before": 31.2,
-    "cpu_after": 35.8,
-    "ram_before": 76.9,
-    "ram_after": 77.7,
-    "gpu_before": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "gpu_after": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So, I'..."
-  },
-  {
-    "audio": "english_multi_accent_noisy_background_3min_16k.wav",
-    "beam_size": 5,
-    "chunk_length": 30,
-    "batch_size": null,
-    "elapsed_sec": 26.22,
-    "cpu_before": 57.1,
-    "cpu_after": 35.3,
-    "ram_before": 77.7,
-    "ram_after": 77.7,
-    "gpu_before": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "gpu_after": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "transcript_preview": " The story of Arthur the Rat, once upon a time there was a young rat who couldn't make up his mind. ..."
-  },
-  {
-    "audio": "eng_clean_16min_16k.wav",
-    "beam_size": 5,
-    "chunk_length": 30,
-    "batch_size": null,
-    "elapsed_sec": 104.48,
-    "cpu_before": 0.0,
-    "cpu_after": 37.4,
-    "ram_before": 77.7,
-    "ram_after": 85.2,
-    "gpu_before": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "gpu_after": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "transcript_preview": " Okay, let's get started with the mini-story lesson for the hitch introduction.  Here we go.  Once t..."
-  },
-  {
-    "audio": "english_clean_1min_16k.wav",
-    "beam_size": 7,
-    "chunk_length": 15,
-    "batch_size": null,
-    "elapsed_sec": 7.9,
-    "cpu_before": 25.0,
-    "cpu_after": 31.5,
-    "ram_before": 85.2,
-    "ram_after": 84.8,
-    "gpu_before": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "gpu_after": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "transcript_preview": " Hey everyone it's AJ and I just realized I have not done a podcast in a long  time. Oh no! So I'm b..."
-  },
-  {
-    "audio": "english_multi_accent_noisy_background_3min_16k.wav",
-    "beam_size": 7,
-    "chunk_length": 15,
-    "batch_size": null,
-    "elapsed_sec": 32.47,
-    "cpu_before": 22.2,
-    "cpu_after": 33.5,
-    "ram_before": 84.8,
-    "ram_after": 84.7,
-    "gpu_before": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "gpu_after": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "transcript_preview": " The story of Arthur the Rat. Once upon a time there was a young rat who couldn't make up his mind. ..."
-  },
-  {
-    "audio": "eng_clean_16min_16k.wav",
-    "beam_size": 7,
-    "chunk_length": 15,
-    "batch_size": null,
-    "elapsed_sec": 147.76,
-    "cpu_before": 16.7,
-    "cpu_after": 35.9,
-    "ram_before": 84.7,
-    "ram_after": 83.0,
-    "gpu_before": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "gpu_after": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "transcript_preview": " Okay, let's get started with the mini story lesson for the Hitch introduction.  Here we go.  Once t..."
-  },
-  {
-    "audio": "english_clean_1min_16k.wav",
-    "beam_size": 9,
-    "chunk_length": 30,
-    "batch_size": null,
-    "elapsed_sec": 8.56,
-    "cpu_before": 31.2,
-    "cpu_after": 30.8,
-    "ram_before": 83.0,
-    "ram_after": 81.2,
-    "gpu_before": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "gpu_after": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long  time. Oh no, so I'm ..."
-  },
-  {
-    "audio": "english_multi_accent_noisy_background_3min_16k.wav",
-    "beam_size": 9,
-    "chunk_length": 30,
-    "batch_size": null,
-    "elapsed_sec": 40.25,
-    "cpu_before": 0.0,
-    "cpu_after": 35.0,
-    "ram_before": 81.3,
-    "ram_after": 84.2,
-    "gpu_before": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "gpu_after": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "transcript_preview": " The story of Arthur the Rat, once upon a time there was a young rat who couldn't make up his mind. ..."
-  },
-  {
-    "audio": "eng_clean_16min_16k.wav",
-    "beam_size": 9,
-    "chunk_length": 30,
-    "batch_size": null,
-    "elapsed_sec": 163.74,
-    "cpu_before": 31.2,
-    "cpu_after": 36.9,
-    "ram_before": 84.2,
-    "ram_after": 85.5,
-    "gpu_before": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "gpu_after": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "transcript_preview": " Okay, let's get started with the mini-story lesson for the hitch introduction.  Here we go.  Once t..."
-  },
-  {
-    "audio": "english_clean_1min_16k.wav",
-    "beam_size": 11,
-    "chunk_length": 30,
-    "batch_size": null,
-    "elapsed_sec": 10.78,
-    "cpu_before": 30.3,
-    "cpu_after": 37.2,
-    "ram_before": 85.5,
-    "ram_after": 85.6,
-    "gpu_before": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "gpu_after": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long  time. Oh no, so I'm ..."
-  },
-  {
-    "audio": "english_multi_accent_noisy_background_3min_16k.wav",
-    "beam_size": 11,
-    "chunk_length": 30,
-    "batch_size": null,
-    "elapsed_sec": 47.45,
-    "cpu_before": 25.0,
-    "cpu_after": 37.1,
-    "ram_before": 85.7,
-    "ram_after": 80.6,
-    "gpu_before": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "gpu_after": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "transcript_preview": " The story of Arthur the Rat, once upon a time there was a young rat who couldn't make up his mind. ..."
-  },
-  {
-    "audio": "eng_clean_16min_16k.wav",
-    "beam_size": 11,
-    "chunk_length": 30,
-    "batch_size": null,
-    "elapsed_sec": 192.51,
-    "cpu_before": 16.0,
-    "cpu_after": 38.5,
-    "ram_before": 80.7,
-    "ram_after": 84.3,
-    "gpu_before": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "gpu_after": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
-    },
-    "transcript_preview": " Okay, let's get started with the mini-story lesson for the hitch introduction.  Here we go.  Once t..."
-  },
-  {
-    "audio": "english_clean_1min_16k.wav",
-    "beam_size": 5,
     "chunk_length": null,
+    "vad_filter": false,
     "batch_size": null,
-    "elapsed_sec": 6.41,
-    "cpu_before": 17.4,
-    "cpu_after": 33.8,
-    "ram_before": 84.3,
-    "ram_after": 85.6,
+    "elapsed_sec": 0.61,
+    "cpu_before": 3.2,
+    "cpu_after": 7.2,
+    "ram_before": 42.5,
+    "ram_after": 42.5,
     "gpu_before": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
+      "gpu_util": "72 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
     },
     "gpu_after": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
+      "gpu_util": "74 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
     },
-    "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So, I'..."
+    "language": "en",
+    "language_probability": 0.988,
+    "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm...",
+    "transcript_full": "Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm back.  And the reason there are a few reasons that I have not.  Reason number one, I have been working, working, working, working,  all morning, all day, all night, on Power English, my new Power English lessons.  And there's a lot to do.  Almost finished.  They will be ready very soon.  We will have a one day only sale for Power English.  But anyway, you'll get, if you get my emails you already know about this.  So I don't need to talk about it more.  If you want more information, sign up for my email course.  The other reason that I have not done a podcast recently is that I have been doing audio tweets.  I talked about this in my previous podcast.  And I love these audio tweets because I can do them every day.  They're so convenient."
   },
   {
-    "audio": "english_multi_accent_noisy_background_3min_16k.wav",
-    "beam_size": 5,
+    "audio": "urdu_silence_1min_16k.wav",
+    "beam_size": 1,
     "chunk_length": null,
+    "vad_filter": false,
     "batch_size": null,
-    "elapsed_sec": 28.09,
-    "cpu_before": 31.2,
-    "cpu_after": 40.8,
-    "ram_before": 85.7,
-    "ram_after": 83.5,
+    "elapsed_sec": 3.45,
+    "cpu_before": 2.7,
+    "cpu_after": 6.7,
+    "ram_before": 42.5,
+    "ram_after": 42.4,
     "gpu_before": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
+      "gpu_util": "74 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
     },
     "gpu_after": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
+      "gpu_util": "58 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
     },
-    "transcript_preview": " The story of Arthur the Rat, once upon a time there was a young rat who couldn't make up his mind. ..."
+    "language": "ur",
+    "language_probability": 0.967,
+    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c...",
+    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u06c1\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a\u06cc \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba  \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0639\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u067e\u0648\u0631\u062a \u06a9\u06cc\u0627  \u062c\u0628 \u06a9\u06d2 \u062f\u0648\u0633\u0631\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u06d2 \u0631\u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627  \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0639\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u0648 \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627  \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0627\u062e\u06cc\u0627 \u06c1\u06d2 \u062c\u0628 \u0628\u06c1\u0631\u06cc \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06cc\u0631 \u0627\u0631\u0648\u0641 \u0633\u06d2 \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2"
   },
   {
-    "audio": "eng_clean_16min_16k.wav",
-    "beam_size": 5,
-    "chunk_length": null,
+    "audio": "english_clean_1min_16k.wav",
+    "beam_size": 2,
+    "chunk_length": 10,
+    "vad_filter": false,
     "batch_size": null,
-    "elapsed_sec": 101.41,
-    "cpu_before": 35.7,
-    "cpu_after": 36.9,
-    "ram_before": 83.5,
-    "ram_after": 78.6,
+    "elapsed_sec": 0.88,
+    "cpu_before": 1.4,
+    "cpu_after": 6.0,
+    "ram_before": 42.4,
+    "ram_after": 42.4,
     "gpu_before": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
+      "gpu_util": "58 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
     },
     "gpu_after": {
-      "gpu_util": null,
-      "gpu_mem_used": null,
-      "gpu_mem_total": null
+      "gpu_util": "57 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
     },
-    "transcript_preview": " Okay, let's get started with the mini-story lesson for the hitch introduction.  Here we go.  Once t..."
+    "language": "en",
+    "language_probability": 0.98,
+    "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no! So I'm ...",
+    "transcript_full": "Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no! So I'm back.  And the reason there are a few reasons that I have not.  Reason number one, I have been working.  Working, working, working, all morning, all day, all night.  On Power English, my new Power English lessons.  And there's a lot to do.  Almost finished, they will be ready very soon.  We will have a one day only sale for Power English.  But anyway, you'll...  If you get my emails, you already know about this.  So I don't need to talk about it more.  If you want more information, sign up for my email course.  The other reason that I...  I have not done a podcast recently.  Is that I have been doing audio tweets.  I talked about this in my previous podcast.  And I love these audio tweets because I can do them every day.  They're so convenient."
+  },
+  {
+    "audio": "urdu_silence_1min_16k.wav",
+    "beam_size": 2,
+    "chunk_length": 10,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 15.14,
+    "cpu_before": 5.6,
+    "cpu_after": 8.2,
+    "ram_before": 42.4,
+    "ram_after": 42.3,
+    "gpu_before": {
+      "gpu_util": "57 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "68 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "ur",
+    "language_probability": 0.973,
+    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646 \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0645\u0648\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628...",
+    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646 \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0645\u0648\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u06c1\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a  \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06be\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0627\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u0628\u0648\u0631\u062a \u06a9\u06cc\u0627 \u062c\u0628  \u062f\u0648\u0633\u0631\u06d2 \u0628\u06be\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u06d2 \u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc  \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627 \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0627\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06be\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u0648  \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627 \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0627\u0642\u0639\u06c1 \u06c1\u06d2 \u062c\u0628 \u0628\u06be\u0631\u06cc \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06cc\u0631 \u0627\u06af\u0631\u0648\u0641 \u0633\u06d2 \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2"
+  },
+  {
+    "audio": "english_clean_1min_16k.wav",
+    "beam_size": 2,
+    "chunk_length": 20,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.64,
+    "cpu_before": 2.4,
+    "cpu_after": 6.6,
+    "ram_before": 42.3,
+    "ram_after": 42.3,
+    "gpu_before": {
+      "gpu_util": "39 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "66 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "en",
+    "language_probability": 0.989,
+    "transcript_preview": " Hey everyone it's AJ and I just realized I have not done a podcast in a long  time oh no so I'm bac...",
+    "transcript_full": "Hey everyone it's AJ and I just realized I have not done a podcast in a long  time oh no so I'm back and the reason there are a few reasons that I have not  reason number one I have been working  working working working all morning all day all night on power English my new  power English lessons and there's a lot to do almost finished they will be  ready very soon we will have a one day only sale for power English but anyway  if you get my emails you already know about this so I don't need to talk about  it more if you want more information sign up for my email course the other  reason that I have not done a podcast recently is that I have been doing audio  tweets talked about this in my previous podcast  and I love these audio tweets because I can do them every day they're so  convenient"
+  },
+  {
+    "audio": "urdu_silence_1min_16k.wav",
+    "beam_size": 2,
+    "chunk_length": 20,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 8.27,
+    "cpu_before": 4.1,
+    "cpu_after": 9.2,
+    "ram_before": 42.3,
+    "ram_after": 42.4,
+    "gpu_before": {
+      "gpu_util": "66 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "68 %",
+      "gpu_mem_used": "4331 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "ur",
+    "language_probability": 0.954,
+    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c...",
+    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u06c1\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a\u06cc \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba  \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0627\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u067e\u0648\u0631\u062a \u06a9\u06cc\u0627  \u062c\u0628 \u06a9\u06d2 \u062f\u0648\u0633\u0631\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u06d2 \u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc  \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627  \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0627\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u0648  \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627 \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0627\u0642\u0639 \u06c1\u06d2 \u062c\u0648 \u0628\u06c1\u0631\u06cc \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06cc\u0631 \u0627\u0631\u0648\u0641 \u0633\u06d2  \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2"
+  },
+  {
+    "audio": "english_clean_1min_16k.wav",
+    "beam_size": 2,
+    "chunk_length": 30,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.72,
+    "cpu_before": 4.6,
+    "cpu_after": 13.6,
+    "ram_before": 42.4,
+    "ram_after": 42.5,
+    "gpu_before": {
+      "gpu_util": "68 %",
+      "gpu_mem_used": "4331 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "66 %",
+      "gpu_mem_used": "4331 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "en",
+    "language_probability": 0.988,
+    "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm...",
+    "transcript_full": "Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm back.  And the reason there are a few reasons that I have not.  Reason number one, I have been working, working, working, working,  all morning, all day, all night, on Power English, my new Power English lessons.  And there's a lot to do.  Almost finished.  They will be ready very soon.  We will have a one day only sale for Power English.  But anyway, you'll get, if you get my emails, you already know about this.  So I don't need to talk about it more.  If you want more information, sign up for my email course.  The other reason that I have not done a podcast recently is that I have been doing audio tweets.  I talked about this in my previous podcast.  And I love these audio tweets because I can do them every day.  They're so convenient."
+  },
+  {
+    "audio": "urdu_silence_1min_16k.wav",
+    "beam_size": 2,
+    "chunk_length": 30,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 5.51,
+    "cpu_before": 4.3,
+    "cpu_after": 9.9,
+    "ram_before": 42.5,
+    "ram_after": 42.4,
+    "gpu_before": {
+      "gpu_util": "66 %",
+      "gpu_mem_used": "4331 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "70 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "ur",
+    "language_probability": 0.967,
+    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c...",
+    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u06c1\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a\u06cc \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba  \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0627\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u067e\u0648\u0631\u062a \u06a9\u06cc\u0627  \u062c\u0628 \u06a9\u06d2 \u062f\u0648\u0633\u0631\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u06d2 \u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627  \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0639\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u0648 \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627  \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0627\u0642\u0639\u06c1 \u06c1\u06d2 \u062c\u0628 \u0628\u06c1\u0631\u06cc \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06cc\u0631 \u0627\u0631\u0648\u0641 \u0633\u06d2 \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2"
+  },
+  {
+    "audio": "english_clean_1min_16k.wav",
+    "beam_size": 2,
+    "chunk_length": 60,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.73,
+    "cpu_before": 2.3,
+    "cpu_after": 7.7,
+    "ram_before": 42.4,
+    "ram_after": 42.4,
+    "gpu_before": {
+      "gpu_util": "70 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "61 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "en",
+    "language_probability": 0.988,
+    "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm...",
+    "transcript_full": "Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm back.  And the reason there are a few reasons that I have not.  Reason number one, I have been working, working, working, working,  all morning, all day, all night, on Power English, my new Power English lessons.  And there's a lot to do.  Almost finished.  They will be ready very soon.  We will have a one day only sale for Power English.  But anyway, you'll get, if you get my emails, you already know about this.  So I don't need to talk about it more.  If you want more information, sign up for my email course.  The other reason that I have not done a podcast recently is that I have been doing audio tweets.  I talked about this in my previous podcast.  And I love these audio tweets because I can do them every day.  They're so convenient."
+  },
+  {
+    "audio": "urdu_silence_1min_16k.wav",
+    "beam_size": 2,
+    "chunk_length": 60,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 3.07,
+    "cpu_before": 5.6,
+    "cpu_after": 14.4,
+    "ram_before": 42.4,
+    "ram_after": 42.4,
+    "gpu_before": {
+      "gpu_util": "66 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "70 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "ur",
+    "language_probability": 0.967,
+    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c...",
+    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u06c1\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a\u06cc \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba  \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0627\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u067e\u0648\u0631\u062a \u06a9\u06cc\u0627  \u062c\u0628 \u06a9\u06d2 \u062f\u0648\u0633\u0631\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u06d2 \u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627  \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0639\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u0648 \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627  \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0627\u0642\u0639\u06c1 \u06c1\u06d2 \u062c\u0628 \u0628\u06c1\u0631\u06cc \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06cc\u0631 \u0627\u0631\u0648\u0641 \u0633\u06d2 \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2"
+  },
+  {
+    "audio": "english_clean_1min_16k.wav",
+    "beam_size": 2,
+    "chunk_length": null,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.71,
+    "cpu_before": 3.4,
+    "cpu_after": 6.3,
+    "ram_before": 42.4,
+    "ram_after": 42.4,
+    "gpu_before": {
+      "gpu_util": "70 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "68 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "en",
+    "language_probability": 0.988,
+    "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm...",
+    "transcript_full": "Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm back.  And the reason there are a few reasons that I have not.  Reason number one, I have been working, working, working, working,  all morning, all day, all night, on Power English, my new Power English lessons.  And there's a lot to do.  Almost finished.  They will be ready very soon.  We will have a one day only sale for Power English.  But anyway, you'll get, if you get my emails, you already know about this.  So I don't need to talk about it more.  If you want more information, sign up for my email course.  The other reason that I have not done a podcast recently is that I have been doing audio tweets.  I talked about this in my previous podcast.  And I love these audio tweets because I can do them every day.  They're so convenient."
+  },
+  {
+    "audio": "urdu_silence_1min_16k.wav",
+    "beam_size": 2,
+    "chunk_length": null,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 3.0,
+    "cpu_before": 4.8,
+    "cpu_after": 7.7,
+    "ram_before": 42.4,
+    "ram_after": 42.4,
+    "gpu_before": {
+      "gpu_util": "68 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "72 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "ur",
+    "language_probability": 0.967,
+    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c...",
+    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u06c1\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a\u06cc \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba  \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0627\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u067e\u0648\u0631\u062a \u06a9\u06cc\u0627  \u062c\u0628 \u06a9\u06d2 \u062f\u0648\u0633\u0631\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u06d2 \u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627  \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0639\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u0648 \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627  \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0627\u0642\u0639\u06c1 \u06c1\u06d2 \u062c\u0628 \u0628\u06c1\u0631\u06cc \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06cc\u0631 \u0627\u0631\u0648\u0641 \u0633\u06d2 \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2"
+  },
+  {
+    "audio": "english_clean_1min_16k.wav",
+    "beam_size": 5,
+    "chunk_length": 10,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 1.01,
+    "cpu_before": 0.9,
+    "cpu_after": 7.5,
+    "ram_before": 42.4,
+    "ram_after": 42.4,
+    "gpu_before": {
+      "gpu_util": "72 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "56 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "en",
+    "language_probability": 0.98,
+    "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no, so I'm ...",
+    "transcript_full": "Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no, so I'm back.  And the reason there are a few reasons that I have not.  Reason number one, I have been working.  Working, working, working, all morning, all day, all night.  On Power English, my new Power English lessons.  And there's a lot to do.  Almost finished.  They will be ready very soon.  We will have a one day only sale for Power English.  But anyway.  If you get my emails, you already know about this.  So I don't need to talk about it more.  If you want more information, sign up for my email course.  The other reason that I.  I have not done a podcast recently is that I have been doing audio tweets.  I talked about this in my previous podcast.  And I love these audio tweets because I can do them every day.  They're so convenient."
+  },
+  {
+    "audio": "urdu_silence_1min_16k.wav",
+    "beam_size": 5,
+    "chunk_length": 10,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 13.9,
+    "cpu_before": 5.9,
+    "cpu_after": 8.7,
+    "ram_before": 42.4,
+    "ram_after": 42.4,
+    "gpu_before": {
+      "gpu_util": "56 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "68 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "ur",
+    "language_probability": 0.973,
+    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646 \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646\u060c \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0645\u0648\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f\u06d2\u060c \u062c\u0628 ...",
+    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646 \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646\u060c \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0645\u0648\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f\u06d2\u060c \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u06c1\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a\u060c  \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06be\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u06c1\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0627\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u0628\u0648\u0631\u062a \u06a9\u06cc\u0627 \u062c\u0628 \u06a9\u06d2 \u062f\u0648\u0633\u0631\u06d2 \u0628\u06be\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u06c1\u0632 \u06a9\u06d2 \u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc  \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627\u06d4 \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0627\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06be\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u06c1\u0632 \u06a9\u0648 \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627 \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0642\u06d2 \u0622\u0626\u06d2 \u062c\u0648 \u0628\u06be\u06cc  \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06cc\u0631 \u0627\u0631\u0648\u0641 \u0633\u06d2 \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2\u06d4"
+  },
+  {
+    "audio": "english_clean_1min_16k.wav",
+    "beam_size": 5,
+    "chunk_length": 20,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.81,
+    "cpu_before": 3.8,
+    "cpu_after": 7.6,
+    "ram_before": 42.4,
+    "ram_after": 42.4,
+    "gpu_before": {
+      "gpu_util": "68 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "58 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "en",
+    "language_probability": 0.989,
+    "transcript_preview": " Hey everyone it's AJ and I just realized I have not done a podcast in a long  time oh no so I'm bac...",
+    "transcript_full": "Hey everyone it's AJ and I just realized I have not done a podcast in a long  time oh no so I'm back and the reason there are a few reasons that I have not  reason number one I have been working  working working working all morning all day all night on power English my new  power English lessons and there's a lot to do almost finished they will be  ready very soon we will have a one day only sale for power English but anyway  if you get my emails you already know about this so I don't need to talk about  it more if you want more information sign up for my email course the other  reason that I have not done a podcast recently is that I have been doing audio  tweets talked about this in my previous podcast  and I love these audio tweets because I can do them every day they're so  convenient"
+  },
+  {
+    "audio": "urdu_silence_1min_16k.wav",
+    "beam_size": 5,
+    "chunk_length": 20,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 8.54,
+    "cpu_before": 3.1,
+    "cpu_after": 9.7,
+    "ram_before": 42.4,
+    "ram_after": 42.4,
+    "gpu_before": {
+      "gpu_util": "58 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "72 %",
+      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "ur",
+    "language_probability": 0.954,
+    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u06cc\u06ba \u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0645\u0648\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f\u06c1 \u062c...",
+    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u06cc\u06ba \u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0645\u0648\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f\u06c1 \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u06c1\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a\u06cc \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba  \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0627\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u067e\u0648\u0631\u062a \u06a9\u06cc\u0627 \u062c\u0628 \u06a9\u06d2 \u062f\u0648\u0633\u0631\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u06d2 \u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc  \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627 \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0627\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u0648 \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627 \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0627\u0642\u0639\u06c1 \u06c1\u06d2 \u062c\u0648 \u0628\u06c1\u0631\u06cc \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06cc\u0631 \u0627\u0631\u0648\u0641 \u0633\u06d2 \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2"
   }
 ]
