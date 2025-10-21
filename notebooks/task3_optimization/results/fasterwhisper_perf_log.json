@@ -5,19 +5,19 @@
     "chunk_length": 10,
     "vad_filter": false,
     "batch_size": null,
-    "elapsed_sec": 0.83,
-    "cpu_before": 8.9,
-    "cpu_after": 6.6,
-    "ram_before": 42.5,
-    "ram_after": 42.4,
+    "elapsed_sec": 0.75,
+    "cpu_before": 6.7,
+    "cpu_after": 8.4,
+    "ram_before": 72.5,
+    "ram_after": 72.6,
     "gpu_before": {
-      "gpu_util": "0 %",
-      "gpu_mem_used": "4325 MiB",
+      "gpu_util": "8 %",
+      "gpu_mem_used": "3945 MiB",
       "gpu_mem_total": "8188 MiB"
     },
     "gpu_after": {
-      "gpu_util": "60 %",
-      "gpu_mem_used": "4325 MiB",
+      "gpu_util": "66 %",
+      "gpu_mem_used": "4019 MiB",
       "gpu_mem_total": "8188 MiB"
     },
     "language": "en",
@@ -26,30 +26,290 @@
     "transcript_full": "Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no! So I'm back.  And the reason there are a few reasons that I have not.  Reason number one, I have been working.  Working, working, working, all morning, all day, all night.  On Power English, my new Power English lessons.  And there's a lot to do.  Almost finished.  They will be ready very soon.  We will have a one day only sale for Power English.  But anyway, you'll...  If you get my emails, you already know about this.  So I don't need to talk about it more.  If you want more information, sign up for my email course.  The other reason that I...  I have not done a podcast recently.  Is that I have been doing audio tweets.  I talked about this in my previous podcast.  And I love these audio tweets because I can do them every day.  They're so convenient."
   },
   {
+    "audio": "english_multi_accent_noisy_background_3min_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 10,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 2.14,
+    "cpu_before": 5.2,
+    "cpu_after": 7.8,
+    "ram_before": 72.6,
+    "ram_after": 72.6,
+    "gpu_before": {
+      "gpu_util": "66 %",
+      "gpu_mem_used": "4019 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "72 %",
+      "gpu_mem_used": "4020 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "en",
+    "language_probability": 0.989,
+    "transcript_preview": " The story of Arthur the Rat. Once upon a time there was a young rat who couldn't make up his mind. ...",
+    "transcript_full": "The story of Arthur the Rat. Once upon a time there was a young rat who couldn't make up his mind.  Whenever the other rat says to him, if he...  He would like to come out hunting with them. He would answer in the horse voice. I don't know.  And when they said, would you rather stay in...  Inside he would say yes or no, either. He'd always shake making your choice.  One fine day.  His aunt Josephine said to him, I'll look here. No one will ever care for you if you carry on like this.  You have no more mind if you're own and agrees to your old blade or grain.  The young rat coughed and looked wise as usual but said nothing.  Don't you think so, said his aunt, stamping her foot for sheep?  He couldn't bear to see the young rat so cold but I don't know.  Was all he ever answered and then he walked off to think.  For an hour or more, whether he would stay in his hole in the ground or go out into the loft.  The night the rats heard a loud noise in the loft.  It was a very dreary old place, the roof. Let the rain come down, come washing again.  The beams and the rafters that all rotted through.  So the whole thing was quite unsafe.  At last one of the joists gave way.  And the beams fell with one edge on the floor.  The walls shook. The cupillou fell off.  All the rats' hairs stood on hand with fear and horror.  This won't do the finiliter. We can't stay, could that fear it?  It's a nice sketch for it on.  A little later on that evening, his sketch came back and said they found an old fashioned art form.  Or they would be running board for all of them.  The leader gave the order at once, coming and falling in.  And the rats' collatered holes right away and stood on the floor and all.  Just then the old rat couchside of young author.  That was the name of the shaker. He wasn't in the line.  And he wasn't in the line.  And exactly outside it, he stood just by it.  Come on, get in line.  Groud the old rat coarsely.  Of course you're coming too.  I don't know, said author calmly.  Why the idea of it?  You don't think it's safe here?  Are you any more, do you?  I'm not certain, it's an author undaunty.  The roof may not fall down yet.  Well said the old rat.  And she can't wait for you to join us.  Then he turned to the other and shouted,  right about the face, Mark.  And the long one marched out.  And the boy and the boy and the boy were the young rat.  I think I'll go tomorrow, he said to himself.  But then again, perhaps I won't.  It's so nice and snug here.  I guess I'll go back to my home under the log.  Just to make up my mind.  But during the night, there is a big...  crash.  Down came beans, rafters, joys, the whole business.  Next morning, it was a foggy day.  Some men came to look over the damage.  It seemed odd to them that the old building was not haunted by rats.  But at last one of them happened to move aboard.  And he caught sight of a young rat quite dead.  He was half in and half out of his hole.  Thus the shurker got his due and there was no mourning for him."
+  },
+  {
+    "audio": "eng_clean_16min_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 10,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 10.53,
+    "cpu_before": 10.9,
+    "cpu_after": 10.0,
+    "ram_before": 72.6,
+    "ram_after": 72.2,
+    "gpu_before": {
+      "gpu_util": "69 %",
+      "gpu_mem_used": "4020 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "71 %",
+      "gpu_mem_used": "4019 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "en",
+    "language_probability": 0.997,
+    "transcript_preview": " Okay, let's get started with the mini story lesson for the hitch introduction.  Here we go.  Once t...",
+    "transcript_full": "Okay, let's get started with the mini story lesson for the hitch introduction.  Here we go.  Once there was a shy guy named Nick.  He loved a beautiful girl named Stephanie.  He wanted to sweep Stephanie off her feet, but he was too shy.  One day he finally asked her for a date.  He said, uh, uh, you want to go to dinner with me?  She laughed nervously and said, I'm really into my job.  Right now, uh, I'm sorry.  I just need some space.  Oh, Nick's feelings were hurt.  He knew Stephanie didn't like...  I'm gonna show her I'm a great guy.  I'm gonna open her eyes.  So Nick bought 500 roses for Stephanie and told her, I love...  I love you.  Stephanie became more worried.  Finally Nick broke into her apartment.  When Stephanie came home, she said, enough.  This is where the police come in.  Then she called the police.  Now Nick is in jail and Stephanie...  Finally has some space.  Alright, let's go back to the beginning.  Once, I don't know, maybe 10 years ago, maybe 5...  Maybe 3 years ago, but in the past, once there was a shy guy named Nick.  He loved a beautiful girl named Stephanie.  He wanted to sweep Stephanie off her feet, but he was too shy.  Did he want Stephanie to fall in love with him?  Yes, that's right.  He wanted Stephanie to fall in love with him.  He wanted to sweep Stephanie off her feet.  Did he want to...  Yes, that's exactly right.  He wanted to sweep her off her feet.  He wanted to impress her and surprise her with romance, with love.  He wanted to sweep her off her feet.  Did he want to sweep...  His sister offered feet.  Well, no, of course not.  That's a romantic...  Sweet off her feet.  It's romantic.  He did not want to sweep his sister offer feet.  Did he want to sweep a girl named...  Angelina of her feet.  No, he did not want to sweep a girl named Angelina of her feet.  Did he want to sweep...  He wanted to sweep a girl named Stephanie off her feet.  Or a girl named Julia off her feet.  Well, he wanted to sweep a girl...  A girl named Stephanie off her feet.  Was he able to sweep Stephanie off her feet?  Well, no, he could not.  Unfortunately, he was too shy.  So he could not sweep Stephanie off her feet.  She didn't fall...  But one day, he did ask her for a date.  He said, uh uh uh uh uh you want to go to dinner with me?  Did he ask her if she wanted to go to dinner?  Hmm, yes, he did.  That's exactly what he said.  He said, do you...  Do you want to go to dinner with me?  Did he ask Julia?  Do you want to go to dinner with me?  No, he didn't.  Did he ask Julia?  Do you want to go to dinner with me?  Did he ask his best friend?  Do you want to go to dinner with me?  No, he did not.  Ask his best friend.  Do you want to go to dinner with me?  Did he ask a friend or a girl?  Do you want to go to dinner with me?  Well, of course, he asked a girl...  Do you want to go to dinner with me?  Which girl did he ask?  Well, he asked Stephanie.  Uh, do you want to go to dinner with me?  Did Stephanie want to go to dinner with him?  Well, no, she didn't want to.  She laughed nervously.  Huh, huh, huh, and she said, uh, I'm really...  I'm really into my job right now.  But Stephanie really into her school right now.  No, no, no, no, no, no, no, no, no, no.  No, no, no, no, no, no. She wasn't really into her school.  Was she really into her family?  No, no. She wasn't really into her family.  Was she really into exercise?  Really love exercise, really focused on exercise, really concentrating on exercise.  No, no, no, no, not on exercise. What was she really into?  Well, she said, I'm really into my job right now.  Is she really focused on her career? Was she really focused on her career?  Yeah, that's right. She was really focused on her career.  Was she...  Truthfully, was she telling the truth that she was really into her job?  Well, we don't know, but maybe not. Maybe she was...  Maybe she was lying. Maybe she's not really into her job. Maybe she wasn't really into her job.  But anyway, she said, I'm...  Really into my job right now. I'm sorry. I just need some space.  Did she tell Nick that she needed...  Yeah, that's right. She wants some time, independent time, time alone.  She said, I just need some space.  Did she just need some space from her friends?  Well, we don't know, but I think not. Maybe not. Did she just need...  Need some space from her parents?  Well, again, probably not. Who did she need space from?  Well, she needs space from Nick. She told Nick, I just need some space.  She just wants to be away from Nick.  Right? She needs space from Nick.  How did Nick feel about this?  Well, Nick's feelings were hurt. Were...  Nick's arms hurt.  No, not his arms. His arms weren't hurt. Was his head hurt?  Oh no, his head was not hurt. Was he very sad?  Yes, that's correct. Nick was very sad. Nick's feelings...  were hurt. Was Nick upset? Right? Very upset.  Yeah, that's right. Nick was very upset. Nick's feelings were hurt.  Who hurt Nick's feelings?  Well, Stephanie hurt Nick's feelings.  Were Nick's feelings hurt? By Stephanie.  Yeah, same question, right? Just a little different.  Yes, that's right. Nick's feelings were hurt.  Stephanie hurt Nick's feelings were hurt.  Why were Nick's feelings hurt?  Well, because he knew Stephanie...  But he didn't give up.  He said to himself,  I ain't going to take no for an answer.  No, no, no. He was not going to take...  He said, I ain't.  I am not going to take no for an answer.  I ain't gonna.  I am not...  I am not going to take no for an answer.  Would Nick accept this answer from Stephanie?  No, no.  He would not accept no.  He would not accept this answer.  He refused. He said, no.  I will not accept this.  I ain't gonna take no for an answer.  Would he take yes for an answer?  Well, yeah, yeah, yeah. Of course.  He said, I ain't gonna take no for an answer.  But he certainly would take yes for an answer.  He would love for her to say yes.  He just said, I ain't gonna take no for an answer.  I will not. I am not.  He said, I'm going to show her I am a great guy.  I am gonna open her eyes.  Was Nick going to open her ears?  No, no. He's not gonna open her ears.  Is he gonna open her eyes?  Yes, of course. He's gonna open her eyes.  Was Nick going to make her realize he was great?  Yes, that's exactly what that means.  He was going...  He said, I am gonna open her eyes.  I am gonna make her understand  that he is a great guy.  He said, I am gonna open her eyes.  I am gonna make her understand.  How great I am.  I'm gonna open her eyes.  Whose eyes was he going to open?  Well, he was going to open Stephanie's eyes.  Was he going to open every girl's eyes?  No, not every girl.  He was only going to open Stephanie's eyes.  He said, I'm gonna open her eyes.  I'm gonna open Stephanie's eyes.  I'm gonna make Stephanie realize I'm great.  What did he do?  How did he try to open her eyes?  Well, he bought 500 roses for Stephanie.  And he told her, I love you.  Stephanie was shocked and a little scared.  Then, even worse, then Nick started...  Stephanie became more worried.  Finally, Nick broke into her apartment.  He came...  Stephanie became more worried.  Finally, Nick broke into her apartment.  He came...  He came into her apartment secretly.  When Stephanie came home, she saw him.  She was surprised.  She was scared.  She said, enough!  This is where the police come in.  Did she decide, wow, it's time to call the police.  Yes, that's right.  She decided, this is where the police come in.  This is where the police should begin.  This is where I should...  I should call the police.  This is where the police come in.  It means time to call the police.  Time for the police to start doing their work.  Did she say, this is where the fire department comes in.  Oh no, no.  She didn't want the fire department to help.  Who did she want to help?  Well, she said, this is where the police come in.  She wanted the police to help.  She said, this is where the police come in.  And then, she called the police.  Now Nick is in jail.  He's in prison.  And Stephanie finally has some space.  Is Stephanie finally alone?  Yes, that's right.  Stephanie is finally alone.  She's finally separate from Nick.  Alone from Nick.  Stephanie has some space.  Does Stephanie finally have space from Nick?  Yes, that is correct.  Why does Stephanie have some space from Nick?  Well, she has space from Nick.  Because Nick is in jail.  Nick is in prison.  So finally, Stephanie has some space.  Alrighty, back to the beginning.  This time, I will tell the story.  After key phrases, after important phrases with new vocabulary.  I will pause.  Please repeat.  Repeat my pronunciation.  Not just the words.  Copy my pronunciation.  Here we go.  Let's start.  Once there was...  He loved a shy guy named Nick.  He loved a beautiful girl named Stephanie.  He wanted to sweep Stephanie off her feet.  Good.  He wanted to sweep Stephanie off her feet.  Good.  But he...  He was too shy.  One day, he finally asked her for a date.  He said, uh...  You want to go to dinner with me?  Go.  Good.  You want to go to dinner with me?  Okay.  She laughed nervously, and said,  I'm really into my job right now.  Good.  I'm really into my job right now.  Very good.  Then she said, I'm sorry.  I just need some space.  Good.  I just need some space.  Okay.  Nick's feelings were hurt.  Good.  Nick's feelings were hurt.  Okay.  He knew Stephanie didn't like him.  But he said to himself,  I ain't gonna take no for an answer.  Good.  I ain't gonna take no for an answer.  Good.  I'm going to show...  I'm going to open her eyes.  Very good.  I'm going to open her eyes.  Very good.  I'm going to open her eyes.  Okay.  Okay.  So Nick bought 500 roses for Stephanie.  And told her, I love you.  Stephanie.  Stephanie was shocked and a little scared.  Then Nick started to follow her everywhere.  Stephanie became more worried.  Finally Nick.  Broke into her apartment.  When Stephanie came home, she said,  Enough!  This is where the police come in.  Okay. Very good.  This is where the police come in.  Good.  Then she called the police.  Now Nick is in jail.  And Stephanie finally has some space.  Good.  And Stephanie finally...  Stephanie finally has some space.  Alright.  That's all. Very good.  Now please pause your iPod.  Pause your computer.  And try to tell all of the story.  Everything yourself.  Just use the key phrases.  Alright?  Stephanie off her feet.  Really into my job right now.  I just need some space.  Nick's feelings were hurt.  I ain't going to take no for an answer.  I'm going to open her eyes.  This is where the police come in.  Stephanie finally has some space.  Use those key phrases in your story.  You don't need to memorize every word.  Just try...  Try to use the new phrases correctly.  And remember this story is about the past.  Alrighty.  Good. After you finish this,  after you can remember and tell the story...  go to the next lesson,  the mini story point of view lesson.  See you next time. Bye-bye."
+  },
+  {
+    "audio": "eng_Pk_accent_clean_30s_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 10,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.32,
+    "cpu_before": 1.7,
+    "cpu_after": 3.5,
+    "ram_before": 72.2,
+    "ram_after": 72.2,
+    "gpu_before": {
+      "gpu_util": "62 %",
+      "gpu_mem_used": "4019 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "22 %",
+      "gpu_mem_used": "4019 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "hi",
+    "language_probability": 0.625,
+    "transcript_preview": " Welcome to our annual corporate briefing.  In this module, we will cover new Pradak rollouts and ke...",
+    "transcript_full": "Welcome to our annual corporate briefing.  In this module, we will cover new Pradak rollouts and keep performance metrics for the Thed Quarters.  Our goal is to streamline communa...  Please be close attention to the financial projections on the accompanying visual."
+  },
+  {
+    "audio": "eng_UK_clean_repeated_sentences_50s_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 10,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.58,
+    "cpu_before": 22.6,
+    "cpu_after": 13.5,
+    "ram_before": 72.2,
+    "ram_after": 72.7,
+    "gpu_before": {
+      "gpu_util": "22 %",
+      "gpu_mem_used": "4019 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "72 %",
+      "gpu_mem_used": "4020 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "en",
+    "language_probability": 0.994,
+    "transcript_preview": " Hello, and welcome back to the Tech Talk podcast.  Today, we're diving into the future of artificia...",
+    "transcript_full": "Hello, and welcome back to the Tech Talk podcast.  Today, we're diving into the future of artificial intelligence.  We have an incredible...  guest joining us, who will help us understand the latest breakthroughs.  Get ready for some fascinating insights, and maybe a few surprises, as we explore...  how AI is reshaping our world.  Let's get started.  Hello, and welcome back to the Tech Talk podcast.  Today...  We're diving into the future of artificial intelligence.  We have an incredible guest joining us, who will help us understand the latest breakthroughs.  Get ready for some fascinating insights, and maybe a few surprises, as we explore...  how AI is reshaping our world.  Let's get started.  Let's get started."
+  },
+  {
+    "audio": "en_UK_US_multiple_accent_noisy_background_music_50s_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 10,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.59,
+    "cpu_before": 6.6,
+    "cpu_after": 11.7,
+    "ram_before": 72.8,
+    "ram_after": 72.8,
+    "gpu_before": {
+      "gpu_util": "72 %",
+      "gpu_mem_used": "4020 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "69 %",
+      "gpu_mem_used": "4012 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "en",
+    "language_probability": 0.996,
+    "transcript_preview": " Imagine a nursing and care home that breaks the mold.  And now with a smash hit from way back in 19...",
+    "transcript_full": "Imagine a nursing and care home that breaks the mold.  And now with a smash hit from way back in 1917,  it's Dame Clara Bat Day!  What's on?  What is your most favourite place in the whole of Ireland?  Err...  A typical open air cafe?  Three one-and-cheese?  Three fests pending for the lit-  One's Endococals!  A very week and every week story of cafe fold!  This Sunday, the day of the All-Allen semi-final,  at 10 a.m. be sure to...  A Livier rastle on the beach.  And if you can't get me there, you'll always find me filling up a dare!  We have ways of keeping you away!"
+  },
+  {
+    "audio": "urdu_F_clean_30s_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 10,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.52,
+    "cpu_before": 19.3,
+    "cpu_after": 8.2,
+    "ram_before": 72.8,
+    "ram_after": 72.7,
+    "gpu_before": {
+      "gpu_util": "59 %",
+      "gpu_mem_used": "4012 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "59 %",
+      "gpu_mem_used": "4012 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "ur",
+    "language_probability": 0.927,
+    "transcript_preview": " زندگی ایک سفر ہے جو ہر لمہے ہمیں کچھ نیا سکاتا ہے  کبھی خوشی کبھی غام کبھی کامیابی کبھی نہ کامی  مگ...",
+    "transcript_full": "زندگی ایک سفر ہے جو ہر لمہے ہمیں کچھ نیا سکاتا ہے  کبھی خوشی کبھی غام کبھی کامیابی کبھی نہ کامی  مگر اصل تاقت اس لمہے میں چپی ہوتی ہے  جب ہم ہر مانے کے بجائے ایک قدم آگے بلاتے  یاد رکھیں ہر اندری رات کے بعد ایک روشن سبہ ضرور آتی ہے  بس خود پر یکین رکھیں اور  چلتے رہے"
+  },
+  {
+    "audio": "urdu_low_pitch_fast_speaking_rate_15s__16k.wav",
+    "beam_size": 1,
+    "chunk_length": 10,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.49,
+    "cpu_before": 2.6,
+    "cpu_after": 10.0,
+    "ram_before": 72.7,
+    "ram_after": 73.1,
+    "gpu_before": {
+      "gpu_util": "59 %",
+      "gpu_mem_used": "4012 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "64 %",
+      "gpu_mem_used": "4007 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "hi",
+    "language_probability": 0.535,
+    "transcript_preview": " زندگی ایک سفر ہے جو ہر لامیہ ہمیں کچھ نہیںہ سکھتا  کبھی خوشی کبھی رم کبھی کامیابی کبھی نہ کامیت مدر...",
+    "transcript_full": "زندگی ایک سفر ہے جو ہر لامیہ ہمیں کچھ نہیںہ سکھتا  کبھی خوشی کبھی رم کبھی کامیابی کبھی نہ کامیت مدرسلتاقت اس لامیچھا بھی ہوتی ہے جب ہم ہر مانی کے بجا ہے ایک قدم آگی بڑاعتی  یاد رکھیں ہر اندھی ریدہ کے بات  ایک روشن سبازارورا تی ہے  بس خود پر یا تیم رکھیں اوش شلتی رہی"
+  },
+  {
     "audio": "urdu_silence_1min_16k.wav",
     "beam_size": 1,
     "chunk_length": 10,
     "vad_filter": false,
     "batch_size": null,
-    "elapsed_sec": 14.1,
-    "cpu_before": 3.0,
-    "cpu_after": 8.2,
-    "ram_before": 42.4,
-    "ram_after": 42.3,
+    "elapsed_sec": 15.53,
+    "cpu_before": 13.9,
+    "cpu_after": 9.3,
+    "ram_before": 72.7,
+    "ram_after": 72.4,
     "gpu_before": {
-      "gpu_util": "59 %",
-      "gpu_mem_used": "4325 MiB",
+      "gpu_util": "64 %",
+      "gpu_mem_used": "4007 MiB",
       "gpu_mem_total": "8188 MiB"
     },
     "gpu_after": {
-      "gpu_util": "70 %",
-      "gpu_mem_used": "4325 MiB",
+      "gpu_util": "71 %",
+      "gpu_mem_used": "4025 MiB",
       "gpu_mem_total": "8188 MiB"
     },
     "language": "ur",
     "language_probability": 0.973,
-    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062f\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646 \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0645\u0648\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628...",
-    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062f\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646 \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0645\u0648\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u062d\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a  \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06be\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0627\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u0628\u0648\u0631\u062a \u06a9\u06cc\u0627 \u062c\u0628  \u062f\u0648\u0633\u0631\u06d2 \u0628\u06be\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u06d2 \u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc  \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627 \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0627\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06be\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u0648  \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627 \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0627\u0642\u0639\u06c1 \u06c1\u06d2 \u062c\u0628 \u0628\u06be\u0631\u06cc \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06cc\u0631 \u0627\u06af\u0631\u0648\u0641 \u0633\u06d2 \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2"
+    "transcript_preview": " یہ کہانی انہسوی قدر کی پاک بھارت جن کے داران بہری محاز پر ہونے والے غیر ممولی مارکے کی روضاد ہے  جب...",
+    "transcript_full": "یہ کہانی انہسوی قدر کی پاک بھارت جن کے داران بہری محاز پر ہونے والے غیر ممولی مارکے کی روضاد ہے  جب پاکسانی آپ دوز حنگور نے بھارت  پانیوں میں انڈیان نیوی کے بھری جنگی جااز خوکری کو اس کے املے سمیت سمندہ بورت کیا جب  دوسرے بھری جنگی جااز کے پان کو بھی  مفلوج کیا دوسری جنگی ازیم کے بعد کسی بھی روائیتی آپ دوز کا بھری جنگی جااز کو  تبا کرنے کا یہ پہلا واقعہ ہے جب بھری اسکری تاریخ میں سنیر اگروف سے لکھا گیا ہے"
+  },
+  {
+    "audio": "urdu_whatsapp_like_voice_15min_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 10,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 115.89,
+    "cpu_before": 4.2,
+    "cpu_after": 12.0,
+    "ram_before": 72.4,
+    "ram_after": 74.1,
+    "gpu_before": {
+      "gpu_util": "68 %",
+      "gpu_mem_used": "4025 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "56 %",
+      "gpu_mem_used": "4011 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "ja",
+    "language_probability": 0.229,
+    "transcript_preview": "フィルム 私が思ったことを知っている。 まるんのひんかぶ さあすくじゃい げえさあす 共に共にいているようなことがあります。 そう言ってまーすぎても、ごめんなさい。 うましないように、 炎が出たがつい...",
+    "transcript_full": "フィルム 私が思ったことを知っている。 まるんのひんかぶ さあすくじゃい げえさあす 共に共にいているようなことがあります。 そう言ってまーすぎても、ごめんなさい。 うましないように、 炎が出たがついたのは症状です。 このままは、 体験からの、 症状は揃っていると思ったための、 ひこがもう一歩選ばせてる。 何もない、この話は、私の面を見ることができる。 と言われ、お声に、イベニエリー、アリスラム。 あおう コンバー カバラーナンシェイトワー ナンナアリアスラス シェイドワー キスキ ドラスト フラッシュ それからそして地球には彼方が25日を探します 沼仮に尽点しました 仲間に変わりに、虫さんが戻らないことができました。 私たちは今後、沢山を与えることができました。 私は私たちの教師を知っていたのです。 私の状態はこの子供のことを言うと、 それらの状態は、 私は、私の状態は、 私の状態は、 私の状態は、 私の状態は、 私が注意して、このようなのに、前回は必ず待っていました。 あらね、これが見た? 僕はマモリーの人が、すごく大きくなっています。 と言うと、そういう想像に思う、 ワンディレーーキ! フィ kindパマス! フィーバーバー!  którąそれは法外と闘いがするので、 とても大好きだったり。 でも、脱脅なくて 私の必要は全部贈係できません、 とはもう! 何故か解かないと良いと思います。 この女子は、岩原の威力をもらいました。 一日は 、 自分は、 この為にかけてるのは… この前に、 この前に、 この前に、 ジョブ マラ サブルカ ダーマン 取ったっぷな あったな ウォッ 私は私の情報を見ることができる 私は情報を見ることができる 私は情報を見ることができる 私は情報を見ることができる 私は情報を見ることができる さっそくかっても、ダメン小さなことがある。 ともっと、これからは、 きれいに、 また、スタリアの観光を後ろに比べての都庫を見てみる。 じゃあたか け あプランガール お出て来る ati davision m k davision k davision k さらに これが Dhababanたちの申し訳です。 私は私の真似した人があることができません 何もあるのか 購読者に困っていた時間はとても気を掲迚する 度もかっこ力が出てきれいかないんです 言うことはあり、欲しげにも言ったことがですね。 もろだろと一度おり、 じゃん、あぴね、あぴね。 さらより若処くない side of our path それがプライハイブで見 舞っていればまだ 横母と povertyenschission うぺうぺうぺうぺうぺうぺうぺうぺうぺうぺうぺうぺうぺうぺうぺうぺう もちろん vida  phase 自信者の奴らは自分のあなたを信じやすいだと思ったいです。 神戸の人間、魂の装合を召喚しています。 それらが、それをにかくはずに、 りっくり食べると、 單々に行くことを、 使いたいことを、 それを、 それを、 何やことを イカにする、 それを、 それを、 むらったら、 ほぼ、 これを、 緑町を、 四豊かに、 何かの、 あまりの、 正解が、そのままの人が、 この人の人は、 本気に広がっています。 この人は、 本気に広がっています。 こういう感じで当ててもよりもお客様のことがあります。 彼は私は本当に幸せなことをしているのです。 彼は本当に幸せなことをしているのです。 町 Appoom jaan korban Ki Allaa ki the Для broken さあ、測ったがないのか、 じゃないですか! かわいっぱいなんですよ。 この魚骨の骨は どのまま? どうか、 どんについては、 らっしゃいだよね! そうね! 超お那麼ね! 付けたぞ! かわいにすぐやったら、 トイレも、 同じですよ! また、 宇宙を見ることで、 ここで、 私のお新しい人です。 今、 今、 私が醫院で、 それが、 朋友が、 人の間にボスがをわかり、と回し、称を隣の鎖を取っ、 何かのことをしているのか、 それから、 それから、 それから、 それから、 脚がした前から 脚を直った闘いが、 脚のたびを丸めると 脚を移れて、 脚を落ちて、 脚を道にする間に 脚が暑いよ 脚をあげると 脚をたっぷり挟んで、 脚を鶏形で繰り返したり、 脚を噴ま台で泣き、 大きな信頼者が 最後に歪んだことができる。 がときは必ずかぼくプロセスを彷徨しています。 皆さん、まずは、 在り、ラ enterかつぎが 編み込みで来る で軽さ、家にも聴いてかなかった やると一人はまじおうと言われていたのです。 この人は、まじおうと言われていたのです。 これがここでは分かっていて、 あらゆうはさまのことがある しばらく いけば あらゆうはさまのことがある さまのことがある あいあぶ、內で、「せちゃいかいざるかいっ!」 or kartaがいざるかいっ 寄り付けている いろいろしている これはパクパクを 尻尾に切る この 尻尾が 見えない これは見える いつも この 尻尾が 嬉しいことはあるので、 刷剖としては、 企業として、 必要はありませんでした。 決定することで、 この刷剖ではありません。 コントは、 こちらを見つけたり、 今も最初の刷剖を挙げられて、 再提出についても、 それでは私はこのスティーをお待ちします。 よろしくお願いいたします。"
+  },
+  {
+    "audio": "ur_clean_bot_like_30s_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 10,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.59,
+    "cpu_before": 8.5,
+    "cpu_after": 12.4,
+    "ram_before": 74.1,
+    "ram_after": 74.1,
+    "gpu_before": {
+      "gpu_util": "56 %",
+      "gpu_mem_used": "4011 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "72 %",
+      "gpu_mem_used": "4011 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "ur",
+    "language_probability": 0.984,
+    "transcript_preview": " پاکستانی اوردو میں تکریر کی ترکیب کیلئے اپنا مطنیہاں درج کریں  یہ سرவس جدید مسنوی زحانت کا استعمال ...",
+    "transcript_full": "پاکستانی اوردو میں تکریر کی ترکیب کیلئے اپنا مطنیہاں درج کریں  یہ سرவس جدید مسنوی زحانت کا استعمال کرتے ہوئے اب کے مطن کو پاکستانی اوردو  کی خوبصورت آواز میں تبدیل کرتی ہے آپ کو صف اپنا مطلبہ مطنیہاں قاپی کر کے چسپا کرنا ہے  اور پھر نیچے موجود بڑے بٹن پر کلک کرنا ہے  اچلمھو باد آپ کو امپی تین فامیت میں تیار شدہ آڈیو فائل حصل ہو جائے گی  جسے اپاستانی سے دون لوڈ کر سکیں گے"
+  },
+  {
+    "audio": "ur_noisy_background_music_5min_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 10,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 39.13,
+    "cpu_before": 7.0,
+    "cpu_after": 11.3,
+    "ram_before": 74.1,
+    "ram_after": 73.1,
+    "gpu_before": {
+      "gpu_util": "72 %",
+      "gpu_mem_used": "4011 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "69 %",
+      "gpu_mem_used": "4023 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "el",
+    "language_probability": 0.115,
+    "transcript_preview": " Είγε, νεμς ανά, σουμάτ, σουμάτ, σουμάτ, σουμάτ, σιέζα.  Σκονοάν, χαίς, φαράπαικει τον νιά.  Ο σκέχο...",
+    "transcript_full": "Είγε, νεμς ανά, σουμάτ, σουμάτ, σουμάτ, σουμάτ, σιέζα.  Σκονοάν, χαίς, φαράπαικει τον νιά.  Ο σκέχος είναι και παρήφκο είναι παίτου του σχέδι, μ' αυσά.  Λυμμή, σιέζα, σιέζα, σιέζα.  Λυμμή, σιέζα, σιέζα.  Βελίδας κονδρδάγκης είναι και σκομμαγίου.  Ξελίδας είναι και παρήφκο είναι παρήφκο είναι παρήφκο είναι παρήφο.  Λυμμή, σιέζα, σιέζα.  Λυμμή, σιέζα, σιέζα.  επίσης, θα Χαλιά, το καθλί της Πόρα Πομμένης physicians, chlagνώντας αποσιασμερικότερος,  τα οποία και μεμορευμησθερώστη στο Άuthos- loseer.  Γ denkenλέ告訴 Ηγέμνης,  Αυτό είναι όλαμως μέρα.  Αυτό είναι όλα είναι κόριο για να μην εγώ όταν δημιώρησε να δημιώσε να μην εγώ μου.  Πάμε να μην εγώ μουμε με την εξωχή.  Οι όένος, θα φυγήσουμε να φυγήσουμε να σας δημιώσει.  Είσαι, διόδια, να μ' ασρυγωσούν, που πουσχνάει, δε πουσχνώ.  Τι μέτω, θα πω να μ', τάνειά.  Αμμακάνη χαίχε η μάχαρση τεχίτλάει, που δάγκα,  και μετά λαξουάλοι, μετά την αγάπη.  Ποδάισε, βαστά, είχε.  Αμφελ φαρμασίκα ράχι μου,  η στις κυρίτης που θα χρειάξει,  καρμάνε αρχής βάλτια,  Αμφελ φαρμασί μου.  Καρνέκετε από τα αλλακία δηλαδή τα φαρνιας νεγγώρες...  Καρνέκετε από τα αλλακία δηλαδή τα φαρνιας νεγγώρες...  Ρυζάνα κομμό μου. Μεραχάλτά.  Κάιγη, τ' θα φάνω την βέλα σχεδματικά μου.  Με χωρίς ο Ρεβάς, ο Ρεβάς.  Ρυζάνα κομμό μου.  Ωχωτά μ' έρθει.  Ρυζάνα κομμό μου.  Ωχωτά μ' έρθει.  Ωχωτά μ' έρθει.  Ωχωτά μ' έρθει.  Δρασόδια, σίσμαχνα τίψη, κίτσι, κίτσι, κάποια την Θεσ geben τα αισθήνια από τα ίσως στέχερια,  προσβάητη...  σε μη ένθρωπες σε παρκάθες...  έναν tava στσι να γέντε τη δέχεια να καταξώσει το βαθατζί,  το βαθατζί και το γελιάζε husbands της πραγματικής έρθυγησης,  δεν μας καταλείπεσε να γέντε τα αγέλνεια neutral!  Τι είπασε να είπε σε βαθατζί,  όχι και είπασε από χωρίσμα,  τεμιζίσετε χωρίσμα μου!  Πολλένα φωτήτη έκουνα εδώ,  κλαμNGpr , κλίπλω , κλίπλω , κλείπλω , κλειστ και θέψιο,  κερμαurpose ο Ιεξη partial , κλείπλω , κλείπλω , κλίπλω , κκδρ τεις, κλείπλω , κλ gingούλη , κλείπλω , κλτ Ύ !  Βένω.  Με κάιοι όπους θα ομιώμε κορκοντέρια,  σηκούκομαι κάποιο κόπουχα.  Μουλές, εμπίρια,  τ', τ', τ', τ', τ', τ', τ', τ'... �ΕΑΝΚΟΑΑΣΜΙΝΩΪΠΑ΀ΤΟΑΤΟΑΤΖΜ΢ΑΙΑΑΑΙΚΝΑΡΑΡΣΙΑΤΟΣΑΝίΡΜΑΣΩΒΑΤΌΟΦΙΛΣΑΑΤΑΑΥΜΤΑΠΟΤΚΑΗΥΑΤΑΤΕΤΣΤΑΤΑΑΣΑΣΑΤΚΑΑΡΚΝΤΑΑΚΝΑΣΑΙΑΙ  Αγεχίες κάμα κάτω τα γνωμαντρικής, όσοι οι γορθώσεις.  Όσοι οι γορθώσεις, κυπητές, οι πωσίες τα γελάτω.  Τώρα το βαρυβούχνες, το βαρυβούχνες, το βαρυβούχνες, το βαρυβούχνες, το βαρυβούχνες.  Αυτό σκέφαλα τα γελιάτια, δομιάνεκ.  Με αυτό το βαρυβιάτα."
   },
   {
     "audio": "english_clean_1min_16k.wav",
@@ -57,19 +317,19 @@
     "chunk_length": 20,
     "vad_filter": false,
     "batch_size": null,
-    "elapsed_sec": 0.63,
-    "cpu_before": 2.6,
-    "cpu_after": 6.2,
-    "ram_before": 42.3,
-    "ram_after": 42.4,
+    "elapsed_sec": 0.64,
+    "cpu_before": 6.0,
+    "cpu_after": 12.4,
+    "ram_before": 73.1,
+    "ram_after": 73.1,
     "gpu_before": {
-      "gpu_util": "70 %",
-      "gpu_mem_used": "4325 MiB",
+      "gpu_util": "69 %",
+      "gpu_mem_used": "4023 MiB",
       "gpu_mem_total": "8188 MiB"
     },
     "gpu_after": {
-      "gpu_util": "72 %",
-      "gpu_mem_used": "4325 MiB",
+      "gpu_util": "68 %",
+      "gpu_mem_used": "4023 MiB",
       "gpu_mem_total": "8188 MiB"
     },
     "language": "en",
@@ -78,549 +338,601 @@
     "transcript_full": "Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm back.  And the reason there are a few reasons that I have not.  Reason number one, I have been working.  Working, working, working, all morning, all day, all night.  On Power English, my new Power English lessons.  And there's a lot to do.  Almost finished.  They will be ready very soon.  We will have a one day only sale for Power English.  But anyway, you'll...  If you get my emails, you already know about this.  So I don't need to talk about it more.  If you want more information, sign up for my email course.  The other reason that I have not done a podcast recently is that I have been doing audio tweets.  I talked about this in my previous podcast.  And I love these audio tweets because I can do them every day.  They're so convenient."
   },
   {
-    "audio": "urdu_silence_1min_16k.wav",
+    "audio": "english_multi_accent_noisy_background_3min_16k.wav",
     "beam_size": 1,
     "chunk_length": 20,
     "vad_filter": false,
     "batch_size": null,
-    "elapsed_sec": 7.21,
-    "cpu_before": 0.8,
-    "cpu_after": 7.6,
-    "ram_before": 42.3,
-    "ram_after": 42.3,
+    "elapsed_sec": 1.82,
+    "cpu_before": 7.3,
+    "cpu_after": 12.1,
+    "ram_before": 73.1,
+    "ram_after": 73.1,
     "gpu_before": {
-      "gpu_util": "37 %",
-      "gpu_mem_used": "4325 MiB",
+      "gpu_util": "68 %",
+      "gpu_mem_used": "4023 MiB",
       "gpu_mem_total": "8188 MiB"
     },
     "gpu_after": {
       "gpu_util": "73 %",
-      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_used": "4023 MiB",
       "gpu_mem_total": "8188 MiB"
     },
-    "language": "ur",
-    "language_probability": 0.954,
-    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0645\u0648\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c...",
-    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0645\u0648\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u062d\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a\u06cc \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba  \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0639\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u067e\u0648\u0631\u062a \u06a9\u06cc\u0627  \u062c\u0628 \u06a9\u06d2 \u062f\u0648\u0633\u0631\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u06d2 \u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc  \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627  \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0639\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u0648  \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627 \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0642\u062a \u06c1\u06d2 \u062c\u0648 \u0628\u06c1\u0631\u06cc \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06c1\u0631 \u0627\u0631\u0648\u0641 \u0633\u06d2 \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2"
+    "language": "en",
+    "language_probability": 0.99,
+    "transcript_preview": " The story of Arthur the Rat. Once upon a time there was a young rat who couldn't make up his mind. ...",
+    "transcript_full": "The story of Arthur the Rat. Once upon a time there was a young rat who couldn't make up his mind.  Whenever the other rat says to him if he would like to come out hunting with them, he would answer in a horse voice.  I don't know. And when they said, would you rather stay in the house?  Inside he would say yes or no, either. He'd always shake making your choice.  One fine day his aunt Josephine said to him, I'll look here. No one will ever care for you if you carry on like this.  You have no more mind if you're own and agrees to your little grandma.  The young rat coughed and looked wise as usual but said nothing.  Don't you think so? Said his aunt, stamping her foot.  For she couldn't bear to see the young rat so cold but it.  I don't know. Was all he ever answered. And then he walked off to think.  For an hour or more, whether he would stay in his hole in the ground or go out into the loft.  One night the rats heard a loud noise in the loft. There was a very dreary old place, the roof.  Let the reen come down, come washing in.  The beams and the rafters that all rotted through. So the whole thing was quite unsafe.  At last one of the joists gave way and the beams fell with one edge on the floor.  The walls shook, the cupillou fell off.  All the rats' hair stood on end with fear and horror.  This won't do for the leader. We can't stay, cook up here and it'll all work.  So that's a nice gap for the owner.  A little later on that evening his cats come back and say they find an old fashioned horse horn.  Or they would be running the board for all of them. The leader gave the order at once,  coming and falling in. And the rats caught one of the old roadways that stood on the floor and long on.  Just then the old rat caught sight of young Arthur. That was the name of the shaker.  He wasn't in the line and he wasn't.  And exactly outside it he stood just by it.  Come on, get in line, grow the old rat coarsely.  Of course you're coming too. I don't know, set off the calmly.  Why the idea of it? You don't think it's safe here?  Are you any more, do you?  I'm not certain. I said, Arthur undaunted. The roof may not fall down yet.  Well said the old rat, you can't wait for you to join us. Then he turned to the other and shouted,  right about the face, Mark. And the long one marched out.  The boring, whole of young rat wasten.  I think I'll go tomorrow, he said to himself, but then again, perhaps I won't.  It's so nice and snug here. I guess I'll go back to my home under the log,  just to make up my mind. But during the night there is a big deal.  Don't crash. Don came being raptors, Joyce, the whole business.  Next morning, it was a foggy day. Some men came to look over the damage.  It seemed odd to them that the old building was not haunted by rats.  But at last one of them happened to move aboard, and he caught sight of a young rat quite dead.  Half in and half out of his hole. Thus the shurker got his due, and there was no morning for him."
   },
   {
-    "audio": "english_clean_1min_16k.wav",
+    "audio": "eng_clean_16min_16k.wav",
     "beam_size": 1,
-    "chunk_length": 30,
+    "chunk_length": 20,
     "vad_filter": false,
     "batch_size": null,
-    "elapsed_sec": 0.61,
-    "cpu_before": 2.9,
-    "cpu_after": 9.0,
-    "ram_before": 42.3,
-    "ram_after": 42.4,
+    "elapsed_sec": 7.62,
+    "cpu_before": 1.8,
+    "cpu_after": 11.9,
+    "ram_before": 73.1,
+    "ram_after": 73.5,
     "gpu_before": {
       "gpu_util": "73 %",
-      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_used": "4023 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "48 %",
+      "gpu_mem_used": "4023 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "en",
+    "language_probability": 0.995,
+    "transcript_preview": " Okay, let's get started with the mini story lesson for the hitch introduction.  Here we go.  Once t...",
+    "transcript_full": "Okay, let's get started with the mini story lesson for the hitch introduction.  Here we go.  Once there was a shy guy named Nick.  He loved a beautiful girl named Stephanie.  He wanted to sweep Stephanie off her feet, but he was too shy.  One day he finally asked her for a date.  He said, uh, uh, you want to go to dinner with me?  She laughed nervously and said, I'm really...  I'm really into my job right now.  Uh, I'm sorry.  I just need some space.  Oh, Nick's feelings were hurt.  He knew Stephanie didn't like him, but he said to himself,  I ain't gonna take no for an answer.  I'm gonna show her...  I'm a great guy.  I'm gonna open her eyes.  So Nick bought 500 roses for Stephanie and told her, I love you!  Stephanie was shocked and a little scared.  Then Nick started to follow her everywhere.  Stephanie became more worried.  Finally, Nick broke into her apartment.  When Stephanie came home, she said, enough!  This is where the police come in.  Then she called the police.  Now Nick is in jail and...  Stephanie finally has some space.  Alright, let's go back to the beginning.  Once, I don't know, maybe 10 years ago, maybe 5 years ago, maybe 3 years ago.  But in the past, once there was a shy guy named Nick.  He loved a beautiful girl named...  He wanted to sweep Stephanie off her feet, but he was too shy.  Did he want Stephanie to fall in love with him?  Yes, that's right.  He wanted Stephanie to fall in love with him.  He wanted to sweep Stephanie off her feet.  Did he want to be very, very romantic and surprise her and impress her?  Yes, that's exactly right.  He wanted to sweep her off her feet.  He wanted to impress her and surprise her with romance, with love.  He wanted to sweep her off her feet.  Did he want to sweep his sister off her feet?  Well, no, of course not.  That's a romantic meaning.  Sweep off her feet.  It's romantic.  He did not want to sweep his sister off her feet.  Did he want to sweep a...  A girl named Angelina of her feet.  No, he did not want to sweep a girl named Angelina of her feet.  Did he want to sweep a girl named Stephanie of her feet?  Or a girl named Julia of her feet?  Well, he wanted to sweep a girl named Stephanie of her feet.  Was he able to sweep Stephanie of her feet?  Could he do it?  Well, no, he could not.  Unfortunately, he was too shy.  So he could not sweep Stephanie.  But he did ask her for a date.  He said, uh uh uh you want to go to dinner with me?  Did he ask her if she wanted to go to dinner?  Hmm, yes.  He did.  That's exactly what he said.  He said, do you want to go to dinner with me?  Did he ask Julia?  Do you want to go to dinner with me?  No, he didn't ask Julia.  Do you want to go to dinner with me?  No, he didn't ask Julia.  Do you want to go to dinner with me?  Did he ask his best friend?  Do you want to go to dinner with me?  No, he did not ask his best friend.  Do you want to go to dinner with me?  Did he ask a friend or a girl?  Do you want to go to dinner with me?  Well, of course he asked a girl.  Do you want to go to dinner with me?  Which girl did he ask?  Well, he asked Stephanie, uh do you want to go to dinner with me?  Did Stephanie want to go to dinner with him?  Well, no, she didn't want to.  She laughed nervously, huh, huh, and she said, uh uh I'm really into my job right now.  Was Stephanie really into her school right now?  No, no, no, no, no, no, no, no, she wasn't really into her school.  Was she really into her family?  No, no, she wasn't really into her family.  Was she really into exercise?  Really love exercise, really focused on exercise, really concentrating on exercise.  No, no, no, not on exercise.  What was she really into?  Well, she said, I'm really into my job right now.  Is she really focused on her career?  Was she really...  Really focused on her career?  Yeah, that's right, she was really focused on her career.  Was she truthfully, was she telling the truth that she was really into her job?  Well, we don't know, but maybe not, maybe she was lying.  Maybe she was lying, maybe she's not...  Not really into her job, maybe she wasn't really into her job.  But anyway, she said, I'm really into my job right now.  I'm sorry.  I just need some space.  Did she tell Nick that she needed time alone?  Yes.  Oh, that's right.  She wants some time, independent time, time alone.  She said, I just need some space.  Did she just need some space from her friends?  Well, we don't know, but I think not, maybe not.  Did she just need some space from her parents?  Well, again, probably not.  Who did she need space from?  Well, she needs space from Nick.  She told Nick, I just need some space.  She just wants to be away from Nick.  She needs space from Nick.  How did Nick feel about this?  Well, Nick's feelings were hurt.  Were Nick's arms hurt?  No, not his arms.  His arms weren't hurt.  Was his head hurt?  Oh, no, his head was not hurt.  Was he very sad?  Yes, that's correct.  Nick was very sad.  Nick's feelings were hurt.  Was Nick upset?  Right, very upset.  Yeah, that's right.  Nick was very upset.  Nick's feelings were hurt.  Who hurt Nick's feelings?  Well, Stephanie hurt Nick's feelings.  Were Nick's feelings hurt by Stephanie?  Yeah, same question, right?  Just a little different.  Yes, that's right.  Nick's feelings were hurt by Stephanie.  Why were Nick's feelings hurt?  Well, because he knew Stephanie didn't like him.  But he didn't give up.  He said to himself, I ain't going to take no for an answer.  Was he...  He going to take no for an answer.  No, no, no.  He was not going to take no for an answer.  He said, I ain't, right?  I am not going to take no for an answer.  I ain't gonna.  I am not going to take no for an answer.  Would Nick accept this answer from Stephanie?  No, no, he would not accept no.  He would not accept this answer.  He refused.  He said, no, I will not accept this.  I ain't gonna take no for an answer.  Would he take yes for an answer?  Well, yeah, yeah, yeah, of course.  He said, I ain't gonna take no for an answer.  But he certainly would take yes for an answer.  He would love for her to say yes.  He just said, I ain't gonna take no for an answer.  I will not.  I am not.  He said, I'm going to show her I am a great...  I am gonna open her eyes.  Was Nick going to open her ears?  No, no, he's not gonna open her ears.  Is he gonna open her eyes?  Yes, of course.  He's gonna open her eyes.  Was Nick going to make her...  Realize he was great.  Yes, that's exactly what that means.  He was going to make her realize, make her understand  that he is a great guy.  He said, I'm gonna open her eyes.  I'm gonna make her understand how great I am.  I'm gonna open...  Her eyes.  Whose eyes was he going to open?  Well, he was going to open Stephanie's eyes.  Was he going to open every girl's eyes?  No, not every girl.  He was only going to open Stephanie's eyes.  He said, I'm gonna open her eyes.  I'm gonna open Stephanie's eyes.  I'm gonna make Stephanie realize I'm great.  What did he do?  How did he try to open her eyes?  Well, he bought 500 roses for Stephanie  and he told her, I love you!  Stephanie was shocked and a little scared.  Then, even worse, then Nick started to follow her everywhere.  Stephanie became more worried.  Finally, Nick broke into her apartment.  He came into her apartment secretly.  When Stephanie came home, she saw him.  She was surprised.  She was scared.  She said, enough!  This is where the police come in.  Did she decide, wow, it's time to call the police?  Yes, that's right.  That's exactly right.  She decided...  This is where the police come in.  This is where the police should begin.  This is where I should call the police.  Or when I should call the police.  This is where the police come in.  It means time to call the police.  Time for the police to start doing their work.  Did she say, this is where the fire...  Where department comes in?  Oh no, no.  She didn't want the fire department to help.  Who did she want to help?  Well, she said, this is where the police come in.  She wanted the police to help.  She said, this is where the police come in.  And then, she called the police.  Now, Nick is in jail.  He's in prison.  And Stephanie finally has some space.  Is Stephanie finally alone?  Yes, that's right.  Stephanie is finally alone.  She's finally separate from Nick, alone from Nick.  She finally has some space.  Does Stephanie finally have space from Nick?  Yes, that is...  Correct.  Why does Stephanie have some space from Nick?  Well, she has space from Nick because Nick is in jail.  Nick is in prison.  So finally, Stephanie has some space.  Alrighty.  Back to the beginning.  This time, I will tell the story.  After key phrases, after important phrases with new vocabulary,  with new idioms, I will pause.  Please repeat.  Repeat my pronunciation.  Not just the words, copy my pronunciation.  Here we go.  Let's start.  Once there was a shy guy named Nick.  He loved a beautiful girl named Stephanie.  He wanted to sweep Stephanie off her feet.  Good.  He wanted to sweep Stephanie off her feet.  Good.  But he was too shy.  One day, he finally asked her for a day.  He said...  You want to go to dinner with me?  Good.  You want to go to dinner with me?  Okay.  She laughed nervously and said,  I'm really into my job right now.  Good.  I'm really into...  I'm really into my job right now.  Very good.  Then she said, I'm sorry.  I just need some space.  Good.  I just need some space.  Okay.  Nick's feelings were hurt.  Good.  Nick's feelings were hurt.  Okay.  He knew Stephanie didn't like him.  But he said to himself,  I ain't gonna take no for an answer.  Good.  I ain't gonna take no for an answer.  Good.  I'm going to show her I'm a great guy.  I'm gonna open her eyes.  Very good.  I'm gonna open her eyes.  Okay.  So Nick bought 500...  And she said,  I love you.  Stephanie was shocked and a little scared.  Then Nick started to follow her everywhere.  Stephanie became more worried.  Finally Nick broke into her apartment.  When Stephanie came home, she said,  Enough!  This is where the police come in.  Very good.  This is where the police come in.  Good.  Then she called the police.  Now Nick is in jail.  And Stephanie finally has some space.  Good.  And Stephanie finally has some space.  Alright, that's all.  Very good.  Now please pause your iPod,  pause your computer,  and try to tell all of the story.  Everything, your...  Just use the key phrases.  Alright, sweep Stephanie off her feet.  Really into my job right now.  I just need some space.  Nick's feelings were hurt.  I ain't gonna take no for an answer.  I'm gonna open her eyes.  This is where the police come in.  Stephanie finally has some space.  Use those key phrases in your story.  You don't need to memorize every word.  Just try to use the new phrases correctly.  And remember this story is about the past.  Alrighty.  Good.  After you finish this,  after you can remember and tell the story,  go to the next lesson,  the mini-story point of view lesson.  See you next time.  Bye.  Bye."
+  },
+  {
+    "audio": "eng_Pk_accent_clean_30s_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 20,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.34,
+    "cpu_before": 4.2,
+    "cpu_after": 8.1,
+    "ram_before": 73.5,
+    "ram_after": 73.5,
+    "gpu_before": {
+      "gpu_util": "48 %",
+      "gpu_mem_used": "4023 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "15 %",
+      "gpu_mem_used": "4023 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "en",
+    "language_probability": 0.634,
+    "transcript_preview": " Welcome to our annual corporate briefing.  In this module, we will cover new product rollouts and k...",
+    "transcript_full": "Welcome to our annual corporate briefing.  In this module, we will cover new product rollouts and keep performance metrics for the  Thed Quater.  Our goal is to streamline communication and ensure every team member has a clear and  understanding of our objectives.  We will explore new marketing strategies, discuss upcoming deadlines and address  any questions.  Please be close attention to the financial projections on the accompanying visual."
+  },
+  {
+    "audio": "eng_UK_clean_repeated_sentences_50s_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 20,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.54,
+    "cpu_before": 9.1,
+    "cpu_after": 10.9,
+    "ram_before": 73.5,
+    "ram_after": 73.5,
+    "gpu_before": {
+      "gpu_util": "15 %",
+      "gpu_mem_used": "4023 MiB",
       "gpu_mem_total": "8188 MiB"
     },
     "gpu_after": {
       "gpu_util": "71 %",
-      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_used": "4023 MiB",
       "gpu_mem_total": "8188 MiB"
     },
     "language": "en",
-    "language_probability": 0.988,
-    "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm...",
-    "transcript_full": "Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm back.  And the reason there are a few reasons that I have not.  Reason number one, I have been working, working, working, working,  all morning, all day, all night, on Power English, my new Power English lessons.  And there's a lot to do.  Almost finished.  They will be ready very soon.  We will have a one day only sale for Power English.  But anyway, you'll get, if you get my emails you already know about this.  So I don't need to talk about it more.  If you want more information, sign up for my email course.  The other reason that I have not done a podcast recently is that I have been doing audio tweets.  I talked about this in my previous podcast.  And I love these audio tweets because I can do them every day.  They're so convenient."
+    "language_probability": 0.996,
+    "transcript_preview": " Hello, and welcome back to the Tech Talk podcast.  Today, we're diving into the future of artificia...",
+    "transcript_full": "Hello, and welcome back to the Tech Talk podcast.  Today, we're diving into the future of artificial intelligence.  We have an incredible guest joining us, who will help us understand the latest breakthroughs.  Get ready for some fascinating insights, and maybe a few surprises, as we explore.  We'll be back with a new video, and we'll be back with a new video.  Let's go ahead and explore how AI is reshaping our world.  Let's get started.  Hello, and welcome back to the Tech Talk podcast.  Today, we're diving into the future of artificial intelligence.  We have an incredible guest joining us, who will help us understand the latest breakthroughs.  Get ready for some fascinating insights, and maybe a few surprises, as we explore how AI is reshaping our world.  Let's get started."
   },
   {
-    "audio": "urdu_silence_1min_16k.wav",
+    "audio": "en_UK_US_multiple_accent_noisy_background_music_50s_16k.wav",
     "beam_size": 1,
-    "chunk_length": 30,
+    "chunk_length": 20,
     "vad_filter": false,
     "batch_size": null,
-    "elapsed_sec": 4.76,
-    "cpu_before": 3.0,
-    "cpu_after": 9.0,
-    "ram_before": 42.4,
-    "ram_after": 42.0,
+    "elapsed_sec": 2.61,
+    "cpu_before": 9.1,
+    "cpu_after": 9.5,
+    "ram_before": 73.5,
+    "ram_after": 73.6,
     "gpu_before": {
       "gpu_util": "71 %",
-      "gpu_mem_used": "4325 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "gpu_after": {
-      "gpu_util": "75 %",
-      "gpu_mem_used": "4328 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "language": "ur",
-    "language_probability": 0.967,
-    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c...",
-    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u06c1\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a\u06cc \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba  \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0639\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u067e\u0648\u0631\u062a \u06a9\u06cc\u0627  \u062c\u0628 \u06a9\u06d2 \u062f\u0648\u0633\u0631\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u06d2 \u0631\u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627  \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0639\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u0648 \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627  \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0627\u062e\u06cc\u0627 \u06c1\u06d2 \u062c\u0628 \u0628\u06c1\u0631\u06cc \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06cc\u0631 \u0627\u0631\u0648\u0641 \u0633\u06d2 \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2"
-  },
-  {
-    "audio": "english_clean_1min_16k.wav",
-    "beam_size": 1,
-    "chunk_length": 60,
-    "vad_filter": false,
-    "batch_size": null,
-    "elapsed_sec": 0.59,
-    "cpu_before": 6.4,
-    "cpu_after": 9.9,
-    "ram_before": 42.0,
-    "ram_after": 42.1,
-    "gpu_before": {
-      "gpu_util": "75 %",
-      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_used": "4023 MiB",
       "gpu_mem_total": "8188 MiB"
     },
     "gpu_after": {
       "gpu_util": "70 %",
-      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_used": "4023 MiB",
       "gpu_mem_total": "8188 MiB"
     },
     "language": "en",
-    "language_probability": 0.988,
-    "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm...",
-    "transcript_full": "Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm back.  And the reason there are a few reasons that I have not.  Reason number one, I have been working, working, working, working,  all morning, all day, all night, on Power English, my new Power English lessons.  And there's a lot to do.  Almost finished.  They will be ready very soon.  We will have a one day only sale for Power English.  But anyway, you'll get, if you get my emails you already know about this.  So I don't need to talk about it more.  If you want more information, sign up for my email course.  The other reason that I have not done a podcast recently is that I have been doing audio tweets.  I talked about this in my previous podcast.  And I love these audio tweets because I can do them every day.  They're so convenient."
+    "language_probability": 0.992,
+    "transcript_preview": " Imagine a nursing and care her that breaks the mold.  And now with a smash hit from way back in 191...",
+    "transcript_full": "Imagine a nursing and care her that breaks the mold.  And now with a smash hit from way back in 1917,  it's Dame Clara Bat Dad.  What's on?  What is your most favourite place in the whole of Ireland?  Er...  A typical open-air cafe,  three one-and-cheese,  three fest-pending for the lit-  one's endococals,  a very weak- and every week story of cafe fold.  This Sunday the day of the all- Island Semifinal,  at 10 am be sure to join...  Olivia rushed along the beach.  And if you can't get me there!  You'll always find me filling up the day!  We have ways of keeping you away."
   },
   {
-    "audio": "urdu_silence_1min_16k.wav",
+    "audio": "urdu_F_clean_30s_16k.wav",
     "beam_size": 1,
-    "chunk_length": 60,
-    "vad_filter": false,
-    "batch_size": null,
-    "elapsed_sec": 3.07,
-    "cpu_before": 10.0,
-    "cpu_after": 11.2,
-    "ram_before": 42.1,
-    "ram_after": 42.5,
-    "gpu_before": {
-      "gpu_util": "70 %",
-      "gpu_mem_used": "4325 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "gpu_after": {
-      "gpu_util": "70 %",
-      "gpu_mem_used": "4325 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "language": "ur",
-    "language_probability": 0.967,
-    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c...",
-    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u06c1\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a\u06cc \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba  \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0639\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u067e\u0648\u0631\u062a \u06a9\u06cc\u0627  \u062c\u0628 \u06a9\u06d2 \u062f\u0648\u0633\u0631\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u06d2 \u0631\u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627  \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0639\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u0648 \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627  \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0627\u062e\u06cc\u0627 \u06c1\u06d2 \u062c\u0628 \u0628\u06c1\u0631\u06cc \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06cc\u0631 \u0627\u0631\u0648\u0641 \u0633\u06d2 \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2"
-  },
-  {
-    "audio": "english_clean_1min_16k.wav",
-    "beam_size": 1,
-    "chunk_length": null,
-    "vad_filter": false,
-    "batch_size": null,
-    "elapsed_sec": 0.61,
-    "cpu_before": 3.2,
-    "cpu_after": 7.2,
-    "ram_before": 42.5,
-    "ram_after": 42.5,
-    "gpu_before": {
-      "gpu_util": "72 %",
-      "gpu_mem_used": "4325 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "gpu_after": {
-      "gpu_util": "74 %",
-      "gpu_mem_used": "4325 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "language": "en",
-    "language_probability": 0.988,
-    "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm...",
-    "transcript_full": "Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm back.  And the reason there are a few reasons that I have not.  Reason number one, I have been working, working, working, working,  all morning, all day, all night, on Power English, my new Power English lessons.  And there's a lot to do.  Almost finished.  They will be ready very soon.  We will have a one day only sale for Power English.  But anyway, you'll get, if you get my emails you already know about this.  So I don't need to talk about it more.  If you want more information, sign up for my email course.  The other reason that I have not done a podcast recently is that I have been doing audio tweets.  I talked about this in my previous podcast.  And I love these audio tweets because I can do them every day.  They're so convenient."
-  },
-  {
-    "audio": "urdu_silence_1min_16k.wav",
-    "beam_size": 1,
-    "chunk_length": null,
-    "vad_filter": false,
-    "batch_size": null,
-    "elapsed_sec": 3.45,
-    "cpu_before": 2.7,
-    "cpu_after": 6.7,
-    "ram_before": 42.5,
-    "ram_after": 42.4,
-    "gpu_before": {
-      "gpu_util": "74 %",
-      "gpu_mem_used": "4325 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "gpu_after": {
-      "gpu_util": "58 %",
-      "gpu_mem_used": "4325 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "language": "ur",
-    "language_probability": 0.967,
-    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c...",
-    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u06c1\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a\u06cc \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba  \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0639\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u067e\u0648\u0631\u062a \u06a9\u06cc\u0627  \u062c\u0628 \u06a9\u06d2 \u062f\u0648\u0633\u0631\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u06d2 \u0631\u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627  \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0639\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u0648 \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627  \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0627\u062e\u06cc\u0627 \u06c1\u06d2 \u062c\u0628 \u0628\u06c1\u0631\u06cc \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06cc\u0631 \u0627\u0631\u0648\u0641 \u0633\u06d2 \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2"
-  },
-  {
-    "audio": "english_clean_1min_16k.wav",
-    "beam_size": 2,
-    "chunk_length": 10,
-    "vad_filter": false,
-    "batch_size": null,
-    "elapsed_sec": 0.88,
-    "cpu_before": 1.4,
-    "cpu_after": 6.0,
-    "ram_before": 42.4,
-    "ram_after": 42.4,
-    "gpu_before": {
-      "gpu_util": "58 %",
-      "gpu_mem_used": "4325 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "gpu_after": {
-      "gpu_util": "57 %",
-      "gpu_mem_used": "4325 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "language": "en",
-    "language_probability": 0.98,
-    "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no! So I'm ...",
-    "transcript_full": "Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no! So I'm back.  And the reason there are a few reasons that I have not.  Reason number one, I have been working.  Working, working, working, all morning, all day, all night.  On Power English, my new Power English lessons.  And there's a lot to do.  Almost finished, they will be ready very soon.  We will have a one day only sale for Power English.  But anyway, you'll...  If you get my emails, you already know about this.  So I don't need to talk about it more.  If you want more information, sign up for my email course.  The other reason that I...  I have not done a podcast recently.  Is that I have been doing audio tweets.  I talked about this in my previous podcast.  And I love these audio tweets because I can do them every day.  They're so convenient."
-  },
-  {
-    "audio": "urdu_silence_1min_16k.wav",
-    "beam_size": 2,
-    "chunk_length": 10,
-    "vad_filter": false,
-    "batch_size": null,
-    "elapsed_sec": 15.14,
-    "cpu_before": 5.6,
-    "cpu_after": 8.2,
-    "ram_before": 42.4,
-    "ram_after": 42.3,
-    "gpu_before": {
-      "gpu_util": "57 %",
-      "gpu_mem_used": "4325 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "gpu_after": {
-      "gpu_util": "68 %",
-      "gpu_mem_used": "4325 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "language": "ur",
-    "language_probability": 0.973,
-    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646 \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0645\u0648\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628...",
-    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646 \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0645\u0648\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u06c1\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a  \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06be\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0627\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u0628\u0648\u0631\u062a \u06a9\u06cc\u0627 \u062c\u0628  \u062f\u0648\u0633\u0631\u06d2 \u0628\u06be\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u06d2 \u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc  \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627 \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0627\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06be\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u0648  \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627 \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0627\u0642\u0639\u06c1 \u06c1\u06d2 \u062c\u0628 \u0628\u06be\u0631\u06cc \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06cc\u0631 \u0627\u06af\u0631\u0648\u0641 \u0633\u06d2 \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2"
-  },
-  {
-    "audio": "english_clean_1min_16k.wav",
-    "beam_size": 2,
     "chunk_length": 20,
     "vad_filter": false,
     "batch_size": null,
-    "elapsed_sec": 0.64,
-    "cpu_before": 2.4,
-    "cpu_after": 6.6,
-    "ram_before": 42.3,
-    "ram_after": 42.3,
-    "gpu_before": {
-      "gpu_util": "39 %",
-      "gpu_mem_used": "4325 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "gpu_after": {
-      "gpu_util": "66 %",
-      "gpu_mem_used": "4325 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "language": "en",
-    "language_probability": 0.989,
-    "transcript_preview": " Hey everyone it's AJ and I just realized I have not done a podcast in a long  time oh no so I'm bac...",
-    "transcript_full": "Hey everyone it's AJ and I just realized I have not done a podcast in a long  time oh no so I'm back and the reason there are a few reasons that I have not  reason number one I have been working  working working working all morning all day all night on power English my new  power English lessons and there's a lot to do almost finished they will be  ready very soon we will have a one day only sale for power English but anyway  if you get my emails you already know about this so I don't need to talk about  it more if you want more information sign up for my email course the other  reason that I have not done a podcast recently is that I have been doing audio  tweets talked about this in my previous podcast  and I love these audio tweets because I can do them every day they're so  convenient"
-  },
-  {
-    "audio": "urdu_silence_1min_16k.wav",
-    "beam_size": 2,
-    "chunk_length": 20,
-    "vad_filter": false,
-    "batch_size": null,
-    "elapsed_sec": 8.27,
-    "cpu_before": 4.1,
-    "cpu_after": 9.2,
-    "ram_before": 42.3,
-    "ram_after": 42.4,
-    "gpu_before": {
-      "gpu_util": "66 %",
-      "gpu_mem_used": "4325 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "gpu_after": {
-      "gpu_util": "68 %",
-      "gpu_mem_used": "4331 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "language": "ur",
-    "language_probability": 0.954,
-    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c...",
-    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u06c1\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a\u06cc \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba  \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0627\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u067e\u0648\u0631\u062a \u06a9\u06cc\u0627  \u062c\u0628 \u06a9\u06d2 \u062f\u0648\u0633\u0631\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u06d2 \u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc  \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627  \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0627\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u0648  \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627 \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0627\u0642\u0639 \u06c1\u06d2 \u062c\u0648 \u0628\u06c1\u0631\u06cc \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06cc\u0631 \u0627\u0631\u0648\u0641 \u0633\u06d2  \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2"
-  },
-  {
-    "audio": "english_clean_1min_16k.wav",
-    "beam_size": 2,
-    "chunk_length": 30,
-    "vad_filter": false,
-    "batch_size": null,
-    "elapsed_sec": 0.72,
-    "cpu_before": 4.6,
-    "cpu_after": 13.6,
-    "ram_before": 42.4,
-    "ram_after": 42.5,
-    "gpu_before": {
-      "gpu_util": "68 %",
-      "gpu_mem_used": "4331 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "gpu_after": {
-      "gpu_util": "66 %",
-      "gpu_mem_used": "4331 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "language": "en",
-    "language_probability": 0.988,
-    "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm...",
-    "transcript_full": "Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm back.  And the reason there are a few reasons that I have not.  Reason number one, I have been working, working, working, working,  all morning, all day, all night, on Power English, my new Power English lessons.  And there's a lot to do.  Almost finished.  They will be ready very soon.  We will have a one day only sale for Power English.  But anyway, you'll get, if you get my emails, you already know about this.  So I don't need to talk about it more.  If you want more information, sign up for my email course.  The other reason that I have not done a podcast recently is that I have been doing audio tweets.  I talked about this in my previous podcast.  And I love these audio tweets because I can do them every day.  They're so convenient."
-  },
-  {
-    "audio": "urdu_silence_1min_16k.wav",
-    "beam_size": 2,
-    "chunk_length": 30,
-    "vad_filter": false,
-    "batch_size": null,
-    "elapsed_sec": 5.51,
-    "cpu_before": 4.3,
-    "cpu_after": 9.9,
-    "ram_before": 42.5,
-    "ram_after": 42.4,
-    "gpu_before": {
-      "gpu_util": "66 %",
-      "gpu_mem_used": "4331 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "gpu_after": {
-      "gpu_util": "70 %",
-      "gpu_mem_used": "4325 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "language": "ur",
-    "language_probability": 0.967,
-    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c...",
-    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u06c1\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a\u06cc \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba  \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0627\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u067e\u0648\u0631\u062a \u06a9\u06cc\u0627  \u062c\u0628 \u06a9\u06d2 \u062f\u0648\u0633\u0631\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u06d2 \u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627  \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0639\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u0648 \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627  \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0627\u0642\u0639\u06c1 \u06c1\u06d2 \u062c\u0628 \u0628\u06c1\u0631\u06cc \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06cc\u0631 \u0627\u0631\u0648\u0641 \u0633\u06d2 \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2"
-  },
-  {
-    "audio": "english_clean_1min_16k.wav",
-    "beam_size": 2,
-    "chunk_length": 60,
-    "vad_filter": false,
-    "batch_size": null,
-    "elapsed_sec": 0.73,
-    "cpu_before": 2.3,
-    "cpu_after": 7.7,
-    "ram_before": 42.4,
-    "ram_after": 42.4,
-    "gpu_before": {
-      "gpu_util": "70 %",
-      "gpu_mem_used": "4325 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "gpu_after": {
-      "gpu_util": "61 %",
-      "gpu_mem_used": "4325 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "language": "en",
-    "language_probability": 0.988,
-    "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm...",
-    "transcript_full": "Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm back.  And the reason there are a few reasons that I have not.  Reason number one, I have been working, working, working, working,  all morning, all day, all night, on Power English, my new Power English lessons.  And there's a lot to do.  Almost finished.  They will be ready very soon.  We will have a one day only sale for Power English.  But anyway, you'll get, if you get my emails, you already know about this.  So I don't need to talk about it more.  If you want more information, sign up for my email course.  The other reason that I have not done a podcast recently is that I have been doing audio tweets.  I talked about this in my previous podcast.  And I love these audio tweets because I can do them every day.  They're so convenient."
-  },
-  {
-    "audio": "urdu_silence_1min_16k.wav",
-    "beam_size": 2,
-    "chunk_length": 60,
-    "vad_filter": false,
-    "batch_size": null,
-    "elapsed_sec": 3.07,
-    "cpu_before": 5.6,
-    "cpu_after": 14.4,
-    "ram_before": 42.4,
-    "ram_after": 42.4,
-    "gpu_before": {
-      "gpu_util": "66 %",
-      "gpu_mem_used": "4325 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "gpu_after": {
-      "gpu_util": "70 %",
-      "gpu_mem_used": "4325 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "language": "ur",
-    "language_probability": 0.967,
-    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c...",
-    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u06c1\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a\u06cc \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba  \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0627\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u067e\u0648\u0631\u062a \u06a9\u06cc\u0627  \u062c\u0628 \u06a9\u06d2 \u062f\u0648\u0633\u0631\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u06d2 \u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627  \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0639\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u0648 \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627  \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0627\u0642\u0639\u06c1 \u06c1\u06d2 \u062c\u0628 \u0628\u06c1\u0631\u06cc \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06cc\u0631 \u0627\u0631\u0648\u0641 \u0633\u06d2 \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2"
-  },
-  {
-    "audio": "english_clean_1min_16k.wav",
-    "beam_size": 2,
-    "chunk_length": null,
-    "vad_filter": false,
-    "batch_size": null,
-    "elapsed_sec": 0.71,
+    "elapsed_sec": 0.46,
     "cpu_before": 3.4,
-    "cpu_after": 6.3,
-    "ram_before": 42.4,
-    "ram_after": 42.4,
+    "cpu_after": 7.4,
+    "ram_before": 73.6,
+    "ram_after": 73.6,
     "gpu_before": {
       "gpu_util": "70 %",
-      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_used": "4023 MiB",
       "gpu_mem_total": "8188 MiB"
     },
     "gpu_after": {
-      "gpu_util": "68 %",
-      "gpu_mem_used": "4325 MiB",
+      "gpu_util": "65 %",
+      "gpu_mem_used": "4023 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "ur",
+    "language_probability": 0.944,
+    "transcript_preview": " زندگی ایک سفر ہے جو ہر لمھے ہمیں کچھ نیا سکاتا ہے  کبھی خوشی کبھی غام کبھی کامیابی کبھی نہ کامی  مگ...",
+    "transcript_full": "زندگی ایک سفر ہے جو ہر لمھے ہمیں کچھ نیا سکاتا ہے  کبھی خوشی کبھی غام کبھی کامیابی کبھی نہ کامی  مگر اصل تاقت اس لمھے میں چپی ہوتی ہے جب ہم ہار مانے کے بجائے ایک قدم آگے بلاتے  یاد رکھیں ہر اندری رات کے بعد ایک روشن سبہ ضرور آتی ہے  بس خود پر یکین رکھیں اور  چلتے رہے"
+  },
+  {
+    "audio": "urdu_low_pitch_fast_speaking_rate_15s__16k.wav",
+    "beam_size": 1,
+    "chunk_length": 20,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.43,
+    "cpu_before": 1.9,
+    "cpu_after": 7.3,
+    "ram_before": 73.6,
+    "ram_after": 73.6,
+    "gpu_before": {
+      "gpu_util": "65 %",
+      "gpu_mem_used": "4023 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "32 %",
+      "gpu_mem_used": "4023 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "ur",
+    "language_probability": 0.593,
+    "transcript_preview": " زندگی ایک سفر ہے جو ہر لامہ ہم ایک کچھ نہیںہ سکھتا  کبھی خوشی کبھی رم کبھی کامیابی کبھی نا کامیت مد...",
+    "transcript_full": "زندگی ایک سفر ہے جو ہر لامہ ہم ایک کچھ نہیںہ سکھتا  کبھی خوشی کبھی رم کبھی کامیابی کبھی نا کامیت مدر اصلتاقت اس لامہ میں چھپی ہوتی ہے جب ہم ہر مانی کے بجا ہے ایک قدم آگی براتے  یاد رکھے ہر اندھی ریدہ کے بعد ایک روشن سبہ ضروراتی ہے  بس خود پر یا تین رکھے اور چلتی رہی"
+  },
+  {
+    "audio": "urdu_silence_1min_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 20,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 7.99,
+    "cpu_before": 4.2,
+    "cpu_after": 10.4,
+    "ram_before": 73.6,
+    "ram_after": 73.6,
+    "gpu_before": {
+      "gpu_util": "32 %",
+      "gpu_mem_used": "4023 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "72 %",
+      "gpu_mem_used": "4023 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "ur",
+    "language_probability": 0.954,
+    "transcript_preview": " یہ کہانی انہسوی قتر کی پاک بھارت جنگ کے داران بہری محاز پر ہونے والے غیر ممولی مارکے کی روضاد ہے  ج...",
+    "transcript_full": "یہ کہانی انہسوی قتر کی پاک بھارت جنگ کے داران بہری محاز پر ہونے والے غیر ممولی مارکے کی روضاد ہے  جب پاکسانی آپ دوز حنگور نے بھارتی پانیوں میں  انڈیان نیوی کے بہری جنگی جااز خوکری کو اس کے عملے سمیت سمندہ پورت کیا  جب کے دوسرے بہری جنگی جااز کے پان کو بھی  مفلوج کیا  دوسری جنگی عزیم کے بعد کسی بھی روائیتی آپ دوز کا بہری جنگی جااز کو  تبا کرنے کا یہ پہلا وقت ہے جو بہری اسکری تاریخ میں سنہر اروف سے لکھا گیا ہے"
+  },
+  {
+    "audio": "urdu_whatsapp_like_voice_15min_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 20,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 21.35,
+    "cpu_before": 3.2,
+    "cpu_after": 10.5,
+    "ram_before": 73.6,
+    "ram_after": 73.3,
+    "gpu_before": {
+      "gpu_util": "72 %",
+      "gpu_mem_used": "4023 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "66 %",
+      "gpu_mem_used": "4024 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "hi",
+    "language_probability": 0.779,
+    "transcript_preview": " و میں سے سے اپنی اپنی اٹھوڑ علمی کا اسہس رہا ہے  اور وقت کے ساستھ اس میں ہی زافہ ہی ہوا ہے  اور ابھ...",
+    "transcript_full": "و میں سے سے اپنی اپنی اٹھوڑ علمی کا اسہس رہا ہے  اور وقت کے ساستھ اس میں ہی زافہ ہی ہوا ہے  اور ابھتے بھڑا پہتاری ہے  موت کری باتلی ہے  مالوم نہیں کبھ ساستھ رک جائے  یہ ساستھ اس سمار میں تبضیل ہوا ہے کہ میں  جائل تھا اور جائل ہوں  کسی مزبی آدمی سے باتلی نہیں کرتا  سیر نہیں کرتا  کو اپنے خیس سے میں  کوفرکھ فتوارکتا ہے  میں بلے شان نہیں  جو لوگ میں کافر کافرکھیں  اور میں ہوا ہو کہتا رہوں  بڑے لوگ تھے  میں دا کچھ بھی نہیں  کچھ بھی نہیں  یہ سوال  میرے دلے دب میں  کچھ بھی نہیں کرتا  جنعبے  روسین  ابنیالی  رسلام  اور  كنبار  کربرامن سهید وان  ننا  اللیسر  سهید وان  کسی کو  رحم نہیہہ  اور میں سوح اتتار  کی اللہ  یہ سب دیکھتا رہ  اس نے  جیکھ اس طرح سے برداش کیا ہوگا  جو زلما سے تم کا بہار  تھورے گئی  تاریخ  تو خیر  بات شاہوں کا کیس سر ہی ہے  پھر بھی  اگر اس میں ہم تلاشتے ہیں  تو ایسی مسال  نہیں ملیکس  اب دیکھئی نا  بھی بھیا  حضور کریم سل اللہ  علیٰ والے سلوم سے بتلکتے  بات  حضور سل اللہ  علیٰ والے  سلوم سے بتلکتے  اور حضور  اللہ سے بتلکھیں  اور یہ سوال اتنا  ایسا  اجید نہیں  کہ اللہ نے یہ سبھت  کہیسے دیکھا  کیسے برداش کیا ہو  میں پشمان تھا  کی آخر  اللہ نے یہ سبھو  کیسے دیکھا  میں خوصر جوبرتا تھا  لرتا تھا  بات کرتا تھا  کہ یار یہ ہوا  اور اللہ نے یہ دیکھا  وہ کن مامونی لوگ نہ تھے  بہت بڑے لوگ تھے  اتنا بڑے  کہ سوچ کی وہ ستے  وہاں سکھر جاتی ہیں  وہاں دل کی  دھرگنے  رکھ جاتی ہیں  وہاں جا کر  تمام بسارت بسیر  تو سمات کے دروادے  بنت ہو جاتے ہیں  اتنا بڑے تھے  سوچ سے بارتا  آہر یہ سمہ ہو گیا  اب بڑاپا آتلا ہے  آگیا ہے  موت  آہر یہ با گئی آئی  آہر دیکھتا ہوں  آہر یہ  موت سے نہیں در تھا  میں کیا بڑے بڑے لوگ گئے  لیکن یہ سوال جو تھا  یہ لیکر میں  قبر میں جانا نہیں چا تھا  اس کا جو آپ چاہ یہ تھا مجھے  اور اس جو آپ کے  بغیر میں  مرنا نہیں چا تھا  کل بٹھا ہوا تھا  اور یہ سوچے چلا جا رہتا  کہ یہ رہتا  یہ سبھا گیا  تو یہ ہونہ نہیں چا یہ تھا  اللہ کو  ایک دیسپار پر  پر  پر یہ لوگوں کو  ہر کر دینہ چا یہ تھا  پر  جب  میرا  سبر کا دامن  شوطہ پڑا  اتانا  مجھے اس کا جو آپ ملگیا  وہ یہ جو آپ ملگا  اب یہ پہلے آپ  نوٹ فرمالی جیگا  کہ میں جاہل ہوں  اور ایسا سوچنا ہوں  ایک جاہل آگمی سے بید نہیں  پوریر سوی سکتا ہے  بارتا  سبر کا جب  دامن  شوطہ پڑا  تمتھ پریئے خلا  کہ لوگ اللہ کی را میں  مال ملال یہ سب  کوچھ دیتے آئے  بڑاست کا دیاں  جہاں تک  کہ  اپراگھار  بھی دیتے ہیں  اور دیتے آئے  جب ایجرت کر کے  مقع سے لو  جاتے ہیں  تو وہاں پر  جتقصیم کا  انداغ دیکھتے ہیں  ہے رتو تھی ہے  تو گویا  اللہ کی را میں  مال ملال  کہ  کوئی آتھئی  نہیں ہے  کوئی وہ کوتھ نہیں ہے  یہ سب اللہ کی  ہے  اللہ کی لئے  جبادمئی  یہ دا بابان  ہے کہ یہ ملال کی  اتھائے  اور یہ  ملال کی اتھ  اندراج ہو  جبی ہے  وہ بھول جاتا ہے  کہ سے  اندراج  کوئی وہ  عراعہ سال سے  جہاں  کام  پتان  یہاں  کام ہو  پتان  اب چیتا ہے  ہوا  تو ملال کی یہ  تو کوئی وہ نہیں  یہ بھی  تا ہے ہوا  کہ ہوا  کام  کوئی  اختیار نہیں  رکھتا  مار دا  وہ جو آپ  میں جو یہ ملال  کہ اللہ  کی را میں  اللہ کی را میں  ملال دولت  تو ایک پر ورے  جان  اپنے  اب دخھ پیئے  اور دفنے میں آتا رہتا ہے  کے لولاد کے لئے لوگوں  اپنے جانے  پر بان کرتے ہیں  اب وہ  اولاد کو کوئی  کرنا  انتای  کری بھی لوگوں کو  کوئی کرنا  یہ  بڑے گلتے کی بات  ہے بڑے ہوصلے کی بات ہے  جان  اپنے بھی  پیاری ہوتے ہیں  لیکن  پیارے تو  پیارے  ان کے لیادنی  کسی بھی ستا پر جازکتے ہیں  مجھ پر یہ  کھلاکہ  اللہ کی را میں  بات تو  کسی زیادنگ ہیں  اُس کا  کربان ہو جانا  اُس کا چلے جانا  کوئی بانوی اتنے رکتا رہتا رہتا رہتا رہتا  جان دینہ  اپنے Quelان کو  کروzam کر دینہ  یہ مانوی اتتتتتتутتتتتتت  تو  اللہ کی را میں  اپنی  مجھア ہپنے  ق آروں کی  جان بھی 斗 رواما ہو  کی جسک்கு இரு, اور یہی குர்bah نہیں சிடے.  آپ نے நாட்டி கற்ற میں,  آپ نے சொல்ல میں یہی குர்bah نہیں ہے  اور آدمی சமைத் தாய்,  کہ, یہ میரا ہے,  اللہ کیوں,  کیوں,  اللہ کا تھا,  اللہ کے لیے یہی ہے  اب دناவے ہو سہیں,  نبنہ لی,  یا لیسلام,  نیری کروانی دے کر,  شابت کر دیا,  کہ اللہ کی را میں  قربام کر دینان,  کوئی مانیے تھنہی رہتا.  اور یہ کہ,  اللہ کی را میں,  سب کچھ کل بان کیا جا سکتا ہے  اور یہ کہ,  اللہ کی را میں,  یہ کہ,  اللہ کی را میں,  یہ کہ,  یہ جاتے ہیں,  تو یہ آجر ہے,  اور یہ بری بات ہے,  اور کیا جا سکتا ہے,  یہ مجھے جوان میں,  کہ اللہ کی را میں,  مال تو ایک طرف,  جان بیکربان کی جاتے ہیں,  اسکی بیکوی پر بانے,  جناவے ہو سہیں,  یہ بری بھی اللی,  یہ ان کے کارب نہیں,  اسکی پر بانے,  یہ ہم جب دیکھتے ہیں,  وہ آجری کو چیو آگ,  کسی نے چیو چرا نہیں کی,  کوئی نے فرق کسی نے فرار کر رسٹا اکتا نہیں کیا,  کوئی دان,  یہ بری بری بری ہے,  یہ تمارتے ہیں,  ہم جو مریں,  نہیں,  ایسا نہیں ہو,  سب نے بری بری فرق دیسے,  اپنجان کاربان کی اللہ کی را میں,  تو اترکھولہ کی اللہ کی را میں,  اور یہ سابت کرنا مقصوب تھا,  کہ,  تو گیا روزائنا بنا ایبنی اللیکو,  ظرنے,  حوثنے,  مارڈی,  نہیں,  یہ موت,  ظرنگگی موتھے,  یہ موت,  نہ ان صاریگی موتھے,  یہ انت پیر سے سوچھ نے,  والوں کی موتھ ہے,  وہ مر گئے,  وہ مر گئے,  اصور میں وہ مٹی ملے,  وہ فین,  زندہ تھا,  زندہ ہے,  یہ مات سابت ہو گئی,  جموتھ درکھورا,  کہ اللہ کی را میں,  سب کچھ دیا جا سکھا ہے,  سب کچھ کس مارڈی,  نہیں رکتا اللہ کی را گئی,  دار کیا,  کچھ دیا اللہ کی را میں,  کاربان کیا جا سکھا ہے,  تو میں,  ہشوہ کے ی اللہ,  یہ اقتامت سے کھول گیا,  یہ سابت کرنا مقصود تھا,  اور اس کے لئے,  اللہ نے,  داری لوگ چنے,  اللہ نے,  وہ لوگ چنے,  دی موتھ بر تھے,  اور سائن کی نصل,  دنیا قبقان,  سائن سکھونہ ہے,  جانایہ گئی,  اللہ کی نصل,  پوید دنیا مما جو تئی,  نبيکلیال,  اللہ مسل اللہ سیدنا,  و مارل اللہ محمد.  نبيکلیال,  دنیا مما جو تھی,  یہی نہیں,  اُنے مان نی والے بھی با جو تھی۔  یہ جباتا پر,  یہ جب,  پر علاق کی بھی مجھو تھاں,  طام جو بھی سوھت رہی ہو,  ریسرس تو,  حلی کیا ہی داں,  حیدانا,  آوالا تو,  آق کریں صلى الله عليه و آلا ہے  ہے ناں,  وہ شخص,  جو علیہ کے لیے دیا,  اللہ کے لیے مرا,  وہ مرنے سکتا,  آیا وہ اندر سے بول کر,  سچای کہ اِز ہار کرتا ہے,  اللہ کا اِز ہار کرتا ہے,  اللہ کی...  یہ زونت کا اِز ہار کرتا ہے,  لکر کرتا ہے,  اللہ کا اِز ہار کرتا ہے,  اور کرتا چلا جاتا ہے,  اس کو پروانیں کہ یہ ملک دوگا تو  مجھے پھانسی دے دی جائیں,  یہ مبال دوگا تو مجھ...  یہ مارد دیا جائے گا,  میں نے رزسٹ کیا,  اس کے خلاف ہوا,  مدان میں اُتراتوں مارد دیا جاؤں گا  اسے اس کی  یقص پروانیں ہی ہوتی,  وہ مرطا نہیں ہے,  نہ اسے کوئی مارسکتا ہے,  اب دیکھیں,  نہ تو نورے,  مسئے,  برن شماع لکھے گا ہے,  اور دنوں نے لکھے وہ بھی موجود ہیں,  اللہ نے تجہ میں اس کینا.  مجھے پروانیں,  سکھڑے دیا."
+  },
+  {
+    "audio": "ur_clean_bot_like_30s_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 20,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.56,
+    "cpu_before": 7.1,
+    "cpu_after": 7.9,
+    "ram_before": 73.3,
+    "ram_after": 73.2,
+    "gpu_before": {
+      "gpu_util": "66 %",
+      "gpu_mem_used": "4024 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "71 %",
+      "gpu_mem_used": "4024 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "ur",
+    "language_probability": 0.965,
+    "transcript_preview": " پاکستانی اور دو میں تکریر کی ترکیب کیلئے اپنے مطنیہا درج کریں  یہ سرவس جدید مسنوی زحانت کا استمال ک...",
+    "transcript_full": "پاکستانی اور دو میں تکریر کی ترکیب کیلئے اپنے مطنیہا درج کریں  یہ سرவس جدید مسنوی زحانت کا استمال کرتے ہوئے اپنے کو پاکستانی اور دو کی خوبصورت آواز میں تب دیل کرتی ہے  آپ کو صف اپنے مطلبہ مطنیہاں قاپی کر کے چسپا کرنا ہے  اور پھر نیچے موجود بڑے بٹن پر کلک کرنا ہے  کچھ  لمھو باد آپ کو امپی تین فامیت میں تیار شدہ آڈیو فائل حصل ہو جائے گی  جسے اپاستانی سے دون لوڑ کر سکیں گے"
+  },
+  {
+    "audio": "ur_noisy_background_music_5min_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 20,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 4.45,
+    "cpu_before": 4.9,
+    "cpu_after": 10.6,
+    "ram_before": 73.2,
+    "ram_after": 73.2,
+    "gpu_before": {
+      "gpu_util": "71 %",
+      "gpu_mem_used": "4024 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "74 %",
+      "gpu_mem_used": "4026 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "ur",
+    "language_probability": 0.288,
+    "transcript_preview": " ایک رو انسانا سمات سماجے ذا  اس کنوان حایش فراب پیکی دنیا  اس کے حوصن کی طریف کرنے بیٹوٹ شایگ باہصا...",
+    "transcript_full": "ایک رو انسانا سمات سماجے ذا  اس کنوان حایش فراب پیکی دنیا  اس کے حوصن کی طریف کرنے بیٹوٹ شایگ باہصاری تشبی آت کے سمار کے باوضوط بات نہ بنپائج  اسے زمین پر اللہ کا تخلیق کا مسترپیس کہناکسی طرح روالت مہوگا  نباس کے اندر بشاید جی حیثورت رہی ہو  املباس کے باہر پر مرمجھ کے ہیں  دملباس کے اندر ذاق میں ہیں تو سک ماریو سے ہوتی ہے  جی طرح دب جو سو رہنیوں کو بیشی جانت میں کا موقعر ملتا ہے  تو ارپر گھڑو پانے پڑ جاتا ہے  جان نکموں کا ملتا ہے  اس وقت بہل در روط بی روطی ہے  بویا نگائے ماندن نبائر اصلا  کی کفی ایتاری ہو جاتی ہے  وقت گزورنے کے بعد بازی گو باہر  ایک مرکر کا ہی سا کی باہر گیا  اس کے پاس میراکنی کم کے ستلے میں جانا ہوتا  اس سے دیکھ کر مجھے اصلا مدعہ  کی یادنا رہا  وہ تو اچھا ہوا میں کچھ دیر بعد اپنے آبھی میں آدیا  ایب تلاگیا سلام بلایا اس میں دلاؤ پر دیکھ اسلام کا تریبن سا جو آتیا  میں نے اسے کی گری مصاب دا اور بڑے ملائم اور پرے مراہلے جنے  ایک سماج دی مومل پر ست کروں کی زیال بچنگ کے سوالات کے جواب درگار  نیت اُس میں سرکایا اور بڑے بے روحیتے جواب دیا میں بہت مصروف اُن جو پوچھنا  ہے جلبی سے بوچ لوگ جی میدت اف کنام طانیا امگانی ہے یو بار سے تشید  لائی کو دنکہ اور مطلق سوال بوچھو بہتر مگا اور ایسے وہ بس تا ہیں  امسل فارمسی کا رہی ہے اس کے سیری کی حق بہر دے کر میں نے آرس والقیا  امسل فارمسی کرنے کے بعد کیا دفباورے را درہ درہ پیئے اس کے بعد کیا کرنا ہے  میرے سوٹ کی چیچیا میں پیئے راکا ہے میرے سوٹ کا ششمہال کی بچیچ کی ہو کر گندگی  کی دلدن میں پنچکاتا میں نے سوٹھا یہ کہتا ہے امسان تھا پتلا ہے جو بان میں  اپنے سار سے بطکا کر کچھ نہیں رکھتا آجی ہی جہا سوٹ پیٹ کے لئے  ہوں گیا ہے پر میں نے سوٹھا اتنا کمہ کر رہا کر لے گی کوتھیں بگل آ اور بگبیلس پر آلے  اس سے کیا فرق پڑے گا کب میں کبر میں تو کچھ نہیں نہیں جا سکے گا مال جانے  کبہ کبہ کرنے والوں کو بھی جلدیا ہوں گیاں گیاں لاز کے لیے کارن کے  کارن میں وقت ساکار پر ہے اس کچھ بھگلے اور بھنک بیلس کی پر سجب ہی بھائی  بھائنا بیکنی جو بھوں میں کور کو تیریچ کریں گے اسی کو کبھی اسی کبھی  کبر پر بھولے سے بھی چار پھول چرھانے کی توفیکتا ہوگی  مدنہ والے نے بگری لیگ بہتے بھی کمالیے لیکر آجہی کا آجہی اس کا مگد کرنا ملتکی  اسی ربوست پوست پوستی  پوست پوست کبھی چھے پیچھے پسیدہ گلاتا تو بہتی بریزو میں پوہ کرنے  لگی پوست نہیں دول گا ہے میں تو اس کے خلافتے کے دنیا گا دنیا گا دیر  پوکہ اسے دیمان سارکی بنانے کی سوست پیٹھا تھا  لیکن آج شامل نہ ہو پی میں تو بارا کیا تھا نا"
+  },
+  {
+    "audio": "english_clean_1min_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 30,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.6,
+    "cpu_before": 4.1,
+    "cpu_after": 11.8,
+    "ram_before": 73.2,
+    "ram_after": 73.2,
+    "gpu_before": {
+      "gpu_util": "74 %",
+      "gpu_mem_used": "4026 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "69 %",
+      "gpu_mem_used": "4034 MiB",
       "gpu_mem_total": "8188 MiB"
     },
     "language": "en",
     "language_probability": 0.988,
     "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm...",
-    "transcript_full": "Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm back.  And the reason there are a few reasons that I have not.  Reason number one, I have been working, working, working, working,  all morning, all day, all night, on Power English, my new Power English lessons.  And there's a lot to do.  Almost finished.  They will be ready very soon.  We will have a one day only sale for Power English.  But anyway, you'll get, if you get my emails, you already know about this.  So I don't need to talk about it more.  If you want more information, sign up for my email course.  The other reason that I have not done a podcast recently is that I have been doing audio tweets.  I talked about this in my previous podcast.  And I love these audio tweets because I can do them every day.  They're so convenient."
+    "transcript_full": "Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no!  So I'm back.  And the reason there are a few reasons that I have not.  Reason number one, I have been working, working, working, working,  all morning, all day, all night, on Power English, my new Power English lessons.  And there's a lot to do.  Almost finished.  They will be ready very soon.  We will have a one day only sale for Power English.  But anyway, you'll get, if you get my emails you already know about this.  So I don't need to talk about it more.  If you want more information, sign up for my email course.  The other reason that I have not done a podcast recently is that I have been doing audio tweets.  I talked about this in my previous podcast.  And I love these audio tweets because I can do them every day.  They're so convenient."
   },
   {
-    "audio": "urdu_silence_1min_16k.wav",
-    "beam_size": 2,
-    "chunk_length": null,
+    "audio": "english_multi_accent_noisy_background_3min_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 30,
     "vad_filter": false,
     "batch_size": null,
-    "elapsed_sec": 3.0,
-    "cpu_before": 4.8,
-    "cpu_after": 7.7,
-    "ram_before": 42.4,
-    "ram_after": 42.4,
+    "elapsed_sec": 1.72,
+    "cpu_before": 15.6,
+    "cpu_after": 11.1,
+    "ram_before": 73.2,
+    "ram_after": 73.2,
     "gpu_before": {
-      "gpu_util": "68 %",
-      "gpu_mem_used": "4325 MiB",
+      "gpu_util": "69 %",
+      "gpu_mem_used": "4034 MiB",
       "gpu_mem_total": "8188 MiB"
     },
     "gpu_after": {
       "gpu_util": "72 %",
-      "gpu_mem_used": "4325 MiB",
+      "gpu_mem_used": "4032 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "en",
+    "language_probability": 0.987,
+    "transcript_preview": " The story of Arthur the Rat. Once upon a time there was a young rat who couldn't make up his mind. ...",
+    "transcript_full": "The story of Arthur the Rat. Once upon a time there was a young rat who couldn't make up his mind.  Whenever the other rat says to him if he would like to come out hunting with them, he would answer in a horse voice.  I don't know. And when they said, would you rather stay inside, he would say yes or no, either.  He'd always shake making your choice.  One fine day his aunt Josephine said to him, I look here. No one will ever care for you if you carry on like this.  You have no more mind if you're own and agrees to your old bladed grass. The young rat coughed and looked wise as usual but said nothing.  Don't you think so, said his aunt, stamping her foot, for she couldn't bear to see the young rat so cold but it.  I don't know, was all he ever answered. And then he walked off to think for an hour or more,  whether he would stay in his hole in the ground or go out into the loft.  One night the rats heard a loud noise in the loft. There was a very dreary old place, the roof,  let the reen come down, come washing in, the beams and the rafters that all rotted through.  So the whole thing was quite unsafe. At last one of the joists gave way and the beams fell with one edge on the floor.  The walls shook, the cupillou fell off and all the rats hair stood on hand with fear and horror.  This won't do for the leader. We can't stay, cook up here and it'll all work. So that's a nice gap for the owner.  A little later on that evening his cats come back and say they find an old fashioned horse horn.  Or they would be runeboard for all of them. The leader gave the order at once, coming and falling in and the rats collided over the whole right away and stood on the floor and long on.  Just then the old rat caught sight of young author. That was the name of the shaker. He wasn't in the line and he wasn't exactly outside it.  He stood just by it. Come on, get in line. Grouse the old rat coarsely.  Of course you're coming too. I don't know, said Arthur calmly. Why the idea of it?  You don't think it's safe here anymore, do you?  I'm not certain, it's been Arthur undaunted. The roof may not fall down yet.  Well said the old rat, you can't wait for you to join us. Then he turned to the other and shouted, right about the face, Mars.  And the long run, Mars out. The boring, while the young rat was dim.  I think I'll go tomorrow, he said to himself. But then again, perhaps I won't. It's so nice and snug here.  I guess I'll go back to my home under the log, just to make up my mind.  But during the night there was a big crash. Down came beans, rafters, joists, the whole business.  Next morning, it was a foggy day. Some men came to look over the damage.  It seemed odd to them that the old building was not haunted by rats.  But at last one of them happened to move aboard, and he caught sight of a young rat, quite dead,  half in and half out of his hole. Thus the shurker got his due and there was no morning for him."
+  },
+  {
+    "audio": "eng_clean_16min_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 30,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 9.04,
+    "cpu_before": 0.9,
+    "cpu_after": 11.6,
+    "ram_before": 73.2,
+    "ram_after": 73.4,
+    "gpu_before": {
+      "gpu_util": "61 %",
+      "gpu_mem_used": "4032 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "69 %",
+      "gpu_mem_used": "4018 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "en",
+    "language_probability": 0.998,
+    "transcript_preview": " Okay, let's get started with the mini story lesson for the hitch introduction.  Here we go.  Once t...",
+    "transcript_full": "Okay, let's get started with the mini story lesson for the hitch introduction.  Here we go.  Once there was a shy guy named Nick.  He loved a beautiful girl named Stephanie.  He wanted to sweep Stephanie off her feet, but he was too shy.  One day he finally asked her for a date.  He said, uh, uh, you want to go to dinner with me?  She laughed nervously and said, I'm really into my job right now.  I'm sorry.  I just need some space.  Oh, Nick's feelings were hurt.  He knew Stephanie didn't like him, but he said to himself, I ain't gonna take no for  an answer.  I'm gonna show her I'm a great guy.  I'm gonna open her eyes.  So Nick bought 500 roses for Stephanie and told her, I love you.  Stephanie was shocked and a little scared.  Then Nick started to follow her everywhere.  Stephanie became more worried.  Finally, Nick broke into her apartment.  When Stephanie came home, she said, enough.  This is where the police come in.  Then she called the police.  Now Nick is in jail and Stephanie finally has some space.  All right, let's go back to the beginning.  Once I don't know maybe 10 years ago, maybe five years ago, maybe three years ago, but  in the past, once there was a shy guy named Nick.  He loved a beautiful girl named Stephanie.  He wanted to sweep Stephanie off her feet, but he was too shy.  Did he want Stephanie to fall in love with him?  Yes, that's right.  He wanted Stephanie to fall in love with him.  He wanted to sweep Stephanie off her feet.  He wanted to be very, very romantic and surprise her and impress her.  Yes, that's exactly right.  He wanted to sweep her off her feet.  He wanted to impress her and surprise her with romance, with love.  He wanted to sweep her off her feet.  Did he want to sweep his sister off her feet?  Well, no, no, of course not.  That's a romantic meaning.  Sweep off your feet.  It's romantic.  He did not want to sweep his sister off her feet.  Did he want to sweep a girl named Angelina off her feet?  No, he did not want to sweep a girl named Angelina off her feet.  Did he want to sweep a girl named Stephanie off her feet?  Or a girl named Julia off her feet?  Well, he wanted to sweep a girl named Stephanie off her feet.  Was he able to sweep Stephanie off her feet?  Could he do it?  Well no, he could not.  Unfortunately, he was too shy.  So he could not sweep Stephanie off her feet.  She didn't fall in love with him.  But one day, he did ask her for a date.  He said, uh-uh, uh, you want to go to dinner with me?  Did he ask her if she wanted to go to dinner?  Hmm, yes, he did.  That's exactly what he said.  He said, do you want to go to dinner with me?  Did he ask Julia?  Do you want to go to dinner with me?  No, he didn't ask Julia.  Do you want to go to dinner with me?  Did he ask his best friend?  Do you want to go to dinner with me?  No, he did not ask his best friend.  Do you want to go to dinner with me?  Did he ask a friend or a girl?  Do you want to go to dinner with me?  Well, of course, he asked a girl.  Do you want to go to dinner with me?  Which girl did he ask?  Well, he asked Stephanie, uh, do you want to go to dinner with me?  Did Stephanie want to go to dinner with him?  Well, no, she didn't want to.  She laughed nervously, and she said,  I'm really into my job right now.  Was Stephanie really into her school right now?  No, no, no, no, no, no, no.  She wasn't really into her school.  Was she really into her family?  No, no, she wasn't really into her family.  Was she really into exercise?  Really love exercise, really focused on exercise,  really concentrating on exercise?  No, no, no, not on exercise.  What was she really into?  Well, she said, I'm really into my job right now.  Is she really focused on her career?  Was she really focused on her career?  Yeah, that's right.  She was really focused on her career.  Was she truthfully?  Was she telling the truth that she was really into her job?  Well, we don't know, but maybe not.  Maybe she was lying.  Maybe she was lying.  Maybe she's not really into her job.  Maybe she wasn't really into her job.  But anyway, she said, I'm really into my job right now.  I'm sorry.  I just need some space.  Did she tell Nick that she needed time alone?  Yeah, that's right.  She wants some time, independent time, time alone.  She said, I just need some space.  Did she just need some space from her friends?  Well, we don't know, but I think not.  Maybe not.  Did she just need some space from her parents?  Well, again, probably not.  Who did she need space from?  Well, she needs space from Nick.  She told Nick, I just need some space.  She just wants to be away from Nick.  Right?  She needs space from Nick.  How did Nick feel about this?  Well, Nick's feelings were hurt.  Were Nick's arms hurt?  No, not his arms.  His arms weren't hurt.  Was his head hurt?  Oh, no.  His head was not hurt.  Was he very sad?  Yes, that's correct.  Nick was very sad.  Nick's feelings were hurt.  Was Nick upset?  Right?  Very upset.  Yeah, that's right.  Nick was very upset.  Nick's feelings were hurt.  Who hurt Nick's feelings?  Well, Stephanie hurt Nick's feelings.  Were Nick's feelings hurt by Stephanie?  Yeah, same question, right?  Just a little different.  Yes, that's right.  Nick's feelings were hurt by Stephanie.  Why were Nick's feelings hurt?  Well, because he knew Stephanie didn't like him.  But he didn't give up.  He said to himself,  I ain't going to take no for an answer.  Was he going to take no for an answer?  No, no, no.  He was not going to take no for an answer.  He said, I ain't.  Right?  I am not going to take no for an answer.  I ain't gonna.  I am not going to take no for an answer.  Would Nick accept this answer from Stephanie?  No, no.  He would not accept no.  He would not accept this answer.  He refused.  He said, no.  I will not accept this.  I ain't gonna take no for an answer.  Would he take yes for an answer?  Well, yeah, yeah, yeah.  Of course.  He said, I ain't gonna take no for an answer.  But he certainly would take yes for an answer.  He would love for her to say yes.  He just said, I ain't gonna take no for an answer.  I will not.  I am not.  He said, I'm going to show her I am a great guy.  I'm gonna open her eyes.  Was Nick going to open her ears?  No.  No.  He's not gonna open her ears.  Is he gonna open her eyes?  Yes, of course.  He's gonna open her eyes.  Was Nick going to make her realize he was great?  Yes, that's exactly what that means.  He was going to make her realize, make her understand  that he is a great guy.  He said, I'm gonna open her eyes.  I'm gonna make her understand how great I am.  I'm gonna open her eyes.  Whose eyes was he going to open?  Well, he was going to open Stephanie's eyes.  Was he going to open every girl's eyes?  No, not every girl.  He was only going to open Stephanie's eyes.  He said, I'm gonna open her eyes.  I'm gonna open Stephanie's eyes.  I'm gonna make Stephanie realize I'm great.  What did he do?  How did he try to open her eyes?  Well, he bought 500 roses for Stephanie  and he told her, I love you.  Stephanie was shocked and a little scared.  Then, even worse, then Nick started to follow her everywhere.  Stephanie became more worried.  Finally, Nick broke into her apartment.  He came into her apartment secretly.  When Stephanie came home, she saw him.  She was surprised.  She was scared.  She said, enough!  This is where the police come in.  Did she decide, wow, it's time to call the police.  Yes, that's right. That's exactly right.  She decided, this is where the police come in.  This is where the police should begin.  This is where I should call the police.  Or when I should call the police.  This is where the police come in.  It means time to call the police.  Time for the police to start doing their work.  Did she say, this is where the fire department comes in?  Oh no, no. She didn't want the fire department to help.  Who did she want to help?  Well, she said, this is where the police come in.  She wanted the police to help.  She said, this is where the police come in.  And then, she called the police.  Now Nick is in jail.  He's in prison.  And Stephanie finally has some space.  Is Stephanie finally alone?  Yes, that's right.  Stephanie is finally alone.  She's finally separate from Nick, alone from Nick.  She finally has some space.  Does Stephanie finally have space from Nick?  Yes, that is correct.  Why does Stephanie have some space from Nick?  Well, she has space from Nick because Nick is in jail.  Nick is in prison.  So finally, Stephanie has some space.  Alrighty, back to the beginning.  This time, I will tell the story.  After key phrases, after important phrases with new vocabulary,  with new idioms, I will pause.  Please repeat.  Repeat my pronunciation.  Not just the words, copy my pronunciation.  Here we go. Let's start.  Once there was a shy guy named Nick.  He loved a beautiful girl named Stephanie.  He wanted to sweep Stephanie off her feet.  Good.  But he was too shy.  One day, he finally asked her for a date.  He said, uh, you want to go to dinner with me?  Good.  You want to go to dinner with me?  Okay.  She laughed nervously, huh?  And said, I'm really into my job right now.  Good.  I'm really into my job right now.  Very good.  Then she said, I'm sorry.  I just need some space.  Good.  I just need some space.  Okay.  Nick's feelings were hurt.  Good.  Nick's feelings were hurt.  Okay. He knew Stephanie didn't like him.  But he said to himself, I ain't gonna take no for an answer.  Good.  I ain't gonna take no for an answer.  Good.  I'm going to show her I'm a great guy.  I'm gonna open her eyes.  Very good.  I'm gonna open her eyes.  Okay.  So Nick bought 500 roses for Stephanie and told her, I love you.  Stephanie was shocked and a little scared.  Then Nick started to follow her everywhere.  Stephanie became more worried.  Finally Nick broke into her apartment.  When Stephanie came home, she said, enough.  This is where the police come in.  Very good.  This is where the police come in.  Good.  Then she called the police.  Now Nick is in jail.  Stephanie finally has some space.  Good.  Stephanie finally has some space.  That's all. Very good.  Now please pause your iPod, pause your computer,  and try to tell all of the story.  Everything yourself.  Just use the key phrases.  Right?  Sweep Stephanie off her feet.  Really into my job right now.  I just need some space.  Nick's feelings were hurt.  I ain't gonna take no for an answer.  I'm gonna open her eyes.  This is where the police come in.  Stephanie finally has some space.  Use those key phrases in your story.  You don't need to memorize every word.  Just try to use the new phrases correctly.  And remember this story is about the past.  Alrighty.  So you finish this after you can remember and tell the story.  Go to the next lesson, the mini story point of view lesson.  See you next time.  Bye bye."
+  },
+  {
+    "audio": "eng_Pk_accent_clean_30s_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 30,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.31,
+    "cpu_before": 5.8,
+    "cpu_after": 7.0,
+    "ram_before": 73.4,
+    "ram_after": 73.4,
+    "gpu_before": {
+      "gpu_util": "69 %",
+      "gpu_mem_used": "4018 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "18 %",
+      "gpu_mem_used": "4018 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "en",
+    "language_probability": 0.688,
+    "transcript_preview": " Welcome to our annual corporate briefing.  In this module, we will cover new product rollouts and k...",
+    "transcript_full": "Welcome to our annual corporate briefing.  In this module, we will cover new product rollouts and keep performance metrics for the  Thed Quarter.  Our goal is to streamline communication and ensure every team member has a clear and  understanding of our objectives.  We will explore new marketing strategies, discuss upcoming deadlines and address any questions.  Please be close attention to the financial projections on the accompanying visual."
+  },
+  {
+    "audio": "eng_UK_clean_repeated_sentences_50s_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 30,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.45,
+    "cpu_before": 5.1,
+    "cpu_after": 8.7,
+    "ram_before": 73.4,
+    "ram_after": 73.4,
+    "gpu_before": {
+      "gpu_util": "62 %",
+      "gpu_mem_used": "4018 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "73 %",
+      "gpu_mem_used": "4018 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "en",
+    "language_probability": 0.996,
+    "transcript_preview": " Hello, and welcome back to the Tech Talk podcast.  Today, we're diving into the future of artificia...",
+    "transcript_full": "Hello, and welcome back to the Tech Talk podcast.  Today, we're diving into the future of artificial intelligence.  We have an incredible guest joining us, who will help us understand the latest breakthroughs.  Get ready for some fascinating insights, and maybe a few surprises, as we explore how AI is  reshaping our world. Let's get started. Hello, and welcome back to the Tech Talk podcast.  Today, we're diving into the future of artificial intelligence.  We have an incredible guest joining us, who will help us understand the latest breakthroughs.  Get ready for some fascinating insights, and maybe a few surprises, as we explore how AI is reshaping  our world. Let's get started."
+  },
+  {
+    "audio": "en_UK_US_multiple_accent_noisy_background_music_50s_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 30,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.5,
+    "cpu_before": 15.8,
+    "cpu_after": 8.3,
+    "ram_before": 73.3,
+    "ram_after": 73.3,
+    "gpu_before": {
+      "gpu_util": "73 %",
+      "gpu_mem_used": "4018 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "69 %",
+      "gpu_mem_used": "4031 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "en",
+    "language_probability": 0.998,
+    "transcript_preview": " Imagine a nursing and care home that breaks the mold.  And now with a smash hit from way back in 19...",
+    "transcript_full": "Imagine a nursing and care home that breaks the mold.  And now with a smash hit from way back in 1917,  it's Dame Clara Bat Dad.  What son?  What is your most favourite place in the whole of Ireland?  Er...  A typical open-air cafe,  three one-inchies,  three fest-pending for the little ones and the cartels.  A very weak and every weak story of cafe fold.  This Sunday, the day of the All Island semi-final,  at 10 a.m. be sure to join  Bony B.  Bony B.  Olivia Rastel on the beach.  And if you can't get me there,  you'll always find me filling up a dead!  We have ways of keeping you away."
+  },
+  {
+    "audio": "urdu_F_clean_30s_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 30,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.44,
+    "cpu_before": 16.7,
+    "cpu_after": 13.2,
+    "ram_before": 73.4,
+    "ram_after": 73.4,
+    "gpu_before": {
+      "gpu_util": "69 %",
+      "gpu_mem_used": "4031 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "65 %",
+      "gpu_mem_used": "4031 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "ur",
+    "language_probability": 0.936,
+    "transcript_preview": " زندگی ایک سفر ہے جو ہر لمھے ہمیں کچھ نیا سکاتا ہے  کبھی خوشی کبھی غام کبھی کامیابی کبھی ناکامی  مگر...",
+    "transcript_full": "زندگی ایک سفر ہے جو ہر لمھے ہمیں کچھ نیا سکاتا ہے  کبھی خوشی کبھی غام کبھی کامیابی کبھی ناکامی  مگر اصل تاقت اس لمھے میں چپی ہوتی ہے جب ہم ہار مانے کے بجائے ایک قدم آگے بڑاتے  یاد رکھیں ہر اندری رات کے بعد ایک روشن سبہ ضرور آتی ہے  بس خود پر یکین رکھیں اور چلتے رہے"
+  },
+  {
+    "audio": "urdu_low_pitch_fast_speaking_rate_15s__16k.wav",
+    "beam_size": 1,
+    "chunk_length": 30,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 0.42,
+    "cpu_before": 7.0,
+    "cpu_after": 12.5,
+    "ram_before": 73.4,
+    "ram_after": 73.4,
+    "gpu_before": {
+      "gpu_util": "65 %",
+      "gpu_mem_used": "4031 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "45 %",
+      "gpu_mem_used": "4031 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "language": "ur",
+    "language_probability": 0.593,
+    "transcript_preview": " زندگی ایک سفر ہے جو ہر لامہ ہم ایک کچھ نہیںہ سکھتا  کبھی خوشی کبھی رم کبھی کامیابی کبھی نا کامیت مد...",
+    "transcript_full": "زندگی ایک سفر ہے جو ہر لامہ ہم ایک کچھ نہیںہ سکھتا  کبھی خوشی کبھی رم کبھی کامیابی کبھی نا کامیت مدر اصلتاقت اس لامہ میں چھپی ہوتی ہے جب ہم ہر مانی کے بجا ہے ایک قدم آگی براتے  یاد رکھے ہر اندھی ریدہ کے بعد ایک روشن سبہ ضروراتی ہے  بس خود پر یا تین رکھے اور چلتی رہی"
+  },
+  {
+    "audio": "urdu_silence_1min_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 30,
+    "vad_filter": false,
+    "batch_size": null,
+    "elapsed_sec": 5.42,
+    "cpu_before": 11.7,
+    "cpu_after": 17.2,
+    "ram_before": 73.4,
+    "ram_after": 74.0,
+    "gpu_before": {
+      "gpu_util": "45 %",
+      "gpu_mem_used": "4031 MiB",
+      "gpu_mem_total": "8188 MiB"
+    },
+    "gpu_after": {
+      "gpu_util": "79 %",
+      "gpu_mem_used": "4034 MiB",
       "gpu_mem_total": "8188 MiB"
     },
     "language": "ur",
     "language_probability": 0.967,
-    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c...",
-    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0627\u0645\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f \u06c1\u06d2  \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u06c1\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a\u06cc \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba  \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0627\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u067e\u0648\u0631\u062a \u06a9\u06cc\u0627  \u062c\u0628 \u06a9\u06d2 \u062f\u0648\u0633\u0631\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u06d2 \u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627  \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0639\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u0648 \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627  \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0627\u0642\u0639\u06c1 \u06c1\u06d2 \u062c\u0628 \u0628\u06c1\u0631\u06cc \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06cc\u0631 \u0627\u0631\u0648\u0641 \u0633\u06d2 \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2"
+    "transcript_preview": " یہ کہانی انہسوی قتر کی پاک بھارت جنگ کے داران بہری محاز پر ہونے والے غیر ماملی مارکے کی روضاد ہے  ج...",
+    "transcript_full": "یہ کہانی انہسوی قتر کی پاک بھارت جنگ کے داران بہری محاز پر ہونے والے غیر ماملی مارکے کی روضاد ہے  جب پاکسانی آپ دوز ہنگور نے بھارتی پانیوں میں  انڈیان نیوی کے بہری جنگی جااز خوکری کو اس کے عملے سمیت سمندہ پورت کیا  جب کے دوسرے بہری جنگی جااز کے رپان کو بھی مفلوج کیا  دوسری جنگی عزیم کے بعد کسی بھی روائیتی آپ دوز کا بہری جنگی جااز کو تبا کرنے کا  یہ پہلا واخیا ہے جب بہری اسکری تاریخ میں سنیر اروف سے لکھا گیا ہے"
   },
   {
-    "audio": "english_clean_1min_16k.wav",
-    "beam_size": 5,
-    "chunk_length": 10,
+    "audio": "urdu_whatsapp_like_voice_15min_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 30,
     "vad_filter": false,
     "batch_size": null,
-    "elapsed_sec": 1.01,
-    "cpu_before": 0.9,
-    "cpu_after": 7.5,
-    "ram_before": 42.4,
-    "ram_after": 42.4,
+    "elapsed_sec": 14.84,
+    "cpu_before": 9.2,
+    "cpu_after": 10.7,
+    "ram_before": 74.0,
+    "ram_after": 73.8,
     "gpu_before": {
-      "gpu_util": "72 %",
-      "gpu_mem_used": "4325 MiB",
+      "gpu_util": "79 %",
+      "gpu_mem_used": "4032 MiB",
       "gpu_mem_total": "8188 MiB"
     },
     "gpu_after": {
-      "gpu_util": "56 %",
-      "gpu_mem_used": "4325 MiB",
+      "gpu_util": "70 %",
+      "gpu_mem_used": "4037 MiB",
       "gpu_mem_total": "8188 MiB"
     },
-    "language": "en",
-    "language_probability": 0.98,
-    "transcript_preview": " Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no, so I'm ...",
-    "transcript_full": "Hey everyone, it's AJ and I just realized I have not done a podcast in a long time.  Oh no, so I'm back.  And the reason there are a few reasons that I have not.  Reason number one, I have been working.  Working, working, working, all morning, all day, all night.  On Power English, my new Power English lessons.  And there's a lot to do.  Almost finished.  They will be ready very soon.  We will have a one day only sale for Power English.  But anyway.  If you get my emails, you already know about this.  So I don't need to talk about it more.  If you want more information, sign up for my email course.  The other reason that I.  I have not done a podcast recently is that I have been doing audio tweets.  I talked about this in my previous podcast.  And I love these audio tweets because I can do them every day.  They're so convenient."
+    "language": "hi",
+    "language_probability": 0.827,
+    "transcript_preview": " முடے  اور ابھتے بھڑا پہتاری ہے۔  موت کری باتلی ہے۔  مالوم نہیں کبھ سا سک جائے۔  یہ سا سک یہ سمار می...",
+    "transcript_full": "முடے  اور ابھتے بھڑا پہتاری ہے۔  موت کری باتلی ہے۔  مالوم نہیں کبھ سا سک جائے۔  یہ سا سک یہ سمار میں تبضیل ہوئے کہ  میں جائل تھا اور جائلوں۔  کسی مزبی آگن سے بات اس لیے نہیں کرتا،  سیے نہیں کرتا، کو اپنے کسی سے میں  کوفر کر خفتوارکتا ہے۔  میں بلیشان نہیں جو لوگ میں کافر کافر کریں  میں آگوہوں کہتاروں۔  بڑلوگ تھے، میں دو کچھ بھی نہیں ہے۔  کچھ بھی نہیں۔  یہ سوال میرے پڑلے دماغ میں جلا تطا  کچھ جنعبے روزھین یبنیالی ارسلام  اور کم بار۔  کر برامن سهید وار ننانہ الیسخر  سهید وار  کسی کو رہم نہیں آیا، ترس نہیں آیا  اور میں سوحیتا تھا کہ اللہ یہ سب دیکھتا رہ  اس نے جیکھ اس طرح سے برداش کیا ہوگا  جو زلما سے تم کا بہار تورے گئی  تاریخ توخیر بات شاہوں کا کیسا رہی ہے  پھر بھی اگر اس میں ہم تلاشتے ہیں  تو ایسی مسال نہیں میں لیکن  اب دیکھئینا بھیا  حضور کریں بسلل اللہ علیہ والے سلام سے بتلکتے  بات حضور سل اللہ علہ والے سلام سے بتلکتے  اور حضور اللہ سے بتلکھیں  اور یہ سوال اٹھنا  ایسا اجید نہیں کہ اللہ نے یہ سب کہ سے دیکھا  کیسا برداش کیا ہوگا  میں پشمان تھا کہ آخرہ اللہ نے یہ سبب  کیسا دیکھا  میں خوصر جوورتا تھا  لرطا تھا  باتے کرتا تھا کہ یار یہ ہوا  اور اللہ نے یہ دیکھا  وہ کن مامونی لوگ نہ تھے  بہت بڑے لوگ تھے  اتنے بڑے  کے سوچ کی وہ ستے ہیں  وہاں سکھر جاتی ہیں  وہاں دل کی دھرکنے  ضرک جاتی ہیں  وہاں جا کر  تم بسارت بسیر  تسمات کے دراوازے  بنت ہو جاتے ہیں  اتنے بڑے تھے  سوچ سے بڑکان  یہ سمہ ہو گیا  اب بڑاپا اتلا ہے  آگیا ہے  موت خریب آگری آئے  اتنے بڑے  میں نوست سے نہیں در تھا  میں کیا بڑے بڑے لوگ گئے  لیکن یہ سوال جو تھا  یہ لے کرنا کہور میں جانا نہیں جاتا تھا  اس کا جوات چاہیے تھا مجھے  اور اس جوات کے بغیر میں  مرنا نہیں جاتا تھا  کل بٹھا ہوا تھا  اور یہی سوچے چلا جا رہتا  کہ یہ رہا ہے کہ یہ سب ہو گیا  تو یہ ہونہ نہیں چاہیے تھا  اللہ کو ایک دیسپار پہر  پر یہ لوگوں کو کر دے نا چاہیے تھا  دلہ گئے  اور یہی رہا ہے  اور یہی رہا ہے  اور یہی رہا ہے  اور یہی رہا ہے  لیکن یہی رہا ہے  اور یہی رہا ہے  اور یہی رہا ہے  یہ کہ کہ ہی ولی کے س iyi  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  ۔  پہرے لوگ چنے, اللہ نے وہ لوگ چنے دے مو سبر تھے  و سائن کی ناصل, جنیا کبکان سائسہ کونہ ہے جانہی ہے  اللی کی ناصل پوی بڑنیا میں مادیود تھے  نبیقیال اللہ مسل اللہ سی دنا رمعہولہ رمہاں مالی بحمد  نبیقی ناصل, نبیقیال پوڑنیا میں مادیود تھے  یہی نہیں, انہیں ماننے والے بھی بجود تھے  یہ جبہتاپنے, یہ جبہتاپنے, یہ جبہتاپنے  اللہ حقی بھی مجو تھے  طام جو بھی سوظت رہی ہو  ریش رب تو حلی کیا ہی نا ہے نا  آوالا تو آق کریں صلى الله عليه و سلم کریں  یہ نا ہے وہ شخص جو اللہ کے لئے دیا  اللہ کے لئے مرا  وہ مرنے سکتا  آیا وہ اندر سے بول کر صدائی کا اِزہار کرتا ہے  اللہ کی ازونت کا اِزہار کرتا ہے  لکر کرتا ہے  اللہ کر کرتا ہے  اور کرتا چلا جاتا ہے  اس کو پرواانیں کہ یہ میں لکھ دوں گا تو میں میں پھانسی دے دی جے گے  یہ میں بول دوں گا تو میں میں ماردیا جے گا  میں نے رزسٹ کیا اس کے خلاف ہوا  مدان میں اُترا تو ماردیا جاؤں گا اسے اس کی  یقصہ پرواان ہم ہوتی  وہ مرطا نہیں ہے نا اسے کوئی مارسکتا ہے  اب دیکھیں  ناتھ نوھے  مسئے  بے شما لکھ گا  اور جنوں نے لکھ ہے وہ بھی موجود ہیں  اندرچہ میں اس کی نا  مجھو رہے  سکریہ دیگا"
   },
   {
-    "audio": "urdu_silence_1min_16k.wav",
-    "beam_size": 5,
-    "chunk_length": 10,
+    "audio": "ur_clean_bot_like_30s_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 30,
     "vad_filter": false,
     "batch_size": null,
-    "elapsed_sec": 13.9,
-    "cpu_before": 5.9,
-    "cpu_after": 8.7,
-    "ram_before": 42.4,
-    "ram_after": 42.4,
+    "elapsed_sec": 0.58,
+    "cpu_before": 8.5,
+    "cpu_after": 10.9,
+    "ram_before": 73.8,
+    "ram_after": 73.7,
     "gpu_before": {
-      "gpu_util": "56 %",
-      "gpu_mem_used": "4325 MiB",
+      "gpu_util": "70 %",
+      "gpu_mem_used": "4037 MiB",
       "gpu_mem_total": "8188 MiB"
     },
     "gpu_after": {
-      "gpu_util": "68 %",
-      "gpu_mem_used": "4325 MiB",
+      "gpu_util": "70 %",
+      "gpu_mem_used": "4033 MiB",
       "gpu_mem_total": "8188 MiB"
     },
     "language": "ur",
-    "language_probability": 0.973,
-    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646 \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646\u060c \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0645\u0648\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f\u06d2\u060c \u062c\u0628 ...",
-    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646 \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646\u060c \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0645\u0648\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f\u06d2\u060c \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u06c1\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a\u060c  \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06be\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u06c1\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0627\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u0628\u0648\u0631\u062a \u06a9\u06cc\u0627 \u062c\u0628 \u06a9\u06d2 \u062f\u0648\u0633\u0631\u06d2 \u0628\u06be\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u06c1\u0632 \u06a9\u06d2 \u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc  \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627\u06d4 \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0627\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06be\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u06c1\u0632 \u06a9\u0648 \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627 \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0642\u06d2 \u0622\u0626\u06d2 \u062c\u0648 \u0628\u06be\u06cc  \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06cc\u0631 \u0627\u0631\u0648\u0641 \u0633\u06d2 \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2\u06d4"
+    "language_probability": 0.972,
+    "transcript_preview": " پاکستانی اور دو میں تکریر کی ترکیب کیلئے اپنے مطنیہا درج کریں  یہ سرவس جدید مسنوی زحانت کا استعمال ...",
+    "transcript_full": "پاکستانی اور دو میں تکریر کی ترکیب کیلئے اپنے مطنیہا درج کریں  یہ سرவس جدید مسنوی زحانت کا استعمال کرتے ہوئے اپکے مطن کو پاکستانی اور دو کی خوبصورت آواز میں تب دیل کرتی ہے  آپ کو صرف اپنے مطلبہ مطنیہا کافی کر کے چسپا کرنا ہے  اور پھر نیچے موجود بڑے بٹن پر کلک کرنا ہے  کچھ لمھو باد آپ کو MP3 فامیک میں تیار شدہ آڈیو فائل حصل ہو جائے گی  جسے اپاستانی سے دوڑ کر سکیں گے"
   },
   {
-    "audio": "english_clean_1min_16k.wav",
-    "beam_size": 5,
-    "chunk_length": 20,
+    "audio": "ur_noisy_background_music_5min_16k.wav",
+    "beam_size": 1,
+    "chunk_length": 30,
     "vad_filter": false,
     "batch_size": null,
-    "elapsed_sec": 0.81,
-    "cpu_before": 3.8,
-    "cpu_after": 7.6,
-    "ram_before": 42.4,
-    "ram_after": 42.4,
+    "elapsed_sec": 23.13,
+    "cpu_before": 5.3,
+    "cpu_after": 13.5,
+    "ram_before": 73.7,
+    "ram_after": 75.4,
     "gpu_before": {
-      "gpu_util": "68 %",
-      "gpu_mem_used": "4325 MiB",
+      "gpu_util": "70 %",
+      "gpu_mem_used": "4033 MiB",
       "gpu_mem_total": "8188 MiB"
     },
     "gpu_after": {
-      "gpu_util": "58 %",
-      "gpu_mem_used": "4325 MiB",
+      "gpu_util": "66 %",
+      "gpu_mem_used": "4032 MiB",
       "gpu_mem_total": "8188 MiB"
     },
-    "language": "en",
-    "language_probability": 0.989,
-    "transcript_preview": " Hey everyone it's AJ and I just realized I have not done a podcast in a long  time oh no so I'm bac...",
-    "transcript_full": "Hey everyone it's AJ and I just realized I have not done a podcast in a long  time oh no so I'm back and the reason there are a few reasons that I have not  reason number one I have been working  working working working all morning all day all night on power English my new  power English lessons and there's a lot to do almost finished they will be  ready very soon we will have a one day only sale for power English but anyway  if you get my emails you already know about this so I don't need to talk about  it more if you want more information sign up for my email course the other  reason that I have not done a podcast recently is that I have been doing audio  tweets talked about this in my previous podcast  and I love these audio tweets because I can do them every day they're so  convenient"
-  },
-  {
-    "audio": "urdu_silence_1min_16k.wav",
-    "beam_size": 5,
-    "chunk_length": 20,
-    "vad_filter": false,
-    "batch_size": null,
-    "elapsed_sec": 8.54,
-    "cpu_before": 3.1,
-    "cpu_after": 9.7,
-    "ram_before": 42.4,
-    "ram_after": 42.4,
-    "gpu_before": {
-      "gpu_util": "58 %",
-      "gpu_mem_used": "4325 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "gpu_after": {
-      "gpu_util": "72 %",
-      "gpu_mem_used": "4325 MiB",
-      "gpu_mem_total": "8188 MiB"
-    },
-    "language": "ur",
-    "language_probability": 0.954,
-    "transcript_preview": " \u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u06cc\u06ba \u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0645\u0648\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f\u06c1 \u062c...",
-    "transcript_full": "\u06cc\u06c1 \u06a9\u06c1\u0627\u0646\u06cc \u0627\u0646\u06c1\u06cc\u06ba \u0633\u0648\u06cc \u0642\u062a\u0631 \u06a9\u06cc \u067e\u0627\u06a9 \u0628\u06be\u0627\u0631\u062a \u062c\u0646\u06af \u06a9\u06d2 \u062f\u0627\u0631\u0627\u0646 \u0628\u06c1\u0631\u06cc \u0645\u062d\u0627\u0632 \u067e\u0631 \u06c1\u0648\u0646\u06d2 \u0648\u0627\u0644\u06d2 \u063a\u06cc\u0631 \u0645\u0645\u0648\u0644\u06cc \u0645\u0627\u0631\u06a9\u06d2 \u06a9\u06cc \u0631\u0648\u0636\u0627\u062f\u06c1 \u062c\u0628 \u067e\u0627\u06a9\u0633\u0627\u0646\u06cc \u0622\u067e \u062f\u0648\u0632 \u06c1\u0646\u06af\u0648\u0631 \u0646\u06d2 \u0628\u06be\u0627\u0631\u062a\u06cc \u067e\u0627\u0646\u06cc\u0648\u06ba \u0645\u06cc\u06ba  \u0627\u0646\u0688\u06cc\u0627\u0646 \u0646\u06cc\u0648\u06cc \u06a9\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u062e\u0648\u06a9\u0631\u06cc \u06a9\u0648 \u0627\u0633 \u06a9\u06d2 \u0627\u0645\u0644\u06d2 \u0633\u0645\u06cc\u062a \u0633\u0645\u0646\u062f\u06c1 \u067e\u0648\u0631\u062a \u06a9\u06cc\u0627 \u062c\u0628 \u06a9\u06d2 \u062f\u0648\u0633\u0631\u06d2 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u06d2 \u067e\u0627\u0646 \u06a9\u0648 \u0628\u06be\u06cc  \u0645\u0641\u0644\u0648\u062c \u06a9\u06cc\u0627 \u062f\u0648\u0633\u0631\u06cc \u062c\u0646\u06af\u06cc \u0627\u0632\u06cc\u0645 \u06a9\u06d2 \u0628\u0639\u062f \u06a9\u0633\u06cc \u0628\u06be\u06cc \u0631\u0648\u0627\u0626\u06cc\u062a\u06cc \u0622\u067e \u062f\u0648\u0632 \u06a9\u0627 \u0628\u06c1\u0631\u06cc \u062c\u0646\u06af\u06cc \u062c\u0627\u0627\u0632 \u06a9\u0648 \u062a\u0628\u0627 \u06a9\u0631\u0646\u06d2 \u06a9\u0627 \u06cc\u06c1 \u067e\u06c1\u0644\u0627 \u0648\u0627\u0642\u0639\u06c1 \u06c1\u06d2 \u062c\u0648 \u0628\u06c1\u0631\u06cc \u0627\u0633\u06a9\u0631\u06cc \u062a\u0627\u0631\u06cc\u062e \u0645\u06cc\u06ba \u0633\u0646\u06cc\u0631 \u0627\u0631\u0648\u0641 \u0633\u06d2 \u0644\u06a9\u06be\u0627 \u06af\u06cc\u0627 \u06c1\u06d2"
+    "language": "el",
+    "language_probability": 0.288,
+    "transcript_preview": " Εκκρονινς ανάτωσης.  Σουμάτω, Σουμάγεζα.  Σκόνουάν χαίες φαράπε και δομιά.  Ο σκέροσνοι που τα ρίφκ...",
+    "transcript_full": "Εκκρονινς ανάτωσης.  Σουμάτω, Σουμάγεζα.  Σκόνουάν χαίες φαράπε και δομιά.  Ο σκέροσνοι που τα ρίφκανε μπατούτας έδειγμα,  όλοι σαρήτας μηάτ και σαμάτ και μπαλουδούδι,  μπατ να μπαν πάει,  ο σεζαμήν παλλάκα τα χλήκατα μας,"
   }
 ]
